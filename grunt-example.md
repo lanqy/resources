@@ -17,8 +17,8 @@
   }
 }
 ```
-####命令行执行npm install  
-####接着安装grunt命令行工具 npm install -g grunt-cli
+####命令行执行```js npm install  ```
+####接着安装grunt命令行工具 ```js npm install -g grunt-cli```
 ####接着配置Gruntfile.js文件
 ```js
 module.exports = function(grunt) {
