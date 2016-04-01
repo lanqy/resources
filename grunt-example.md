@@ -1,4 +1,4 @@
-## 使用Gruntjs压缩合并前端静态资源（图片、JavaScript和CSS）
+# 使用Gruntjs压缩合并前端静态资源（图片、JavaScript和CSS）
 ###安装环境：
 ####Nodejs：https://nodejs.org/en/ 安装最新版本
 ####进入目录（cd projectName）
@@ -111,10 +111,13 @@ module.exports = function(grunt) {
 
 （注意js压缩之前要先合并，也就是第一步和第二部有先后顺序）
 
-批量处理 ```grunt production```
+6.批量处理 ```grunt production```
 
 
 ###相关链接：
-####Gruntjs 批量无损压缩图片大小：https://www.zfanw.com/blog/gruntjs-optimize-image-size-loseless.html 
-####前端js和css的压缩合并之grunt：http://www.haorooms.com/post/qd_grunt_cssjs 
-####grunt官网：http://gruntjs.com/getting-started 
+####Gruntjs 批量无损压缩图片大小：
+####https://www.zfanw.com/blog/gruntjs-optimize-image-size-loseless.html 
+####前端js和css的压缩合并之grunt：
+####http://www.haorooms.com/post/qd_grunt_cssjs 
+####grunt官网：
+####http://gruntjs.com/getting-started 
