@@ -99,15 +99,15 @@ module.exports = function(grunt) {
 
 ```
 
-####0、检查js语法```grunt jshint```
+1.、检查js语法```grunt jshint```
 
-####1、合并js ```grunt concat```
+2.合并js ```grunt concat```
 
-####2、压缩js```grunt uglify```
+3.压缩js```grunt uglify```
 
-####3、压缩css```grunt imagemin```
+4.压缩css```grunt imagemin```
 
-####4、压缩图片```grunt cssmin```
+5.压缩图片```grunt cssmin```
 
 #####（注意js压缩之前要先合并，也就是第一步和第二部有先后顺序）
 
