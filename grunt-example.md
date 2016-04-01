@@ -80,7 +80,6 @@ module.exports = function(grunt) {
         }
 
     });
-```js
     //加载任务
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-concat');
@@ -95,6 +94,7 @@ module.exports = function(grunt) {
   }
 
 
+```js
 
 
 相关链接：
