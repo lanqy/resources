@@ -94,7 +94,7 @@ module.exports = function(grunt) {
   }
 
 
-```js
+```
 
 
 相关链接：
