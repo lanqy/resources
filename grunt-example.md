@@ -1,3 +1,4 @@
+## 使用Gruntjs压缩合并前端静态资源（图片、JavaScript和CSS）
 ###安装环境：
 ####Nodejs：https://nodejs.org/en/ 安装最新版本
 ####进入目录（cd projectName）
