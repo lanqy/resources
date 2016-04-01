@@ -109,9 +109,9 @@ module.exports = function(grunt) {
 
 5.压缩图片```grunt cssmin```
 
-.（注意js压缩之前要先合并，也就是第一步和第二部有先后顺序）
+（注意js压缩之前要先合并，也就是第一步和第二部有先后顺序）
 
-.批量处理 ```grunt production```
+批量处理 ```grunt production```
 
 
 ###相关链接：
