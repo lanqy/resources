@@ -1,7 +1,8 @@
-安装环境：
-Nodejs：https://nodejs.org/en/ 安装最新版本
-进入目录（cd projectName）
-新建package.json 内容如下：
+##安装环境：
+###Nodejs：https://nodejs.org/en/ 安装最新版本
+###进入目录（cd projectName）
+###新建package.json 内容如下：
+```js
 {
   "name": "my-project-name",
   "version": "0.1.0",
@@ -15,9 +16,10 @@ Nodejs：https://nodejs.org/en/ 安装最新版本
     "grunt-contrib-uglify": "^0.5.1"
   }
 }
-命令行执行npm install  
-接着安装grunt命令行工具 npm install -g grunt-cli
-接着配置Gruntfile.js文件
+```
+###命令行执行npm install  
+###接着安装grunt命令行工具 npm install -g grunt-cli
+###接着配置Gruntfile.js文件
 ```js
 module.exports = function(grunt) {
 
@@ -97,9 +99,9 @@ module.exports = function(grunt) {
 ```
 
 
-相关链接：
-Gruntjs 批量无损压缩图片大小：https://www.zfanw.com/blog/gruntjs-optimize-image-size-loseless.html 
-前端js和css的压缩合并之grunt：
-http://www.haorooms.com/post/qd_grunt_cssjs 
-grunt官网：
-http://gruntjs.com/getting-started 
+##相关链接：
+###Gruntjs 批量无损压缩图片大小：https://www.zfanw.com/blog/gruntjs-optimize-image-size-loseless.html 
+###前端js和css的压缩合并之grunt：
+###http://www.haorooms.com/post/qd_grunt_cssjs 
+###grunt官网：
+###http://gruntjs.com/getting-started 
