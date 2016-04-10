@@ -67,7 +67,7 @@ m.mount(document.getElementById('app'), app)
 }
 ```
 
-回到```src/main.js文件，通过json文件加载我们的信息（修改该文件为)：
+回到```src/main.js```文件，通过json文件加载我们的信息（修改该文件为)：
 ```javascript
 var m = require('mithril');
 var resources = require('./resources.json')
