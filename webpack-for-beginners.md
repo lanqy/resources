@@ -42,7 +42,7 @@ var app = {
 
 m.mount(document.getElementById('app'), app)
 ```
-打开index.html,输入如下代码（请记得包含打包后的dist/bundle.js文件）:
+打开index.html,输入如下代码（请记得引入打包后的bundle.js文件）:
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -56,5 +56,30 @@ m.mount(document.getElementById('app'), app)
 </body>
 </html>
 ```
+接着通过命令行运行```webpack```生成新的包（bundle.js文件），现在在浏览器中打开index.html,你将看到```hello world!``` 。
+如果你做到来这一步，那么恭喜你！你已经理解基本的webpack了。<br/>
+让我们来稍微重构一下我们的app，我们来本地化我们的应用程序，这个要求我们把所有文本放在一个集中的地方，创建一个新的文件```src/resources.json```,这个文件里包含如下的JSON：
+```json
+{
+  "en-US": {
+    "HELLO_WORLD": "hello world!"
+  }
+}
+```
+
+回到```src/main.js文件，通过json文件加载我们的信息（修改该文件为)：
+```javascript
+var m = require('mithril');
+var resources = require('./resources.json')
+
+var app = {
+  view: function() {
+    return m('div', resources['en-US'].HELLO_WORLD)
+  }
+}
+
+m.mount(document.getElementById('app'), app)
+```
+
 
 
