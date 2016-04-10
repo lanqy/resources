@@ -91,7 +91,6 @@ Module not found: Error: Cannot resolve 'file' or 'directory' ./resources.json i
  ```
 这个是loaders(加载器)报的错误，加载器是非常方便的工具，它可以使我们处理不同类型的内容。
 <br/>
-
 加载器可以用于转换ES2015成ES5，转换React JSX，编译TypeScript，加载Handlebars模版，加载和执行CSS，编译CSS预处理SASS，等等。有数以百计的加载器为不同的目的而诞生，现在我们只需要关心```json-loader```这个加载器。
 <br/>
 同样，我们通过npm来安装```json-loader```：
