@@ -9,3 +9,4 @@ Webpack是一个模块打包和压缩工具
 $ mkdir try-webpack && cd try-webpack && mkdir src && npm init -y
 $ touch index.html && touch src/main.js && touch webpack.config.js
 ```
+Windows用户，可以通过<a href="https://git-scm.com/downloads" target="_blank">git bash</a>运行上面的命令。
