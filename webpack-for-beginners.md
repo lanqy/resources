@@ -149,4 +149,4 @@ module.exports = {
 ```
 再一次运行 ```webpack``` 生成发布生成的压缩文件（bundle.js），如果以上你漏掉来哪一步，请在github上查看<a href="https://github.com/rwhitmire/webpack-demo">webpack-demo</a>,或者在Twitter上随时联系作者<a href="https://twitter.com/ry_js">@ry_js</a>。
 
-注：本文翻译自 <a href="http://rwhitmire.com/2016/04/09/webpack-for-beginners.html">Webpack for Beginners</a>,已经在Twitter上征得原作者的同意。另外为了方便理解，我加上来一些我自己的理解，第一次翻译，有不对的地方欢迎指正，谢谢！：）
+注：本文翻译自 <a href="http://rwhitmire.com/2016/04/09/webpack-for-beginners.html">Webpack for Beginners</a>,已经在Twitter上征得原作者的同意。另外为了方便理解，我加上来一些我自己的理解（不是直译），第一次尝试翻译，有不对的地方欢迎指正，谢谢！：）
