@@ -4,7 +4,7 @@ Webpack是一个模块打包和压缩工具
 ### 什么是模块打包？
 模块打包就是把多个Javascript文件打包和压缩成一个单独的Javascript文件
 ### 怎样使用？
-####开始创建一个项目
+开始创建一个项目
 ```shell
 $ mkdir try-webpack && cd try-webpack && mkdir src && npm init -y
 $ touch index.html && touch src/main.js && touch webpack.config.js
@@ -118,7 +118,7 @@ module.exports = {
 <br/>
 让我们来做最后一件事，您可能已经注意到了生成包是相当大的，对于这样一个简单的应用程序来说，多出来的文件大小时由于```webpack.config.js```文件中```devtool:cheap-module-eval-source-map```这行造成的。这行为我们包生成源码地图（source maps），并映射到原始文件，方便查看源码和调试。当我们发布生产时，我们必须确保没有这行代码，怎样去掉这行取决于你自己，但是现在我们仅仅手工删除这一行代码。让我们也安装本地的webpack，这样我们才可以使用UglifyJsPlugin插件。
 <br/>
-####安装本地webpack
+安装本地webpack
 ```shell
 $ npm install --save-dev webpack
 ```
