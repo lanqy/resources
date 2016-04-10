@@ -81,5 +81,70 @@ var app = {
 m.mount(document.getElementById('app'), app)
 ```
 
+<br/>
+如果你迫不及待的想在命令行运行```webpack```，你将会看到一个错误信息，类似于
+```
+ERROR in ./src/main.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./resources.json in /../../try-webpack/src
+ @ ./src/main.js 2:16-43
+ ```
+这个是loaders(加载器)报的错误，加载器是非常方便的工具，它可以使我们处理不同类型的内容。
+<br/>
 
+加载器可以用于转换ES2015成ES5，转换React JSX，编译TypeScript，加载Handlebars模版，加载和执行CSS，编译CSS预处理SASS，等等。有数以百计的加载器为不同的目的而诞生，现在我们只需要关心```json-loader```这个加载器。
+<br/>
+同样，我们通过npm来安装```json-loader```：
+```shell
+$ npm install --save-dev json-loader
+```
+我们需要修改一下我们的```webpack.config.js```文件，引入我们的加载器，具体如下：
 
+```javascript
+module.exports = {
+  devtool: 'cheap-module-eval-source-map',
+  entry: "./src/main.js",
+  output: {
+    path: __dirname + "/dist",
+    filename: "bundle.js"
+  },
+  module: {
+    loaders: [
+      { test: /\.json$/, loader: 'json-loader' }
+    ]
+  }
+};
+```
+再一次运行```webpack```,你的应用应该可以启动和运行了，如果你厌倦了每次输入WebPack，你也可以运行```webpack -w```来激活文件自动检测功能，这样当任何文件修改时自动重新打包。
+<br/>
+让我们来做最后一件事，您可能已经注意到了生成包是相当大的，对于这样一个简单的应用程序来说，多出来的文件大小时由于```webpack.config.js```文件中```devtool:cheap-module-eval-source-map```这行造成的。这行为我们包生成源码地图（source maps），并映射到原始文件，方便查看源码和调试。当我们发布生产时，我们必须确保没有这行代码，怎样去掉这行取决于你自己，但是现在我们仅仅手工删除这一行代码。让我们也安装本地的webpack，这样我们才可以使用UglifyJsPlugin插件。
+<br/>
+####安装本地webpack
+```shell
+$ npm install --save-dev webpack
+```
+
+当我们准备把项目发布生成时，我们需要压缩打包的代码，Webpack可以帮你完成，让我们最后一次修改```webpack.config.js```文件：
+```javascript
+var webpack = require('webpack');
+
+module.exports = {
+  entry: "./src/main.js",
+  output: {
+    path: __dirname + "/dist",
+    filename: "bundle.js"
+  },
+  module: {
+    loaders: [
+      { test: /\.json$/, loader: 'json-loader' }
+    ]
+  },
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin({
+      compress: {
+        warnings: false
+      }
+    })
+  ]
+};
+```
+再一次运行 ```webpack``` 生成发布生成的压缩文件（bundle.js），如果以上你漏掉来哪一步，请在github上查看<a href="https://github.com/rwhitmire/webpack-demo">webpack-demo</a>,或者在Twitter上随时联系作者<a href="https://twitter.com/ry_js">@ry_js</a>。
