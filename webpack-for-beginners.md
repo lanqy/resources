@@ -58,6 +58,7 @@ m.mount(document.getElementById('app'), app)
 ```
 接着通过命令行运行```webpack```生成新的包（bundle.js文件），现在在浏览器中打开index.html,你将看到```hello world!``` 。
 如果你做到来这一步，那么恭喜你！你已经理解基本的webpack了。<br/>
+
 让我们来稍微重构一下我们的app，我们来本地化我们的应用程序，这个要求我们把所有文本放在一个集中的地方，创建一个新的文件```src/resources.json```,这个文件里包含如下的JSON：
 ```json
 {
@@ -115,6 +116,7 @@ module.exports = {
 };
 ```
 再一次运行```webpack```,你的应用应该可以启动和运行了，如果你厌倦了每次输入WebPack，你也可以运行```webpack -w```来激活文件自动检测功能，这样当任何文件修改时自动重新打包。
+
 <br/>
 让我们来做最后一件事，您可能已经注意到了生成包是相当大的，对于这样一个简单的应用程序来说，多出来的文件大小时由于```webpack.config.js```文件中```devtool:cheap-module-eval-source-map```这行造成的。这行为我们包生成源码地图（source maps），并映射到原始文件，方便查看源码和调试。当我们发布生产时，我们必须确保没有这行代码，怎样去掉这行取决于你自己，但是现在我们仅仅手工删除这一行代码。让我们也安装本地的webpack，这样我们才可以使用UglifyJsPlugin插件。
 <br/>
