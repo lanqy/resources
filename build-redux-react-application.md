@@ -1,5 +1,5 @@
 ## 构建一个基于Redux的react应用
-在这篇文章里，我们将深入理解以及学习为什么开发React应用的时候，使用Redux这么重要。我也将一步一步教你如何创建你的第一个Redux应用，包括怎样使用<a href="https://github.com/stormpath/stormpath-sdk-react"></a>于<a href="https://stormpath.com/product/authentication/">用户认证</a>。当你完成的时候，你将掌握这个知识并运用到你已有到React应用中。
+在这篇文章里，我们将深入理解以及学习为什么开发React应用的时候，使用Redux这么重要。我也将一步一步教你如何创建你的第一个Redux应用，包括怎样使用<a href="https://github.com/stormpath/stormpath-sdk-react">Stormpath React SDK </a>于<a href="https://stormpath.com/product/authentication/"> user authentication（用户认证）</a>。当你完成的时候，你将掌握这个知识并运用到你已有到React应用中。
 
 ###Redux是什么？
 
