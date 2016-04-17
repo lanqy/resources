@@ -30,6 +30,21 @@ Actions 是一些用于描述我们怎样改变我们应用状态的对象，你
 Actions很酷，但是它们并没有太大的意义。这就是reducers存在的意义。
 Reducers是action处理器，用于在store中调度actions以及在状态变化中简化actions操作。如果我们要在store中调度action（ADD_USER）,我们将拥有一个reducer调用action(ADD_USER)并添加一个新的用户到我们到应用状态中。
 ### 创建Redux应用
-
+现在，当你了解的基础知识以后，让我们继续创建我们第一个基于Redux的应用程序。<br/>
+为了让事情变得简单，我们将要创建一个todo应用程序，这样我们可以玩转很多Redux的重要概念，而不用过多的关注应用本身。<br/>
+我们考虑一下一个todo应用程序，需要些什么基本的东西。首先一个todo程序，由一个列表组成。其实这个列表包含一些我们可以改变的项目。
+从应用的状态来看，我们可以这样定义我们的模型（model）：
+```javascript
+{
+  todo: {
+    items: [
+      {
+        message: "Finish Redux blog post...",
+        completed: false
+      }
+    ]
+  }
+}
+```
 
 https://stormpath.com/blog/build-a-redux-powered-react-application/
