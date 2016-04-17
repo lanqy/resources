@@ -24,3 +24,9 @@ Actions 是一些用于描述我们怎样改变我们应用状态的对象，你
 }
 ```
 为了让代码更清晰，更易于重用,通常是使用一个生成器(方法)生成操作对象，即，上面的例子，我们可以创建一个类似于```addUser(name, email, password) ```的函数来生成对象。如你所见，actions本身什么都不做，一个action仅仅是一个用于描述我们怎样改变我们应用状态的对象。
+
+### Reducers
+
+Actions很酷，但是它们并没有太大的意义。这就是reducers存在的意义。
+Reducers是action处理器，用于在store中调度actions以及在状态变化中简化actions操作。如果我们要在store中调度action（ADD_USER）,我们将拥有一个reducer调用action(ADD_USER)并添加一个新的用户到我们到应用状态中。
+### 创建Redux应用
