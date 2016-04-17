@@ -46,5 +46,41 @@ Reducers是action处理器，用于在store中调度actions以及在状态变化
   }
 }
 ```
+### 添加 Actions
 
+我们要怎样处理我们应用的状态呢？首先，我们添加一个新待办项目到我们状态中去，让我们创建一个action来做这件事：
+```javascript
+function addTodo(message) {
+  return {
+    type: 'ADD_TODO',
+    message: message,
+    completed: false
+  };
+}
+```
+注意```type```这个字段，这个必须是唯一的，用于表明action的意图。
+```type```字段的约定格式是大小字母，并且每个单词以下划线作为分隔，接下来你将使用这个名字／标示符在你的reducers中来处理具体的actions，并把它们变成可变的状态。
+一旦我们增加了我们的待办事项，我们肯定希望能够将其标记为已完成状态，我们也可以删除它，可以清空所有的待办项目。
+因此让我们创建actions来做这些事情：
+```javascript
+function completeTodo(index) {
+  return {
+    type: 'COMPLETE_TODO',
+    index: index
+  };
+}
+
+function deleteTodo(index) {
+  return {
+    type: 'DELETE_TODO',
+    index: index
+  };
+}
+
+function clearTodo() {
+  return {
+    type: 'CLEAR_TODO'
+  };
+}
+```
 https://stormpath.com/blog/build-a-redux-powered-react-application/
