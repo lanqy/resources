@@ -30,3 +30,6 @@ Actions 是一些用于描述我们怎样改变我们应用状态的对象，你
 Actions很酷，但是它们并没有太大的意义。这就是reducers存在的意义。
 Reducers是action处理器，用于在store中调度actions以及在状态变化中简化actions操作。如果我们要在store中调度action（ADD_USER）,我们将拥有一个reducer调用action(ADD_USER)并添加一个新的用户到我们到应用状态中。
 ### 创建Redux应用
+
+
+https://stormpath.com/blog/build-a-redux-powered-react-application/
