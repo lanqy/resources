@@ -83,4 +83,86 @@ function clearTodo() {
   };
 }
 ```
+到目前为止，我们已经定义好我们的actions，让我们继续定义我们的store，如前所述，store是Redux应用的核心，所有的状态(state)、调度器(dispatched actions)、reducers都依赖于它。
+```javascript
+import { createStore } from 'redux';
+
+var defaultState = {
+  todo: {
+    items: []
+  }
+};
+
+function todoApp(state, action) {
+}
+
+var store = redux.createStore(todoApp, defaultState);
+```
+### 添加Reducers
+现在，我们已经拥有一些actions和一个store。让我们创建我们的第一个reducer，如前所述，reducer仅仅是一个action处理器，拥有处理actions和改变应用的状态（state）。
+让我们先处理我们的```ADD_TODO``` action，如下所示：
+```javascript
+function todoApp(state, action) {
+  switch (action.type) {
+    case 'ADD_TODO':
+      var newState = Object.assign({}, state);
+
+      newState.todo.items.push({
+        message: action.message,
+        completed: false
+      });
+
+      return newState;
+
+    default:
+      return state;
+  }
+}
+```
+注意，当我们说一个reducer“改变”了应用的状态，如果一个状态需要改变，我们真正要做的是创建一个状态（state）的副本，并修改这个状态的副本。如果状态没有改变,那我们就返回相同的状态。任何情况下，如果你直接修改原始的状态（state），这意味着你将改变状态的历史。
+现在我们有了第一个我们的action处理器，让我们添加其它的：
+```javascript
+function todoApp(state, action) {
+  switch (action.type) {
+    case 'ADD_TODO':
+      var newState = Object.assign({}, state);
+
+      newState.todo.items.push({
+        message: action.message,
+        completed: false
+      });
+
+      return newState;
+
+    case 'COMPLETE_TODO':
+      var newState = Object.assign({}, state);
+
+      newState.todo.items[action.index].completed = true;
+
+      return newState;
+
+    case 'DELETE_TODO':
+      var items = [].concat(state.todo.items);
+
+      items.splice(action.index, 1);
+
+      return Object.assign({}, state, {
+        todo: {
+          items: items
+        }
+      });
+
+    case 'CLEAR_TODO':
+      return Object.assign({}, state, {
+        todo: {
+          items: []
+        }
+      });
+
+    default:
+      return state;
+  }
+}
+```
+
 https://stormpath.com/blog/build-a-redux-powered-react-application/
