@@ -164,5 +164,119 @@ function todoApp(state, action) {
   }
 }
 ```
+###结合React UI
+现在，我们已经制定了业务逻辑，让我们写一些UI代码，由于大部分React的知识都跟构建Flux应用类似，我们就不再深入讲解。
+```jsx
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { createStore } from 'redux';
 
+var defaultState = {
+  todo: {
+    items: []
+  }
+};
+
+// Add the actions here that we created in the previous steps...
+
+function todoApp(state, action) {
+  // Add the reducer logic that we added in the previous steps...
+}
+
+var store = createStore(todoApp, defaultState);
+
+class AddTodoForm extends React.Component {
+  state = {
+    message: ''
+  };
+
+  onFormSubmit(e) {
+    e.preventDefault();
+    store.dispatch(addTodo(this.state.message));
+    this.setState({ message: '' });
+  }
+
+  onMessageChanged(e) {
+    var message = e.target.value;
+    this.setState({ message: message });
+  }
+
+  render() {
+    return (
+      <form onSubmit={this.onFormSubmit.bind(this)}>
+        <input type="text" placeholder="Todo..." onChange={this.onMessageChanged.bind(this)} value={this.state.message} />
+        <input type="submit" value="Add" />
+      </form>
+    );
+  }
+}
+
+class TodoItem extends React.Component {
+  onDeleteClick() {
+    store.dispatch(deleteTodo(this.props.index));
+  }
+
+  onCompletedClick() {
+    store.dispatch(completeTodo(this.props.index));
+  }
+
+  render() {
+    return (
+      <li>
+        <a href="#" onClick={this.onCompletedClick.bind(this)} style=>{this.props.message.trim()}</a>&nbsp;
+        <a href="#" onClick={this.onDeleteClick.bind(this)} style=>[x]</a>
+      </li>
+    );
+  }
+}
+
+class TodoList extends React.Component {
+  state = {
+    items: []
+  };
+
+  componentWillMount() {
+    store.subscribe(() => {
+      var state = store.getState();
+      this.setState({
+        items: state.todo.items
+      });
+    });
+  }
+
+  render() {
+    var items = [];
+
+    this.state.items.forEach((item, index) => {
+      items.push(<TodoItem
+        key={index}
+        index={index}
+        message={item.message}
+        completed={item.completed}
+      />);
+    });
+
+    if (!items.length) {
+      return (
+        <p>
+          <i>Please add something to do.</i>
+        </p>
+      );
+    }
+
+    return (
+      <ol>{ items }</ol>
+    );
+  }
+}
+
+ReactDOM.render(
+  <div>
+    <h1>Todo</h1>
+    <AddTodoForm />
+    <TodoList />
+  </div>,
+  document.getElementById('container')
+);
+```
 https://stormpath.com/blog/build-a-redux-powered-react-application/
