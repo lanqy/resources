@@ -311,8 +311,9 @@ function myApp(state, action) {
 ```
 ###总结
 正如你在文章中所看到的一样，构建一个Redux应用是非常简单和直接的。这就像是构建Flux应用一样，仅仅是概念上的差异，并且手动写的代码变得更少。希望你们喜欢这个教程，并且发现未来你可以使用它。如果有任何问题，请参考github上的<a href="https://github.com/typerandom/stormpath-react-redux-todo-example-application" target="_blank">项目</a>。<br/>
-如有任何疑问，请在下面留言。
 ###扩展阅读
 想要学习更多关于给React应用添加用户认证，请看以下教程：
 * <a href="https://stormpath.com/blog/build-a-react-app-with-user-authentication/">Tutorial: Build a React.js Application With User Authentication</a>
-* <a href="https://stormpath.com/blog/build-a-redux-powered-react-application/">Custom Login and Registration Forms</a>
+* <a href="https://stormpath.com/blog/react-sdk-custom-forms/">Custom Login and Registration Forms</a>
+
+注：本文翻译自<a href="https://stormpath.com/blog/build-a-redux-powered-react-application/" target="_blank">Let's Build a Redux Powered React Application</a>,如有翻译不佳的地方，请指正，谢谢！
