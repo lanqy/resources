@@ -283,7 +283,7 @@ ReactDOM.render(
 
 ### 在Stormpath React SDK中支持Redux
 因为有不少请求为Stormpath React SDK添加Redux支持，因此我们实现了这个功能，如果你想配置SDK来使用Redux，简单配置dispatcher选项并设置几个type和redux指向store，具体如下:
-```javascirpt
+```javascript
 function myApp(state, action) {
   return state;
 }
@@ -295,4 +295,5 @@ ReactStormpath.init({
   }
 });
 ```
+
 https://stormpath.com/blog/build-a-redux-powered-react-application/
