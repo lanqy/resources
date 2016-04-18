@@ -280,4 +280,8 @@ ReactDOM.render(
 );
 ```
 如你所见，为Redux应用构建我们的UI并不难，唯一不同的是使用```store.subscribe(listener)```来监听状态(state)的改变，然后通过```store.getState()```获取状态。但除此之外，它非常像构建Flux应用。
+
+### 在Stormpath React SDK中支持Redux
+
+
 https://stormpath.com/blog/build-a-redux-powered-react-application/
