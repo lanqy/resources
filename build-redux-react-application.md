@@ -316,4 +316,4 @@ function myApp(state, action) {
 * <a href="https://stormpath.com/blog/build-a-react-app-with-user-authentication/">Tutorial: Build a React.js Application With User Authentication</a>
 * <a href="https://stormpath.com/blog/react-sdk-custom-forms/">Custom Login and Registration Forms</a>
 
-注：本文翻译自<a href="https://stormpath.com/blog/build-a-redux-powered-react-application/" target="_blank">Let's Build a Redux Powered React Application</a>,如有翻译不佳的地方，请指正，谢谢！
+注：本文翻译自<a href="https://stormpath.com/blog/build-a-redux-powered-react-application/" target="_blank">Let's Build a Redux Powered React Application</a>,如有翻译不对的地方请指正。谢谢！
