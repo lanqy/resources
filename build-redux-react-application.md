@@ -295,5 +295,24 @@ ReactStormpath.init({
   }
 });
 ```
+一旦做到这一点，我们就可以通过Stormpath React SDK拦截和处理我们的actions调度，例如，如果你希望通过用户数据来丰富你的状态，那么简单地处理```USER_SET```action来添加用户数据到你的状态中。
+```javascript
+function myApp(state, action) {
+  switch (action.type) {
+    case 'USER_SET':
+      return Object.assign({}, state, {
+        user: action.data
+      });
 
-https://stormpath.com/blog/build-a-redux-powered-react-application/
+    default:
+      return state;
+  }
+}
+```
+###总结
+正如你在文章中所看到的一样，构建一个Redux应用是非常简单和直接的。这就像是构建Flux应用一样，仅仅是概念上的差异，并且手动写的代码变得更少。希望你们喜欢这个教程，并且发现未来你可以使用它。如果有任何问题，请参考github上的<a href="https://github.com/typerandom/stormpath-react-redux-todo-example-application" target="_blank">项目</a>。<br/>
+如有任何疑问，请在下面留言。
+###深入阅读
+想要学习更多关于给React应用添加用户认证，请看以下教程：
+* <a href="https://stormpath.com/blog/build-a-react-app-with-user-authentication/>Tutorial: Build a React.js Application With User Authentication</a>
+* <a href="https://stormpath.com/blog/build-a-redux-powered-react-application/">Custom Login and Registration Forms</a>
