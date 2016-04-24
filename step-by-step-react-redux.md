@@ -60,6 +60,7 @@ Redux—一个很受欢迎的库，为react提供一个可以轻松地保持数�
 我们有三个组件，分别为“```AddTodo```”, “```TodoList```” and “```Filter```”组件，让我们列出它们每个的```States```和```Actions```。
 
 * 3.1 AddTodo 组件的```State``` 和 ```Actions```
+
 这个部分，我们没有任何状态（```state```），这个组件不依赖任何数据或状态来改变外观，但是它需要让其它组件知道，当用户创建一个新的Todo的时候。让我们叫这个action为```ADD_TODO```
 
 * 
