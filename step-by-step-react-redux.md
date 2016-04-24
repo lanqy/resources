@@ -245,7 +245,7 @@ const todo = (state, action) => {
 
 ```
 AddTodoForm组件：
-这个组件包含一个输入框和一个按钮，它接收一个onSubmit回调方法（来自父级容器组件）当用户提交一个新的Todo时，它发送和传递todo文本到onSubmit方法中
+这个组件渲染一个输入框和一个按钮，它接收一个onSubmit回调方法（来自父级容器组件）当用户提交一个新的Todo时，它发送和传递todo文本到onSubmit方法中
 ```
 ```javascript
 let AddTodoForm = ({onSubmit}) => {
@@ -287,5 +287,22 @@ export default TodoList
 如下图：
 
 <img src="https://github.com/lanqy/blog/blob/master/1-u1CX5abgafgbt3x-IgJ36A.png" />
+
+6.2 实现Link组件
+```
+Link组件：
+这个组件渲染个别链接，分别有三个链接，它接收“```active```”布尔值并渲染一个文本或者链接，它接收```children```属性来显示链接的名称，它也接收一个```onClick```回调方法，当链接被点击的时候会被调用。
+```
+```javascirpt
+const Link = ({active,children,onClick}) = >{
+   if(active){
+     return <span>{children}</span>
+   }
+   return <a href="#" onClick={e =>{onClick()}}>{children}</a>
+}
+export default Link
+```
+如下图：
+<img src="https://github.com/lanqy/blog/blob/master/1-5WQbEnAhRP6fmfiCjOeS4A.png" />
 
 来自：https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.kljg6fuei
