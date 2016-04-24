@@ -198,5 +198,34 @@ const todo = (state = [], action) => {
  }
 ```
 
+### 第五步，为每个```Action```写```Reducers```
+
+注：为简洁起见，一些代码已经被简化了,另外我简单当展示一下```SET_VISIBILITY_FILTER```、```ADD_TODO``` 和 ```TOGGLE_TODO``` ，代码如下：
+
+```javascript
+const todo = (state, action) => {
+  switch (action.type) {
+     case ‘ADD_TODO’:
+      return […state,{id: action.id, text: action.text, 
+              completed:false}]
+ 
+     case ‘TOGGLE_TODO’:
+        return state.map(todo =>
+                if (todo.id !== action.id) {
+                  return todo
+                }
+                 return Object.assign({}, 
+                    todo, {completed: !todo.completed})
+            )
+ 
+      case ‘SET_VISIBILITY_FILTER’: {
+       return action.filter
+      }
+ 
+     default:
+      return state
+    } 
+}
+```
 
 来自：https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.kljg6fuei
