@@ -227,5 +227,8 @@ const todo = (state, action) => {
     } 
 }
 ```
+### Redux术语“```Presentational```”和“```Container```”组件
+
+
 
 来自：https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.kljg6fuei
