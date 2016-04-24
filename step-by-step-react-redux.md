@@ -74,16 +74,14 @@ AddTodo组件
  1.AddTodo组件允许我们创建一个新的Todo项目通过监听DOM事件和从输入框获取数据。这个事件映射到JSON对象，我们称之为Action。
  
  在这个案例中，我们可以通过创建一个JSON对象来描述我们的AddTodo action
- ```javascript 
  {
- type:'ADD_TODO'
- payload:{
- data:'Learn Redux',
- id:1,
- completed:false
+  type:'ADD_TODO'
+  payload:{
+    data:'Learn Redux',
+    id:1,
+    completed:false
+  }
  }
- }
- ```
  
 ```
 如下图：
