@@ -229,6 +229,11 @@ const todo = (state, action) => {
 ```
 ### Redux术语“```Presentational```”和“```Container```”组件
 
+把React和Redux的逻辑放在每个组件里是很混乱的，因此Redux建议创建一个假的仅仅包含组件的展示型组件和一个父级包装组件就做容器型组件负责Redux的```Actions```调度等等。
+
+然后父级容器将数据传递到展示型组件，事件处理替展示型组件处理React，如下图：
+
+<img src="https://github.com/lanqy/blog/blob/master/1-inU9OmAFSDYKFm8pstsCDw.png" />
 
 
 来自：https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.kljg6fuei
