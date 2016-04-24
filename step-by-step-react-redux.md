@@ -54,3 +54,4 @@ Redux—一个很受欢迎的库，为react提供一个可以轻松地保持数�
  2、监听用户和事件并发送到一个JS方法，我们称之为操作（actions）。
 
 
+来自：https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.kljg6fuei
