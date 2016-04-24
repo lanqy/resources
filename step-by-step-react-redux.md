@@ -142,4 +142,43 @@ Filter组件也只有一个操作（action），它只是监听用户点击过�
 
 <img src="https://github.com/lanqy/blog/blob/master/1-3G9ycPVPovZPu35rGW3FLw.png" />
 
+### Redux术语“```Action Creators```”
+
+```Action Creators```是一些简单的方法用于从DOM事件中接受数据，格式化为标准的JSON“```Action```”。对象并返回这个对象（又称```Action```），这个帮助我们正规化我们的数据的样子。
+
+进一步，它允许未来任何组件发送到这些Actions到其它组件去（又成为```dispatch```［调度］）。
+
+###第四步，为每个```Action```创建```Action Creators```
+
+我们统计一共有三个```Action```:```ADD_TODO, TOGGLE_TODO and SET_VISIBILITY_FILTER```。让我们为它们每个创建```Action```:
+
+```javascript
+//1. 从AddTodo文本域获取文本并返回正确的“Action” JSON对象发送到其它到组件中。（Takes the text from AddTodo field and returns proper “Action” JSON to send to other components.）
+export const addTodo = (text) => {
+ return {
+ type: ‘ADD_TODO’,
+ id: nextTodoId++,
+ text,  //<--ES6. same as text:text, in ES5（这个是ES6的写法，相当于ES5的text:text）
+ completed: false //<-- initially this is set to false (completed字段初始化为false)
+ }
+}
+ 
+//2. 获取filter 字符串并返回正确的“Action” JSON对象发送到其它组件中。（Takes filter string and returns proper “Action” JSON object to send to other components.）
+export const setVisibilityFilter = (filter) => {
+ return {
+ type: ‘SET_VISIBILITY_FILTER’,
+ filter
+ }
+}
+ 
+//3. 获取Todo 项目的id并返回正确的“Action” JSON对象发送到其它组件中。（Takes Todo item’s id and returns proper “Action” JSON object to send to other components.）
+export const toggleTodo = (id) => {
+ return {
+ type: ‘TOGGLE_TODO’,
+ id
+ }
+}
+```
+
+
 来自：https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.kljg6fuei
