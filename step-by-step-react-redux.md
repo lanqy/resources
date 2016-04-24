@@ -24,7 +24,7 @@ Redux—一个很受欢迎的库，为react提供一个可以轻松地保持数�
 
 怎样模拟：
 ＊ 1、越详细越好，
-＊ 2、务必画出所有对数据和视觉效果（例如item删除线）。
+＊ 2、画出所有的数据和视觉效果（例如item删除线）。
 ```
 如下图：
 
@@ -46,3 +46,10 @@ Redux—一个很受欢迎的库，为react提供一个可以轻松地保持数�
 如下图：
 
 <img src="https://github.com/lanqy/blog/blob/master/1-AfzFa8zO_dQOmuSHL7bEww.png" />
+
+###Redux术语：“Actions”和“States”
+#####每个组件做这两件事情：
+* 1、根据一些数据渲染DOM，这个数据我们称之为状态（state）。
+* 2、监听用户和其它事件并发送到一个JS方法，我们称之为操作（actions）。
+
+
