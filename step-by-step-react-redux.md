@@ -11,3 +11,6 @@ Redux 已经成为构建React应用的标配，有大量的实例展示它是怎
 React—一个JS库，帮助我们将我们的应用拆分为多个组件，但是没有具体说明如何保持数据（state）的轨迹以及如何正常处理我们的所有事件（Actions）。
 
 Redux—一个很受欢迎的库，为react提供一个可以轻松地保持数据（state）和事件（actions）。
+
+> 实际上，Redux允许我们以我们的方式创建React应用，然后委托所有的状态（state）和事件（actions）到Redux上。
+> BTW.
