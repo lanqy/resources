@@ -29,3 +29,13 @@ Redux—一个很受欢迎的库，为react提供一个可以轻松地保持数�
 如下图：
 
 <img src="https://github.com/lanqy/blog/blob/master/1-RtA4NF2PI__vcarQgXEEBg.png" />
+
+###把应用划分成为组件
+
+尝试将应用划分为基于每个组件的用途的组件块。
+
+我们有三个组件“AddTodo”, “TodoList” and “Filter”组件。
+
+如下图：
+
+<img src="https://github.com/lanqy/blog/blob/master/1-RtA4NF2PI__vcarQgXEEBg.png" />
