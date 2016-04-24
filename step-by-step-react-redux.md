@@ -235,5 +235,31 @@ const todo = (state, action) => {
 
 <img src="https://github.com/lanqy/blog/blob/master/1-inU9OmAFSDYKFm8pstsCDw.png" />
 
+说明：黄色点线代表展示型组件，黑色点线表示容器型组件。
+
+###第六步－实现所有到展示型组件
+
+现在是时候实现我们所有的（3个）展示型组件了
+
+6.1 实现AddTodoForm组件
+
+```
+AddTodoForm组件：
+这个组件包含一个输入框和一个按钮，它接收一个onSubmit回调方法（来自父级容器组件）当用户提交一个新的Todo时，它发送和传递todo文本到onSubmit方法中
+```
+```javascript
+let AddTodoForm = ({onSubmit}) => {
+ let input
+ return(
+  <div>
+   <form onSubmit={e=>{onSubmit(input.value)}}>
+    <input ref={node = >{input = node}} />
+    <button type="submit">Add Todo</button>
+   </form>
+  </div>
+ )
+}
+export default AddTodoForm
+```
 
 来自：https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.kljg6fuei
