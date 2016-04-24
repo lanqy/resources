@@ -66,11 +66,8 @@ Redux—一个很受欢迎的库，为react提供一个可以轻松地保持数�
 ```
 AddTodo组件
  State：
- 
  1.(一个简单的输入框和一个按钮，不依赖于任何数据来展示)
- 
  Actions（events）：
- 
  1.AddTodo组件允许我们创建一个新的Todo项目通过监听DOM事件和从输入框获取数据。这个事件映射到JSON对象，我们称之为Action。
  
  在这个案例中，我们可以通过创建一个JSON对象来描述我们的AddTodo action,JSON如下：
@@ -99,13 +96,23 @@ TodoList组件需要一个数组来展示数据，因此它需要一个状态（
 TodoList组件：
 
 State：
-
 1、Todos数组
 2、Visibility filter（显示过滤器），这个告诉那种类型的Todo项目需要显示或者隐藏。注：这个来自于“Filter”组件。
+Actions（events）：
+TodoList组件只有一个action，它允许用户切换Todo项目的完成状态，当用户点击到每个Todo项目时，它需要告诉其它到组件和数据库等切换Todo的状态。
 
+我们需要通过JSON对象来描述我们的ToggleTodo action,JSON如下
+{
+ type:"TOGGLE_TODO"
+ payload:{
+  id:<todoItem's id >
+ }
+}
 
 ```
+如下图：
 
+<img src="https://github.com/lanqy/blog/blob/master/1-waJ9BucAT9qW_sHcqNOB_Q.png" />
 
 
 来自：https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.kljg6fuei
