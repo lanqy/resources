@@ -63,6 +63,32 @@ Redux—一个很受欢迎的库，为react提供一个可以轻松地保持数�
 
 这个部分，我们没有任何状态（```state```），这个组件不依赖任何数据或状态来改变外观，但是它需要让其它组件知道，当用户创建一个新的Todo的时候。让我们叫这个action为```ADD_TODO```
 
+```
+AddTodo组件
+ State：
+ 
+ 1.(一个简单的输入框和一个按钮，不依赖于任何数据来展示)
+ 
+ Actions（events）：
+ 
+ 1.AddTodo组件允许我们创建一个新的Todo项目通过监听DOM事件和从输入框获取数据。这个事件映射到JSON对象，我们称之为Action。
+ 
+ 在这个案例中，我们可以通过创建一个JSON对象来描述我们的AddTodo action
+ ```javascript 
+ {
+ type:'ADD_TODO'
+ payload:{
+ data:'Learn Redux',
+ id:1,
+ completed:false
+ }
+ }
+ ```
+ 
+```
+如下图：
+<img src="https://github.com/lanqy/blog/blob/master/1-OrfmEw_gPw5kQ3ZO5AjzEQ.png" />
+
 * 
 
 来自：https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.kljg6fuei
