@@ -305,4 +305,49 @@ export default Link
 如下图：
 <img src="https://github.com/lanqy/blog/blob/master/1-5WQbEnAhRP6fmfiCjOeS4A.png" />
 
-来自：https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.kljg6fuei
+注意：在实际的代码中，Link展示组件被包含在```FilterLink```容器组件中，进而3个FilterLink组件显示在Footer展示组件中。
+
+###第七步－为部分或者全部展示组件创建容器组件
+最后，为每个组件创建Redux链接
+
+7.1创建容器组件（AddTodo组件）
+<a href="https://github.com/rajaraodv/redux/blob/master/examples/todos/containers/AddTodo.js">最后实际的代码在这里</a>
+<img src="https://github.com/lanqy/blog/blob/master/1-ElBMxdAUzuVJ343uAlCVmA.png" />
+
+7.2创建容器组件（TodoList组件）
+<a href="https://github.com/rajaraodv/redux/blob/master/examples/todos/containers/VisibleTodoList.js">最后实际的代码在这里</a>
+<img src="https://github.com/lanqy/blog/blob/master/1-malT38rul36L0Ygbt1JjzA.png" />
+
+7.3创建容器组件（Filter组件）
+<a href="https://github.com/rajaraodv/redux/blob/master/examples/todos/containers/FilterLink.js">最后实际的代码在这里</a>
+<img src="https://github.com/lanqy/blog/blob/master/1-1Kgo8pIxbLAkuBho6aQQeQ.png" />
+注意：在实际的代码中，Link展示组件被包含在```FilterLink```容器组件中，进而3个FilterLink组件排列和显示在Footer展示组件中。
+
+###第八步－把它们放在一起
+
+```javascript
+import React from ‘react’ // ← Main React library
+import { render } from ‘react-dom’ // ← Main react library
+import { Provider } from ‘react-redux’ //← Bridge React and Redux
+import { createStore } from ‘redux’ // ← Main Redux library
+import todoApp from ‘./reducers’ // ← List of Reducers we created 
+//Import all components we created earlier
+import AddTodo from ‘../containers/AddTodo’
+import VisibleTodoList from ‘../containers/VisibleTodoList’
+import Footer from ‘./Footer’ // ← （这个是一个展示型组件，包含三个FilterLink容器组件）This is a presentational component that contains 3 FilterLink Container comp
+//Create Redux Store by passing it the reducers we created earlier.(创建Redux store树，传入reducers)
+let store = createStore(reducers)
+render(
+ <Provider store={store}> //← （react-redux的提供组件，用于将store注入到所有到子组件中）The Provider component from react-redux injects the store to all the child components
+ <div>
+ <AddTodo />
+ <VisibleTodoList />
+ <Footer />
+ </div>
+ </Provider>,
+ document.getElementById(‘root’) //<-- Render to a div w/ id "root"
+)
+```
+就是这样！
+
+注：本文翻译自<a href="https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.kljg6fuei">Step by Step Guide To Building React Redux Apps</a>，有翻译不对的地方，欢迎指正，谢谢！
