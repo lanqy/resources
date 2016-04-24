@@ -89,6 +89,16 @@ AddTodo组件
 
 <img src="https://github.com/lanqy/blog/blob/master/1-OrfmEw_gPw5kQ3ZO5AjzEQ.png" />
 
-* 
+* 3.2 TodoList 组件的```State``` 和 ```Actions```
+
+TodoList组件需要一个数组来展示数据，因此它需要一个状态（```state```）,我们称之为Todos（数组）。它也需要知道哪一个过滤器被触发，以相应的显示或隐藏Todo 项目，因此还需要一个状态（```state```）,让我们称之为```VisibilityFilter```（布尔值）。
+
+进一步，它允许我们切换Todo项目为已完成或未完成状态。我们也需要让其它组件知道切换这个状态。我们把这个action叫做“```TOGGLE_TODO```”
+
+```
+
+```
+
+
 
 来自：https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.kljg6fuei
