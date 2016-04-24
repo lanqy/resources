@@ -291,7 +291,7 @@ export default TodoList
 6.2 实现Link组件
 ```
 Link组件：
-这个组件渲染个别链接，分别有三个链接，它接收“```active```”布尔值并渲染一个文本或者链接，它接收```children```属性来显示链接的名称，它也接收一个```onClick```回调方法，当链接被点击的时候会被调用。
+这个组件渲染个别链接，分别有三个链接，它接收“active”布尔值并渲染一个文本或者链接，它接收children属性来显示链接的名称，它也接收一个onClick回调方法，当链接被点击的时候会被调用。
 ```
 ```javascirpt
 const Link = ({active,children,onClick}) = >{
