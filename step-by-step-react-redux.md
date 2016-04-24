@@ -261,5 +261,11 @@ let AddTodoForm = ({onSubmit}) => {
 }
 export default AddTodoForm
 ```
+6.2 实现TodoList组件
+
+```
+TodoList组件:
+
+```
 
 来自：https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.kljg6fuei
