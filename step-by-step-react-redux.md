@@ -180,5 +180,23 @@ export const toggleTodo = (id) => {
 }
 ```
 
+### Redux术语“```Reducers```”
+
+```Reducers```是一些方法，用于从```redux```和“```action```” JSON对象中获取状态（```state```）并返回新的状态（```state```）存回Redux中。
+1、Reducers方法you
+
+2、如果```reducer```改变了状态（```state```），Redux传递新的状态（new state）到每个组件并且React重新渲染每个组件。
+
+```javascript
+//(For example the below function takes Redux’ state(an array of previous todos), and returns a **new** array of todos(new state) w/ the new Todo added if action’s type is “ADD_TODO”.)
+// 例如下面这个方法获取Redux 状态（一个之前的todos数组），并返回一个新的todos数组（new state），当action's的类型为“ADD_TODO”时，一个新的Todo就会被添加
+const todo = (state = [], action) => {
+ switch (action.type) {
+  case ‘ADD_TODO’:
+     return 
+       […state,{id: action.id, text: action.text, completed:false}]; 
+ }
+```
+
 
 来自：https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.kljg6fuei
