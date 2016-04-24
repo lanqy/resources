@@ -237,7 +237,7 @@ const todo = (state, action) => {
 
 说明：黄色点线代表展示型组件，黑色点线表示容器型组件。
 
-###第六步－实现所有到展示型组件
+###第六步－实现所有的展示型组件
 
 现在是时候实现我们所有的（3个）展示型组件了
 
@@ -261,6 +261,10 @@ let AddTodoForm = ({onSubmit}) => {
 }
 export default AddTodoForm
 ```
+如下图：
+
+<img src="https://github.com/lanqy/blog/blob/master/1-WlASUkXRWSGaFZdZJXXiRQ.png" />
+
 6.2 实现TodoList组件
 
 ```
@@ -280,5 +284,8 @@ return <ul>
 
 export default TodoList
 ```
+如下图：
+
+<img src="https://github.com/lanqy/blog/blob/master/1-u1CX5abgafgbt3x-IgJ36A.png" />
 
 来自：https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.kljg6fuei
