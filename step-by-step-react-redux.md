@@ -20,7 +20,7 @@ Redux—一个很受欢迎的库，为react提供一个可以轻松地保持数�
 ###第一步－写一个详细的模拟
 这个模拟应该包含所有的数据和视觉效果（例如TodoItem的删除线，一个“All”的过滤器），
 ```
-第一步，模拟每个界面，
+第一步：模拟每个界面，
 
 怎样模拟：
 ＊ 1、越详细越好，
@@ -35,7 +35,14 @@ Redux—一个很受欢迎的库，为react提供一个可以轻松地保持数�
 尝试将应用划分为基于每个组件的用途的组件块。
 
 我们有三个组件“AddTodo”, “TodoList” and “Filter”组件。
-
+```
+第二步：划分应用成为组件：
+怎样划分：基于它们的用途来划分。
+我们的应用有三个主要的“目的”：
+1、添加一个新的Todo 项目（AddTodo组件）
+2、展示Todo列表（TodoList组件）
+3、过滤展示Todos（Filter组件）
+```
 如下图：
 
 <img src="https://github.com/lanqy/blog/blob/master/1-RtA4NF2PI__vcarQgXEEBg.png" />
