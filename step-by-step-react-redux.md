@@ -45,4 +45,4 @@ Redux—一个很受欢迎的库，为react提供一个可以轻松地保持数�
 ```
 如下图：
 
-<img src="https://github.com/lanqy/blog/blob/master/1-RtA4NF2PI__vcarQgXEEBg.png" />
+<img src="https://github.com/lanqy/blog/blob/master/1-AfzFa8zO_dQOmuSHL7bEww.png" />
