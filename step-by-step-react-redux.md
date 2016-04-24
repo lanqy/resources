@@ -96,6 +96,13 @@ TodoList组件需要一个数组来展示数据，因此它需要一个状态（
 进一步，它允许我们切换Todo项目为已完成或未完成状态。我们也需要让其它组件知道切换这个状态。我们把这个action叫做“```TOGGLE_TODO```”
 
 ```
+TodoList组件：
+
+State：
+
+1、Todos数组
+2、Visibility filter（显示过滤器），这个告诉那种类型的Todo项目需要显示或者隐藏。注：这个来自于“Filter”组件。
+
 
 ```
 
