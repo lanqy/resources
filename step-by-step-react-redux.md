@@ -17,4 +17,7 @@ Redux—一个很受欢迎的库，为react提供一个可以轻松地保持数�
 
 让我们开始吧！
 
+###第一步－写一个详细的模拟
+这个模拟应该包含所有的数据和视觉效果（例如TodoItem的删除线，一个“All”的过滤器），如下图：
+<img src="https://github.com/lanqy/blog/blob/master/1-RtA4NF2PI__vcarQgXEEBg.png" />
 
