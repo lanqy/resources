@@ -101,7 +101,8 @@ State：
 Actions（events）：
 TodoList组件只有一个action，它允许用户切换Todo项目的完成状态，当用户点击到每个Todo项目时，它需要告诉其它到组件和数据库等切换Todo的状态。
 
-我们需要通过JSON对象来描述我们的ToggleTodo action,JSON如下
+我们需要通过JSON对象来描述我们的ToggleTodo action,JSON如下：
+
 {
  type:"TOGGLE_TODO"
  payload:{
@@ -114,5 +115,31 @@ TodoList组件只有一个action，它允许用户切换Todo项目的完成状�
 
 <img src="https://github.com/lanqy/blog/blob/master/1-waJ9BucAT9qW_sHcqNOB_Q.png" />
 
+* 3.3 Filter 组件的```State``` 和 ```Actions```
+
+Filter组件可以是一个链接或者一个简单的文本来渲染，但它依赖于是否激活，我们把这个状态（```state```）称之为“```CurrentFilter```”。
+
+Filter组件依然需要告诉其它组件用户什么时候点击它，我们把这个操作(```action```)称之为“```SET_VIBILITY_FILTER```”。
+
+```
+Filter组件：
+State(data)：
+1.CurrentFilter－一个字符串，拥有告诉哪个过滤器需要显示，哪个链接可点击，例如“Active”和“completed”
+Actions（events）：
+Filter组件也只有一个操作（action），它只是监听用户点击过滤器点链接并告诉其它组件哪个链接已经被点击。
+
+我们通过一个JSON对象来描述```SET_VIBILITY_FILTER```操作（action），JSON如下：
+
+{
+ type:"SET_VIBILITY_FILTER"
+ payload:{
+ filter:"Completed"
+ }
+}
+
+```
+如下图：
+
+<img src="https://github.com/lanqy/blog/blob/master/1-3G9ycPVPovZPu35rGW3FLw.png" />
 
 来自：https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.kljg6fuei
