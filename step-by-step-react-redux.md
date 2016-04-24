@@ -183,7 +183,7 @@ export const toggleTodo = (id) => {
 ### Redux术语“```Reducers```”
 
 ```Reducers```是一些方法，用于从```redux```和“```action```” JSON对象中获取状态（```state```）并返回新的状态（```state```）存回Redux中。
-1、Reducers方法you
+1、当用户操作时，Reducers方法会被“```Container```”触发［这句好难翻啊，估计翻不对］（Reducer functions are called by the “Container” containers when there is a user action）。
 
 2、如果```reducer```改变了状态（```state```），Redux传递新的状态（new state）到每个组件并且React重新渲染每个组件。
 
