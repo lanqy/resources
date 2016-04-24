@@ -265,7 +265,20 @@ export default AddTodoForm
 
 ```
 TodoList组件:
+这个组件渲染一个Todo列表，它接受```Todos```数组和一个```onTodoClick```回调方法（来自父级容器组件）。当用户点击每个Todo项目时，它发送Todo项目的id到```onTodoClick```方法中并切换这个被点击的项目的状态。
+```
+```javascript
+const TodoList = ({todos,onTodoClick})=>{
+if(todos.length === 0)
+ return <div>Add Todos</div>
+return <ul>
+{todos.map(todo=>
+ <Todo key={todo.id}{...todo} onClick={()=>onTodoClick(todo.id)} />
+)}
+</ul>
+}
 
+export default TodoList
 ```
 
 来自：https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.kljg6fuei
