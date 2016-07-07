@@ -27,7 +27,7 @@
 <h4 id="installment">在这一期中</h4>
 <p>在第一部分中，我们将会配置一个基本的React开发环境，在文章的末尾，你将拥有一个创建应用和动态重载的开发环境，当你的文件发生改变的时候，我们也会创建我们的的第一个React组件
 </p>
-<h4 id="installment">先决条件</h4>
+<h4 id="prerequisite">先决条件</h4>
 <p>我假设你已经熟悉Node和NPM并且已经安装好这两个工具。你还应该熟悉(Javascript)ES6。你不需要是ES6专家，但是知道主要的新功能如箭头函数和解构赋值。</p>
 <p>写这篇文章的时候，我使用的是Node6.2.0和NPM3.8.9版本</p>
 <h4 id="code">代码</h4>
@@ -42,3 +42,9 @@
 <p>以下是一个样本：</p>
 <img src="mockup.png" />
 <p>使用Spotify的后台，这样我们可以把更多的注意力集中放在前端开发上。</p>
+
+<h4 id="creation">创建项目</h4>
+<p>让我们开始创建我们的项目</p>
+> mkdir respotify
+> cd respotify
+> npm init -y
