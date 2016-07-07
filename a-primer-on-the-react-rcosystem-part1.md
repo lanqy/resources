@@ -101,27 +101,27 @@ npm install webpack --save-dev
 
 <p>因为Webpack是配置驱动的，我们就从这里开始，在根目录下创建一个webpack.config.js文件：</p>
 ```js
-const webpack = require('webpack');
-const path = require('path');
- 
-const PATHS = {
-  app: './src/index.js',
-  dist: path.join(__dirname, 'dist')
-};
- 
-module.exports = {
-  entry: {
-    javascript: PATHS.app
-  },
-  output: {
-    path: PATHS.dist,
-    publicPath: '/',
-    filename: 'bundle.js'
-  },
-  devServer: {
-    contentBase: PATHS.dist
-  }
-};
+const webpack = require('webpack'); // line 1
+const path = require('path');// line 2
+ // line 3
+const PATHS = { // line 4
+  app: './src/index.js', // line 5
+  dist: path.join(__dirname, 'dist') // line 6
+}; // line 7
+ // line 8
+module.exports = { // line 9
+  entry: { // line 10
+    javascript: PATHS.app // line 11
+  }, // line 12
+  output: { // line 13
+    path: PATHS.dist, // line 14
+    publicPath: '/', // line 15
+    filename: 'bundle.js' // line 16
+  }, // line 17
+  devServer: { // line 18
+    contentBase: PATHS.dist // line 19
+  } // line 20
+}; // line 21
 ```
 <p>让我们继续</p>
 <p>在webpack.config.js文件顶部，我们引用webpack和path模块，然后为我们的应用程序定义几个常量</p>
