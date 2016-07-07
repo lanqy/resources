@@ -87,7 +87,17 @@ respotify
  --package.json
 ```
 
-
+<h4 id="webpack">Webpack</h4>
+<p>现在好了，我们将从头开始组建我们的构建环境，你可能听说过很多开发样本，例如<a href="https://github.com/kriasoft/react-starter-kit">这里</a>提供了完整的开发配置环境，虽然这个很有用，但是我觉得至少自己会创建基本的配置，这样你才知道主要的东西是如何工作的</p>
+<p>我们从<a href="https://webpack.github.io/">Webpack</a>开始构建我们的环境，简单地说，Webpack为我们打包静态资源，虽然有很多不同类型的打包工具，但是Webpack提供的一些功能，获得React社区的青睐，我们只是使用其中的一部分。</p>
+<p>让我们开始安装Webpack：</p>
+```js
+npm install webpack --save-dev
+```
+<p>一旦安装完整，检查package.json文件Webpack是否在你的dev依赖。</p>
+<p>我们使用Webpack做两件事：</p>
+- 获取我们的应用程序代码，并从代码中生成静态资源
+- 启动一个开发服务器来服务静态资源
 
 
 
