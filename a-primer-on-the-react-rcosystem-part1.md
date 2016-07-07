@@ -65,8 +65,23 @@ npm init -y
   </body>
 </html>
 ```
+<p>index.html是我们应用的入口，其中有两行代码比较有趣:</p>
+```html
+ <div id="container"></div>
+  <script src="/bundle.js"></script>
+```
+<p>我们的React组件将渲染到id为container的div中，这个将会更加清晰，通过这个编文章</p>
+<p>构建的时候，我们要放在一起将所有的JS文件合并成一个文件bundle.js，并且在index.html引用它</p>
+<p>下一步，创建index.js：</p>
+```js
+console.log("Hello,world!");
+```
+<p>index.js </p>
+
+
 
 
 
 
 link: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
+
