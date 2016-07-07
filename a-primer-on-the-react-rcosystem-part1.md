@@ -9,5 +9,8 @@
 * <a href="#creation">创建项目</a>
 * <a href="#webpack">Webpack</a>
 * <a href="#babel">Babel</a>
-* <a href="#hot">热模块替换</a>
+* <a href="#hot">模块热替换</a>
 * <a href="#component">第一个React组件</a>
+
+### 更新
+ 2016.07.06: 第一次发布
