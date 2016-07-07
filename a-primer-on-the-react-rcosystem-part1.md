@@ -50,3 +50,18 @@ mkdir respotify
 cd respotify
 npm init -y
 ```
+<p>这个将在我们的根目录下创建一个package.json文件</p>
+<p>下一步，在根目录下创建一个src目录,在src目录中创建一个index.html文件：</p>
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Respotify</title>
+  </head>
+  <body>
+    <h1>Respotify</h1>
+    <div id="container"></div>
+    <script src="/bundle.js"></script>
+  </body>
+</html>
+```
