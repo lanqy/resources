@@ -12,7 +12,7 @@
 * <a href="#hot">模块热替换</a>
 * <a href="#component">第一个React组件</a>
 
-#### 更新
+#### [id=update]更新
  2016.07.06: 第一次发布
 
 #### 介绍
