@@ -125,6 +125,8 @@ module.exports = { // line 9
 ```
 <p>让我们继续</p>
 <p>在webpack.config.js文件顶部，我们引用webpack和path模块，然后为我们的应用程序定义几个常量</p>
+<p>[第9行] 这个是我们Webpack配置的开始</p>
+<p>[第10行] 这里最终成为我们bundle.js文件的<a href="https://webpack.github.io/docs/configuration.html#entry">入口</a></p>
 
 link: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
 
