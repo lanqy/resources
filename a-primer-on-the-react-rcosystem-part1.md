@@ -45,6 +45,8 @@
 
 <h4 id="creation">创建项目</h4>
 <p>让我们开始创建我们的项目</p>
-> mkdir respotify
-> cd respotify
-> npm init -y
+```js
+mkdir respotify
+cd respotify
+npm init -y
+```
