@@ -99,7 +99,32 @@ npm install webpack --save-dev
 - 获取我们的应用程序代码，并从代码中生成静态资源
 - 启动一个开发服务器来服务静态资源
 
-
+<p>因为Webpack是配置驱动的，我们就从这里开始，在根目录下创建一个webpack.config.js文件：</p>
+```js
+const webpack = require('webpack');
+const path = require('path');
+ 
+const PATHS = {
+  app: './src/index.js',
+  dist: path.join(__dirname, 'dist')
+};
+ 
+module.exports = {
+  entry: {
+    javascript: PATHS.app
+  },
+  output: {
+    path: PATHS.dist,
+    publicPath: '/',
+    filename: 'bundle.js'
+  },
+  devServer: {
+    contentBase: PATHS.dist
+  }
+};
+```
+<p>让我们继续</p>
+<p>在webpack.config.js文件顶部，我们引用webpack和path模块，然后为我们的应用程序定义几个常量</p>
 
 link: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
 
