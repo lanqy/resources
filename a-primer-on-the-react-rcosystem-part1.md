@@ -78,6 +78,14 @@ console.log("Hello,world!");
 ```
 <p>index.js是我们的应用程序的主要的Javascript文件，现在，我们仅仅打印一些日志，以确保我们的构建过程工作。</p>
 
+这个时候，我们的目录结构应该像这样：
+```js
+respotify
+ -src
+  --index.html
+  --index.js
+ --package.json
+```
 
 
 
