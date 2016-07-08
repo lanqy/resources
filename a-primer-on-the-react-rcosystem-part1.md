@@ -9,7 +9,7 @@
 - <a href="#user-content-creation">创建项目</a>
 - <a href="#user-content-webpack">Webpack</a>
 - <a href="#user-content-babel">Babel</a>
-- <a href="#user-content-hot">模块热替换</a>
+- <a href="#user-content-hot">热模块更换</a>
 - <a href="#user-content-component">第一个React组件</a>
 
 <h4 id="update">更新</h4>
@@ -327,6 +327,27 @@ module: {
 好，我们几乎已经完成了，下一步我们要做的就是重新加载React组件，当我们做改动的时候，不会丢失状态信息。
 
 <h4 id="hot">热模块更换</h4>
+
+让我们开始安装<a href="https://facebook.github.io/react/">React</a>和<a href="https://facebook.github.io/react/docs/top-level-api.html#reactdom">ReactDOM</a>，以及<a href="https://gaearon.github.io/react-hot-loader/">React Hot Loader</a>。注意我们安装React和ReactDOM作为正常的依赖，而React Hot Loader作为开发依赖。安装方式如下：
+
+```js
+npm install react react-dom --save
+```
+
+```js
+npm install react-hot-loader --save-dev
+```
+下一步，我们让webpack使用热更换，打开webpack.config.js修改babel-loader像这样：
+```js
+loaders:["react-hot","babel-loader"]
+```
+重要的是，React-hot被添加为webpack过程从右到左的之前。
+
+下一步，打开package.json编辑 start npm脚本如下：
+
+```js
+"start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline",
+```
 
 
 link: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
