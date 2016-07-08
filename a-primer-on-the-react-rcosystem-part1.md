@@ -158,7 +158,7 @@ Respotify
 ```js
 npm install file-loader --save-dev
 ```
-<p>我们将修改webpack.config.js文件来引用index.html文件，我们还将包括一个模块对象来指定我们的第一个<a href="https://webpack.github.io/docs/loaders.html">加载程序</a>。本质上，加载器就是加载或预编译运行的文件，在这种情况下，我们使用文件<<a href="https://github.com/webpack/file-loader">加载</a>复制index.html来输出（dist）目录，添加以下高亮的行到webpack.config.js文件中：</p>
+<p>我们将修改webpack.config.js文件来引用index.html文件，我们还将包括一个模块对象来指定我们的第一个<a href="https://webpack.github.io/docs/loaders.html">加载程序</a>。本质上，加载器就是加载或预编译运行的文件，在这种情况下，我们使用文件<a href="https://github.com/webpack/file-loader">加载</a>复制index.html来输出（dist）目录，添加以下高亮的行到webpack.config.js文件中：</p>
 ```js
 const webpack = require('webpack');
 const path = require('path');
@@ -194,6 +194,38 @@ module.exports = {
   // 高亮部分
 };
 ```
+<p>现在我们再次运行之前的命令：</p>
+```js
+node node_modules/webpack/bin/webpack.js
+```
+
+你应该看到index.html已经复制到dist目录项了，dist目录现在应像这样：
+
+```js
+dist
+--bundle.js
+--index.html
+```
+
+我们在开发的过程中，我们需要重新编译bundle.js，每次修改代码都要重新在命令行编译Webpack必然很乏味，如果我们要创建一个在我们修改代码的时候可以自动编译和刷新浏览器实时看到效果，我们该怎样做呢？
+
+这个时候就应该使用<a href="https://webpack.github.io/docs/webpack-dev-server.html">Webpack dev server</a>了,让我们来安装它：
+
+```js
+npm install webpack-dev-server --save-dev
+```
+
+一旦安装完成，我们运行一下命令：
+
+```js
+node node_modules/webpack-dev-server/bin/webpack-dev-server.js
+```
+
+这将启动开发服务器在:<a href="http://localhost:8080/webpack-dev-server/">http://localhost:8080/webpack-dev-server/</a>
+
+如果您访问这个链接，你应该会看到我们的应用：
+
+<img src="respotify_initial_dev.png" />
 
 link: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
 
