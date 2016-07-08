@@ -286,5 +286,48 @@ const greeting = (name) => {
 greeting('world');
 ```
 
+现在执行 npm run build命令，看看文件bundle.js底部，你应该可以看到之前定义的原始的ES6方法，没有任何变化，考虑到这一点，让我们结合Babel。
+
+第一，我们将添加babel-loader到我们的webpack.config.js文件中，回想一下，我们如何使用文件加载器将index.html文件复制到dist目录中，我们现在为Babel添加第二个加载对象，添加一下高亮行到你到module对象中：
+```js
+module: {
+  loaders: [
+    {
+      test: /\.html$/,
+      loader: "file?name=[name].[ext]"
+    },
+    //高亮部分
+    { 
+      test: /\.js$/,
+      exclude: /node_modules/,
+      loaders: ["babel-loader"]
+    }
+    //高亮部分
+  ]
+}
+
+```
+
+这里，我们要求Webpack应用babel-loader在所有以.js为后缀到并且不在node_modules文件夹中的文件。
+
+下一步，我们在项目根目录中创建一个.babelrc文件，内容如下：
+
+```js
+{
+"presets":["react","es2015"]
+}
+```
+
+这里要求Babel使用前面我们安装的<a href=" presets"> presets</a>。
+
+就这样。
+
+再一次执行 npm run build 和检查bundle.js，我们的greeting 方法现在应该转成了ES5。
+
+好，我们几乎已经完成了，下一步我们要做的就是重新加载React组件，当我们做改动的时候，不会丢失状态信息。
+
+<h4 id="hot">热模块更换</h4>
+
+
 link: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
 
