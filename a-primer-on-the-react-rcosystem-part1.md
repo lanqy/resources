@@ -355,20 +355,22 @@ loaders:["react-hot","babel-loader"]
 在src目录下创建一个greeting.js:
 
 ```js
-import React from "react";
+import React from "react"; //第1行
  
-export default React.createClass({
-  render: function() {
-    return (
+export default React.createClass({ //第3行
+  render: function() {//第4行
+    return ( //第5行
       <div className="greeting">
         Hello, {this.props.name}!
       </div>
-    );
+    ); //第9行
   }
 });
 ```
 
 我们刚刚创建我们的第一个React组件，让我们一行一行来看。
+
+未完成待续－－－－
 
 link: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
 
