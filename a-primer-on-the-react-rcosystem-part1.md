@@ -227,5 +227,33 @@ node node_modules/webpack-dev-server/bin/webpack-dev-server.js
 
 <img src="respotify_initial_dev.png" />
 
+试着去修改index.html文件中的h1标签并且保存它，webpack开发服务器将自动检测并重新加载。每次重新加载你也会看到控制台输出日志。因此现在我们有一个webpack服务器，服务我们的静态资源和重新加载当有代码有修改的时候。
+
+让我们完善一下我们的package.json文件，创建一些脚本，以至于我们更方便处理一些事情。
+
+添加以下高亮行package.json的脚本对象中：
+
+```js
+"scripts": {
+  "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js", // 高亮
+  "build": "node node_modules/webpack/bin/webpack.js", // 高亮
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+```
+如果你没有停止webpack开发服务器，停掉它然后运行用一下命令运行Webpack开发服务：
+
+```js
+npm run start
+```
+
+使用一下命令构建:
+
+```js
+npm run build
+```
+
+这个时候，我们基本的构建已经完成，下一步，我们将扩大我们的构建过程，允许我们使用最新的ES6功能。
+
+
 link: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
 
