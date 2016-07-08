@@ -132,6 +132,10 @@ module.exports = { // line 9
 - 将输出的文件的网址设置为首页路径
 - 调用其编译的bundle.js结果
 
-
+<p>[第18行] 这里我们制定Webpack服务器从dist目录下请求静态资源目录。</p>
+<p>现在尝试在您的终端运行此命令（确保您在您的项目的根目录和节点在您的路径下）：</p>
+```js
+node node_modules/webpack/bin/webpack.js
+```
 link: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
 
