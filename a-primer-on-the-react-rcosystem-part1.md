@@ -153,10 +153,47 @@ Respotify
 --package.json
 --webpack.config.js
 ```
-<p>现在我们也需要提供被index.html引用的bundle.js文件，这个文件目前不在我们的dist目录下，因此我们需要复制index.html到dist目录下。</p>
+<p>现在我们也需要提供引用bundle.js的index.html文件，这个文件目前不在我们的dist目录下，因此我们需要复制index.html到dist目录下。</p>
 <p>要实现这个，我们需要安装文件加载程序包，安装方式如下：</p>
 ```js
 npm install file-loader --save-dev
 ```
+<p>我们将修改webpack.config.js文件来引用index.html文件，我们还将包括一个模块对象来指定我们的第一个<a href="https://webpack.github.io/docs/loaders.html">加载程序</a>。本质上，加载器就是加载或预编译运行的文件，在这种情况下，我们使用文件<<a href="https://github.com/webpack/file-loader">加载</a>复制index.html来输出（dist）目录，添加以下高亮的行到webpack.config.js文件中：</p>
+```js
+const webpack = require('webpack');
+const path = require('path');
+ 
+const PATHS = {
+  app: './src/index.js',
+  html: './src/index.html', // 高亮行
+  dist: path.join(__dirname, 'dist')
+};
+ 
+module.exports = {
+  entry: {
+    javascript: PATHS.app,
+    html: PATHS.html // 高亮行
+  },
+  output: {
+    path: PATHS.dist,
+    publicPath: '/',
+    filename: 'bundle.js'
+  },
+  devServer: {
+    contentBase: PATHS.dist
+  },
+  // 高亮部分
+  module: { 
+    loaders: [
+      {
+        test: /\.html$/,
+        loader: "file?name=[name].[ext]"
+      }
+    ]
+  }
+  // 高亮部分
+};
+```
+
 link: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
 
