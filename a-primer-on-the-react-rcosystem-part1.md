@@ -255,5 +255,36 @@ npm run build
 这个时候，我们基本的构建已经完成，下一步，我们将扩大我们的构建过程，允许我们使用最新的ES6功能。
 
 
+<h4 id="babel">Babel</h4>
+
+<a href="https://kangax.github.io/compat-table/es6/">ES6支持</a>各种不同的浏览器，因此这样使用所有的ES6功能，不需要考虑各个浏览器的兼容性呢？一个解决方案就是把ES6代码转成ES5，这正是我们接下来要做的。
+
+我们将使用<a href="http://babeljs.io/">Babel</a>来做这个事情,我们需要Babel来做两件事：
+
+- 转ES6代码到ES5
+- 转<a href="https://facebook.github.io/react/docs/jsx-in-depth.html">JSX</a>成JavaScript。JSX是React DSL，类似HTML。你将学习它，当你开始React开发的时候。
+
+开始安装这些Babel包：
+
+```js
+npm install babel-core babel-loader babel-preset-es2015 babel-preset-react --save-dev
+```
+
+让我们看看每个包都干嘛的：
+
+- <a href="https://github.com/babel/babel/tree/master/packages/babel-core">babel-core</a> Babel核心编译器。
+- <a href="https://github.com/babel/babel-loader">babel-loader</a> Webpack的Babel加载器。
+- <a href="https://babeljs.io/docs/plugins/preset-es2015/">preset-es2015</a> 一套ES6转ES5的Babel插件。
+- <a href="https://babeljs.io/docs/plugins/preset-react/">babel-preset-react</a> 一套JSX转成JS的Babel插件。
+
+在开始结合Babel之前，让我们来改改index.js，让它包含以下ES6代码，修改之后看起来像这样：
+
+```js
+const greeting = (name) => {
+  console.log(`Hello, ${name}!`);
+};
+greeting('world');
+```
+
 link: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
 
