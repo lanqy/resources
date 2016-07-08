@@ -348,7 +348,27 @@ loaders:["react-hot","babel-loader"]
 ```js
 "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline",
 ```
+在这一点上，我们进一步加强我们的开发配置重新加载React组件而状态不丢失，但是这个意味着什么呢？要回答这一问题，我们需要创建一个React组件来测试我们的配置。
 
+<h4 id="component">我们的第一个React组件</h4>
+
+在src目录下创建一个greeting.js:
+
+```js
+import React from "react";
+ 
+export default React.createClass({
+  render: function() {
+    return (
+      <div className="greeting">
+        Hello, {this.props.name}!
+      </div>
+    );
+  }
+});
+```
+
+我们刚刚创建我们的第一个React组件，让我们一行一行来看。
 
 link: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
 
