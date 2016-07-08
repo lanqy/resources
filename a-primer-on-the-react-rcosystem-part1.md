@@ -76,7 +76,7 @@ npm init -y
 ```js
 console.log("Hello,world!");
 ```
-<p>index.js是我们的应用程序的主要的Javascript文件，现在，我们仅仅打印一些日志，以确保我们的构建过程工作。</p>
+<p>index.js是我们的应用程序的主要的Javascript文件，现在，我们仅仅打印一些日志，以确保我们的构建正常工作。</p>
 
 这个时候，我们的目录结构应该像这样：
 ```js
@@ -126,7 +126,12 @@ module.exports = { // line 9
 <p>让我们继续</p>
 <p>在webpack.config.js文件顶部，我们引用webpack和path模块，然后为我们的应用程序定义几个常量</p>
 <p>[第9行] 这个是我们Webpack配置的开始</p>
-<p>[第10行] 这里最终成为我们bundle.js文件的<a href="https://webpack.github.io/docs/configuration.html#entry">入口</a>，在这个例子中，我们有一个单独的JS文件（index.js）服务，做为我们的入口文件，Webpack将构建index.js</p>
+<p>[第10行] 这里最终成为我们bundle.js文件的<a href="https://webpack.github.io/docs/configuration.html#entry">入口</a>，在这个例子中，我们有一个单独的JS文件（index.js）服务，做为我们的入口文件，Webpack将构建index.js以及任何其他JS文件在index.js中声明依赖的，与依赖那些依赖等，最终合成一个单一的bundle.js文件。想象一下一个依赖折叠成一个节点的图形。</p>
+<p>[第13行] <a href="https://webpack.github.io/docs/configuration.html#output">这里</a>是我们设置的配置文件。在这个例子中，我们告诉Webpack：</p>
+- 输出其编译结果到dist目录下
+- 将输出的文件的网址设置为首页路径
+- 调用其编译的bundle.js结果
+
 
 link: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
 
