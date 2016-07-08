@@ -137,5 +137,26 @@ module.exports = { // line 9
 ```js
 node node_modules/webpack/bin/webpack.js
 ```
+<p>你将看到已经在根目录下创建一个dist目录，目录中有一个bundle.js文件在里面。</p>
+
+<p>如果你看看bundle.js,你将看到一些Webpack特定的方法和一个console.log声明在文件底部。</p>
+
+<p>这个时候，您的项目目录结构看起来应该像这样：</p>
+```js
+Respotify
+-dist
+ --bundle.js
+-node_modules
+-src
+ --index.html
+ --index.js
+--package.json
+--webpack.config.js
+```
+<p>现在我们也需要提供被index.html引用的bundle.js文件，这个文件目前不在我们的dist目录下，因此我们需要复制index.html到dist目录下。</p>
+<p>要实现这个，我们需要安装文件加载程序包，安装方式如下：</p>
+```js
+npm install file-loader --save-dev
+```
 link: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
 
