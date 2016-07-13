@@ -370,6 +370,30 @@ export default React.createClass({ //第3行
 
 我们刚刚创建我们的第一个React组件，让我们一行一行来看。
 
+［第一行］在顶部，我们导入React。
+
+［第三行］我们通过<a href="https://facebook.github.io/react/docs/top-level-api.html#react.createclass">React.createClass方法</a>创建一个React组件类，传入一个描述我们组件的规范对象。
+
+［第四行］每个React组件都必须有一个render方法，它返回组件的标记。
+
+［第五－九行］在render方法里，我们返回一个类HTML 包含一个class名称为gretting的div 包裹这一个字符串，字符串本身把Hello和一下引用值连接起来。
+
+我们将继续深入理解第五－九行，但是现在，让我们先把这个组件在屏幕上展示出来。
+
+打开index.js修改它如下:
+
+```js
+import React from "react";
+import ReactDOM from "react-dom";
+import Greeting from './greeting';
+ 
+ReactDOM.render(
+  <Greeting name="World"/>,
+  document.getElementById('container')
+);
+```
+
+
 未完成待续－－－－
 
 link: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
