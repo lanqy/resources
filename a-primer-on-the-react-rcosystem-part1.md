@@ -376,7 +376,7 @@ export default React.createClass({ //第3行
 
 ［第四行］每个React组件都必须有一个render方法，它返回组件的标记。
 
-［第五－九行］在render方法里，我们返回一个类HTML 包含一个class名称为gretting的div 包裹这一个字符串，字符串本身把Hello和一下引用值连接起来。
+［第五－九行］在render方法里，我们返回一个类HTML 包含一个class名称为gretting的div 包裹这一个字符串，字符串本身把Hello和一些引用值连接起来。
 
 我们将继续深入理解第五－九行，但是现在，让我们先把这个组件在屏幕上展示出来。
 
@@ -392,7 +392,12 @@ ReactDOM.render(
   document.getElementById('container')
 );
 ```
+我们再一次从导入React开始，接着我们导入ReactDOM，用于渲染DOM的API接口，我们也导入我们的greeting component。
 
+当我们调用ReactDOM的render方法时，我们传入两个参数：
+
+-1.我们需要渲染的组件。
+-2.我们要把组件渲染到的位置。
 
 未完成待续－－－－
 
