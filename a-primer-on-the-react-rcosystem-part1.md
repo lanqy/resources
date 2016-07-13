@@ -411,6 +411,23 @@ ReactDOM.render(
 
 <img src="respotify_first_component.png" />
 
+测试它的重载，试着用h1标签包裹字符串，如下：
+
+```js
+<h1>Hello, {this.props.name}!</h1>
+```
+保存它，你将看到组件局部更新，而不需要全部重新加载。
+
+现在，让我们退后一步，重新看greeting.js代码片段：
+
+```js
+ return (
+      <div className="greeting">
+        Hello, {this.props.name}!
+      </div>
+    );
+```
+
 未完成待续－－－－
 
 link: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
