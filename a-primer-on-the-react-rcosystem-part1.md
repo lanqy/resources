@@ -399,6 +399,18 @@ ReactDOM.render(
 - 1.我们需要渲染的组件。
 - 2.我们要把组件渲染到的位置。
 
+在我们的例子中，我们将渲染我们的greeting组件到一个id为container的div中，这个div在我们的index.html中。
+
+注意第一个参数是怎么样子的，我们传入greeting组件，它好像是一个HTML元素，它包含了一个键值对，其中键的名字为name，值为world。然后name就成为我们greeting组件的属性。
+
+大体上，我们可以这么描述index.js：
+
+<strong>渲染greeting组件，把world赋给它的name属性，把这个组件渲染到id为container的div上。</strong>
+
+现在，当我们渲染greeting组件时，我们将接收name属性和包含它的值的字符串，重启开发服务并验证这个组件渲染：
+
+<img src="respotify_first_component.png" />
+
 未完成待续－－－－
 
 link: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
