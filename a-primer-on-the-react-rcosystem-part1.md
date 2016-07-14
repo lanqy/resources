@@ -468,7 +468,13 @@ _react2.default.createElement("div", { className: "greeting" });
 
 试着在index.js中修改name的值。你将看到Webpack检测变化和自动加载，greeting组件将接收到新的状态，并作出响应。
 
-未完成待续－－－－
 
-link: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
+如果你跟着一起做下来，并且一切都正常工作，那么恭喜你！你刚刚构建了一个基于打包、转换、热更新的React应用开发环境。此外，你还创建了一个React组件，记住，你可以添加更多的环境，比如压缩文件，选择性打包，启用和禁用各种开发工具。但是对于我们而言，这样已经够了。
+
+在下一部分中，我们将进一步创建更多的React组件来完善我们的Spotify客户端，我们还将添加静态分析来保持我们的代码整洁明了。
+
+预计下一部分会在这一期发布之后的两个星期内完成。在此之前，如果你有任何意见和建议，请在下面留言或者给我发<a href="http://patternhatch.com/about/">邮件</a>。
+
+
+本文翻译自: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
 
