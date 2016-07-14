@@ -28,7 +28,7 @@ Redux—一个很受欢迎的库，为react提供一个可以轻松地保持数�
 ```
 如下图：
 
-<img src="https://github.com/lanqy/blog/blob/master/1-RtA4NF2PI__vcarQgXEEBg.png" />
+<img src="/images/1-RtA4NF2PI__vcarQgXEEBg.png" />
 
 ###把应用划分成为组件
 
@@ -45,7 +45,7 @@ Redux—一个很受欢迎的库，为react提供一个可以轻松地保持数�
 ```
 如下图：
 
-<img src="https://github.com/lanqy/blog/blob/master/1-AfzFa8zO_dQOmuSHL7bEww.png" />
+<img src="/images/1-AfzFa8zO_dQOmuSHL7bEww.png" />
 
 ###Redux术语：“```Actions```”和“```States```”
 #####每个组件做这两件事情：
@@ -84,7 +84,7 @@ AddTodo组件
 ```
 如下图：
 
-<img src="https://github.com/lanqy/blog/blob/master/1-OrfmEw_gPw5kQ3ZO5AjzEQ.png" />
+<img src="/images/1-OrfmEw_gPw5kQ3ZO5AjzEQ.png" />
 
 * 3.2 TodoList 组件的```State``` 和 ```Actions```
 
@@ -113,7 +113,7 @@ TodoList组件只有一个action，它允许用户切换Todo项目的完成状�
 ```
 如下图：
 
-<img src="https://github.com/lanqy/blog/blob/master/1-waJ9BucAT9qW_sHcqNOB_Q.png" />
+<img src="/images/1-waJ9BucAT9qW_sHcqNOB_Q.png" />
 
 * 3.3 Filter 组件的```State``` 和 ```Actions```
 
@@ -140,7 +140,7 @@ Filter组件也只有一个操作（action），它只是监听用户点击过�
 ```
 如下图：
 
-<img src="https://github.com/lanqy/blog/blob/master/1-3G9ycPVPovZPu35rGW3FLw.png" />
+<img src="/images/1-3G9ycPVPovZPu35rGW3FLw.png" />
 
 ### Redux术语“```Action Creators```”
 
@@ -233,7 +233,7 @@ const todo = (state, action) => {
 
 然后父级容器将数据传递到展示型组件，事件处理替展示型组件处理React，如下图：
 
-<img src="https://github.com/lanqy/blog/blob/master/1-inU9OmAFSDYKFm8pstsCDw.png" />
+<img src="/images/1-inU9OmAFSDYKFm8pstsCDw.png" />
 
 说明：黄色点线代表展示型组件，黑色点线表示容器型组件。
 
@@ -263,7 +263,7 @@ export default AddTodoForm
 ```
 如下图：
 
-<img src="https://github.com/lanqy/blog/blob/master/1-WlASUkXRWSGaFZdZJXXiRQ.png" />
+<img src="/images/1-WlASUkXRWSGaFZdZJXXiRQ.png" />
 
 6.2 实现TodoList组件
 
@@ -286,7 +286,7 @@ export default TodoList
 ```
 如下图：
 
-<img src="https://github.com/lanqy/blog/blob/master/1-u1CX5abgafgbt3x-IgJ36A.png" />
+<img src="/images/1-u1CX5abgafgbt3x-IgJ36A.png" />
 
 6.2 实现Link组件
 ```
@@ -303,7 +303,7 @@ const Link = ({active,children,onClick}) = >{
 export default Link
 ```
 如下图：
-<img src="https://github.com/lanqy/blog/blob/master/1-5WQbEnAhRP6fmfiCjOeS4A.png" />
+<img src="/images/1-5WQbEnAhRP6fmfiCjOeS4A.png" />
 
 注意：在实际的代码中，Link展示组件被包含在```FilterLink```容器组件中，进而3个FilterLink组件显示在Footer展示组件中。
 
@@ -312,15 +312,15 @@ export default Link
 
 7.1创建容器组件（AddTodo组件）
 <a href="https://github.com/rajaraodv/redux/blob/master/examples/todos/containers/AddTodo.js">最后实际的代码在这里</a>
-<img src="https://github.com/lanqy/blog/blob/master/1-ElBMxdAUzuVJ343uAlCVmA.png" />
+<img src="/images/1-ElBMxdAUzuVJ343uAlCVmA.png" />
 
 7.2创建容器组件（TodoList组件）
 <a href="https://github.com/rajaraodv/redux/blob/master/examples/todos/containers/VisibleTodoList.js">最后实际的代码在这里</a>
-<img src="https://github.com/lanqy/blog/blob/master/1-malT38rul36L0Ygbt1JjzA.png" />
+<img src="/images/1-malT38rul36L0Ygbt1JjzA.png" />
 
 7.3创建容器组件（Filter组件）
 <a href="https://github.com/rajaraodv/redux/blob/master/examples/todos/containers/FilterLink.js">最后实际的代码在这里</a>
-<img src="https://github.com/lanqy/blog/blob/master/1-1Kgo8pIxbLAkuBho6aQQeQ.png" />
+<img src="/images/1-1Kgo8pIxbLAkuBho6aQQeQ.png" />
 注意：在实际的代码中，Link展示组件被包含在```FilterLink```容器组件中，进而3个FilterLink组件排列和显示在Footer展示组件中。
 
 ###第八步－把它们放在一起
