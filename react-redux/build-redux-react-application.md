@@ -166,7 +166,7 @@ function todoApp(state, action) {
 ```
 ###结合React UI
 现在，我们已经制定了业务逻辑，让我们写一些UI代码，由于大部分React的知识都跟构建Flux应用类似，我们就不再深入讲解。一下是我们的代码：
-```jsx
+```js
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { createStore } from 'redux';
