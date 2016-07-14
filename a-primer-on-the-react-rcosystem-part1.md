@@ -444,7 +444,29 @@ ReactDOM.render(
 ```js
 _react2.default.createElement("div", { className: "greeting" });
 ```
-以上的纯JavaScript你可以直接使用，然而，我强烈推荐使用JSX，这个让你的React组件方便阅读和书写。
+以上的纯JavaScript你可以直接使用，然而，我强烈推荐使用JSX，这个让你的React组件方便阅读和书写。事实上，它看起来像HTML也有助于减少学习曲线，当然，由于JSX是JavaScript，跟HTML有一些细微的差异，比如JSX的className和HTML的class，我们将深入理解更多JSX的功能，可以去看看Facebook的指南了解更多的东西。
+
+让我们把注意力放在div中的这行代码：
+
+```js
+ Hello, {this.props.name}!
+```
+在JSX中，用花括号括起来的是一个JavaScript表达式，因此，在这里，我们访问这个组件的props对象，反过来，在props上访问name属性。
+
+还记得在index.js中的这一行代码吗？
+
+```js
+<Greeting name="World"/>
+```
+
+当你实例化一个组件，你可以传入大量的表示该组件状态的键值对。因此，当我们实例化我们的greeting组件，我们也应该指定一个名为name的状态。这个值的状态叫做“world”。
+
+
+在实际的greeting组件中，该状态通过组件的props对象和使用相同的name标签来传递。花括号里的值被计算，并且返回“Hello，world”渲染到浏览器中。
+
+记住主要的一点，就是props是不可变的。换句话说，一旦状态被传递到一个组件，接受组件就不能再改变它了。这样有助于你的组件更容易理解和调试。以及将状态管理分离到几个模块中。
+
+试着在index.js中修改name的值。你将看到Webpack检测变化和自动加载，greeting组件将接收到新的状态，并作出响应。
 
 未完成待续－－－－
 
