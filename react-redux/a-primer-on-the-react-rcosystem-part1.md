@@ -40,7 +40,7 @@
 - 播放曲目开头30秒
 
 <p>以下是一个样本：</p>
-<img src="mockup.png" />
+<img src="/images/mockup.png" />
 <p>使用Spotify的后台，这样我们可以把更多的注意力集中放在前端开发上。</p>
 
 <h4 id="creation">创建项目</h4>
@@ -225,7 +225,7 @@ node node_modules/webpack-dev-server/bin/webpack-dev-server.js
 
 如果您访问这个链接，你应该会看到我们的应用：
 
-<img src="respotify_initial_dev.png" />
+<img src="/images/respotify_initial_dev.png" />
 
 试着去修改index.html文件中的h1标签并且保存它，webpack开发服务器将自动检测并重新加载。每次重新加载你也会看到控制台输出日志。因此现在我们有一个webpack服务器，服务我们的静态资源和重新加载当有代码有修改的时候。
 
@@ -409,7 +409,7 @@ ReactDOM.render(
 
 现在，当我们渲染greeting组件时，我们将接收name属性和包含它的值的字符串，重启开发服务并验证这个组件渲染：
 
-<img src="respotify_first_component.png" />
+<img src="/images/respotify_first_component.png" />
 
 测试它的重载，试着用h1标签包裹字符串，如下：
 
