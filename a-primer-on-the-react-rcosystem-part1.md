@@ -428,6 +428,24 @@ ReactDOM.render(
     );
 ```
 
+我们返回的标记实际上是JSX，一个React特定的DSL，就像HTML用方便描述树结构。我们的Babel配置会把JSX转换成等效的纯JavaScript。有两个重要的概念要记住：
+
+- JSX不是JavaScript的扩展。
+- JSX不是必须的，你可以使用纯JavaScript的调用方式代替。
+
+要展示第二点，我们使用<a href="http://babeljs.io/repl/"> Babel REPL</a>,在REPL中，确保选中ES2015 和 React preset这两个选项，复制greeting.js的内容到左侧的编辑器中，你会看到转换输出到右侧，一个代码片段类似这样：
+
+```js
+<div className="greeting" />
+```
+
+将转换为：
+
+```js
+_react2.default.createElement("div", { className: "greeting" });
+```
+以上的纯JavaScript你可以直接使用，然而，我强烈推荐使用JSX，这个让你的React组件方便阅读和书写。
+
 未完成待续－－－－
 
 link: http://patternhatch.com/2016/07/06/a-primer-on-the-react-ecosystem-part-1-of-3/
