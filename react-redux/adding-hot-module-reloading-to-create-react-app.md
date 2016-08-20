@@ -22,3 +22,5 @@ if (module.hot) { //热替换代码
   }); 
 }
 ```
+
+来自 ：https://medium.com/@sheepsteak/adding-hot-module-reloading-to-create-react-app-e053fadf569d#.jn5jammd4
