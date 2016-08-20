@@ -1,4 +1,6 @@
-###
+###给create-react-app创建的项目，加上热加载功能
+
+修改index.js文件
 
 ```js
 import React from 'react';
@@ -10,7 +12,7 @@ ReactDOM.render(
   <App />,
   rootEl
 );
-if (module.hot) {
+if (module.hot) { //热替换代码
   module.hot.accept('./App', () => {
     const NextApp = require('./App').default;
     ReactDOM.render(
