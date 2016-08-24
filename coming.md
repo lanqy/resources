@@ -13,3 +13,6 @@
  
 ### Journey into React Part 3: Navigating Between Webpages with React Router
  * http://davidmeents.com/journey-into-react-part-3-navigating-between-webpages-with-react-router/
+ 
+### The land of undocumented react.js: The Context
+ * https://medium.com/@skwee357/the-land-of-undocumented-react-js-the-context-99b3f931ff73#.plfp85rrm
