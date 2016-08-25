@@ -28,3 +28,5 @@
  
 ### React.js pure render performance anti-pattern
  * https://medium.com/@esamatti/react-js-pure-render-performance-anti-pattern-fb88c101332f#.s2k7h495t
+### Don't Use Bind When Passing Props
+ * https://daveceddia.com/avoid-bind-when-passing-props/
