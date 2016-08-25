@@ -16,3 +16,13 @@
  
 ### The land of undocumented react.js: The Context
  * https://medium.com/@skwee357/the-land-of-undocumented-react-js-the-context-99b3f931ff73#.plfp85rrm
+
+### Redux tutorial for beginners. Basics of React-Redux.
+ * https://medium.com/@sapy/redux-tutorial-for-beginners-basics-of-react-redux-3fed01346a49#.lshqg5uzh
+
+### How to handle state in React. The missing FAQ.
+ * https://medium.com/react-ecosystem/how-to-handle-state-in-react-6f2d3cd73a0c#.g2mkhbxqt
+ * 
+ 
+### A Simple React + Redux Starter Kit
+ * https://medium.com/points-san-francisco/a-simple-react-redux-starter-kit-7f419a263fd2#.wnciovg89
