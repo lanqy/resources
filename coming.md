@@ -22,7 +22,9 @@
 
 ### How to handle state in React. The missing FAQ.
  * https://medium.com/react-ecosystem/how-to-handle-state-in-react-6f2d3cd73a0c#.g2mkhbxqt
- * 
  
 ### A Simple React + Redux Starter Kit
  * https://medium.com/points-san-francisco/a-simple-react-redux-starter-kit-7f419a263fd2#.wnciovg89
+ 
+### React.js pure render performance anti-pattern
+ * https://medium.com/@esamatti/react-js-pure-render-performance-anti-pattern-fb88c101332f#.s2k7h495t
