@@ -37,3 +37,6 @@
  
 ### Redux with React Router
  * https://medium.com/@GaborSar/m-3d6572ff2ed#.hiq1r4urx
+
+### React-Router Cheat sheet
+ * https://medium.com/@ChtefiD/react-router-cheat-sheet-1a9aac503e39#.wjq8znaia
