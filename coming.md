@@ -28,9 +28,12 @@
  
 ### React.js pure render performance anti-pattern
  * https://medium.com/@esamatti/react-js-pure-render-performance-anti-pattern-fb88c101332f#.s2k7h495t
+ 
 ### Don't Use Bind When Passing Props
  * https://daveceddia.com/avoid-bind-when-passing-props/
+ 
 ### How to better organize your React applications?
  * https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1#.m0phsk170
+ 
 ### Redux with React Router
  * https://medium.com/@GaborSar/m-3d6572ff2ed#.hiq1r4urx
