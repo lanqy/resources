@@ -40,3 +40,15 @@
 
 ### React-Router Cheat sheet
  * https://medium.com/@ChtefiD/react-router-cheat-sheet-1a9aac503e39#.wjq8znaia
+
+### A Guide For Building A React Redux CRUD App
+ * https://medium.com/@rajaraodv/a-guide-for-building-a-react-redux-crud-app-7fe0b8943d0f#.40z433tu1
+
+### Server Side Rendering with React and Redux
+ * https://blog.tableflip.io/server-side-rendering-with-react-and-redux/
+
+### Tutorial: Handcrafting an Isomorphic Redux Application (With Love)
+ * https://medium.com/front-end-developers/handcrafting-an-isomorphic-redux-application-with-love-40ada4468af4#.bcm4p1fl6
+ 
+### Quick Start Tutorial: React Redux
+ * https://medium.com/@firasd/quick-start-tutorial-using-redux-in-react-apps-89b142d6c5c1#.wzoj6zodp
