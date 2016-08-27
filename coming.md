@@ -55,3 +55,6 @@
 
 ### Server side rendering with React and Express
  * https://medium.com/front-end-hacking/server-side-rendering-with-react-and-express-382591bfc77c#.h1qx9ctl8
+
+### Making sense of Redux
+ * https://medium.freecodecamp.com/why-redux-makes-sense-to-me-and-how-i-conceptualize-it-c8a3a9db15ca#.s5m35te9x
