@@ -58,3 +58,12 @@
 
 ### Making sense of Redux
  * https://medium.freecodecamp.com/why-redux-makes-sense-to-me-and-how-i-conceptualize-it-c8a3a9db15ca#.s5m35te9x
+
+
+## 问题&答案
+
+### Using for loops and switch cases in React to dynamically render different components
+ * http://stackoverflow.com/questions/22538638/how-to-have-conditional-elements-and-keep-dry-with-facebook-reacts-jsx
+
+### How to have conditional elements and keep DRY with Facebook React's JSX?
+ * http://stackoverflow.com/questions/37782776/using-for-loops-and-switch-cases-in-react-to-dynamically-render-different-compon
