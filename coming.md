@@ -67,5 +67,6 @@
 
 ### How to have conditional elements and keep DRY with Facebook React's JSX?
  * http://stackoverflow.com/questions/37782776/using-for-loops-and-switch-cases-in-react-to-dynamically-render-different-compon
+
 ### Update style of a component onScroll in React.js
  * http://stackoverflow.com/questions/29725828/update-style-of-a-component-onscroll-in-react-js
