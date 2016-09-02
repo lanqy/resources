@@ -59,6 +59,8 @@
 ### Making sense of Redux
  * https://medium.freecodecamp.com/why-redux-makes-sense-to-me-and-how-i-conceptualize-it-c8a3a9db15ca#.s5m35te9x
 
+### React Page Transition Animations
+ * https://medium.com/front-end-hacking/react-page-transition-animations-9d18c90a9831#.voiemvaq7
 
 ## 问题&答案
 
