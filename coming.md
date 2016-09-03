@@ -72,3 +72,6 @@
 
 ### Update style of a component onScroll in React.js
  * http://stackoverflow.com/questions/29725828/update-style-of-a-component-onscroll-in-react-js
+
+### Detect css transitions using javascript (and without modernizr)?
+ * http://stackoverflow.com/questions/7264899/detect-css-transitions-using-javascript-and-without-modernizr
