@@ -61,6 +61,8 @@
 
 ### React Page Transition Animations
  * https://medium.com/front-end-hacking/react-page-transition-animations-9d18c90a9831#.voiemvaq7
+### Let The URL Do The Talking, Part 1: The Pain Of React Router In Redux
+ * https://formidable.com/blog/2016/07/11/let-the-url-do-the-talking-part-1-the-pain-of-react-router-in-redux/?utm_content=bufferb29c2&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 
 ## 问题&答案
 
