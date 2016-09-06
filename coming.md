@@ -80,3 +80,6 @@
 
 ### React – the right way to pass form element state to sibling/parent elements?
  * http://stackoverflow.com/questions/24147331/react-the-right-way-to-pass-form-element-state-to-sibling-parent-elements
+
+### ReactJS Two components communicating
+ * http://stackoverflow.com/questions/21285923/reactjs-two-components-communicating
