@@ -83,3 +83,6 @@
 
 ### ReactJS Two components communicating
  * http://stackoverflow.com/questions/21285923/reactjs-two-components-communicating
+
+### How to filter and sort the same array of object state in redux?
+ * http://stackoverflow.com/questions/38133137/how-to-filter-and-sort-the-same-array-of-object-state-in-redux
