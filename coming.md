@@ -64,6 +64,9 @@
 ### Let The URL Do The Talking, Part 1: The Pain Of React Router In Redux
  * https://formidable.com/blog/2016/07/11/let-the-url-do-the-talking-part-1-the-pain-of-react-router-in-redux/?utm_content=bufferb29c2&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 
+### Reactをes6で使う場合のbindの問題
+ * http://qiita.com/cubdesign/items/ee8bff7073ebe1979936
+
 ## 问题&答案
 
 ### Using for loops and switch cases in React to dynamically render different components
