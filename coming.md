@@ -66,6 +66,13 @@
 
 ### Reactをes6で使う場合のbindの問題
  * http://qiita.com/cubdesign/items/ee8bff7073ebe1979936
+ 
+### How to write your own Virtual DOM
+ * https://medium.com/@deathmood/how-to-write-your-own-virtual-dom-ee74acc13060#.jjrljoldu
+ 
+### Write your Virtual DOM 2: Props & Events
+ * https://medium.com/@deathmood/write-your-virtual-dom-2-props-events-a957608f5c76#.ybqrzw231
+ 
 
 ## 问题&答案
 
