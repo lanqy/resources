@@ -73,6 +73,9 @@
 ### Write your Virtual DOM 2: Props & Events
  * https://medium.com/@deathmood/write-your-virtual-dom-2-props-events-a957608f5c76#.ybqrzw231
  
+### JavaScript template engine in just 20 lines
+ * http://krasimirtsonev.com/blog/article/Javascript-template-engine-in-just-20-line
+ 
 ## Vuejs
  * https://benjaminlistwon.com/blog/data-flow-in-vue-and-vuex/
 
