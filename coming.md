@@ -66,7 +66,9 @@
 
 ### Reactをes6で使う場合のbindの問題
  * http://qiita.com/cubdesign/items/ee8bff7073ebe1979936
- 
+### Dogfooding my own VDOM, and why it’s been a fun learning experience
+ * https://medium.com/destination-code/dogfooding-my-own-vdom-and-why-its-been-a-fun-learning-experience-c23af35d24fa#.2iqcw2o3l
+
 ### How to write your own Virtual DOM
  * https://medium.com/@deathmood/how-to-write-your-own-virtual-dom-ee74acc13060#.jjrljoldu
  
