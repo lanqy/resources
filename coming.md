@@ -69,6 +69,9 @@
  
 ### Dogfooding my own VDOM, and why it’s been a fun learning experience
  * https://medium.com/destination-code/dogfooding-my-own-vdom-and-why-its-been-a-fun-learning-experience-c23af35d24fa#.2iqcw2o3l
+ 
+### React Components, Elements, and Instances
+ * https://medium.com/@dan_abramov/react-components-elements-and-instances-90800811f8ca#.eo06ms6g6
 
 ### How to write your own Virtual DOM
  * https://medium.com/@deathmood/how-to-write-your-own-virtual-dom-ee74acc13060#.jjrljoldu
