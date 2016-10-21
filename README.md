@@ -14,5 +14,9 @@
 * <a href="https://github.com/lanqy/blog/blob/master/react-redux/a-primer-on-the-react-rcosystem-part1.md">React生态系统入门第一部分（共三个部分）</a>
 * <a href="https://github.com/lanqy/blog/blob/master/react-redux/adding-hot-module-reloading-to-create-react-app.md">给create-react-app创建的项目，加上热加载功能</a>
 
+###JavaScript
+
+* <a href="">JavaScript模块：新手指南</a>
+
 
 
