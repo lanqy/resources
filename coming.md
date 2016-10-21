@@ -97,6 +97,8 @@
  
 ## JavaScript Modules: A Beginner’s Guide
  * https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc#.zd94s9p63
+## JavaScript Modules Part 2: Module Bundling
+ * https://medium.freecodecamp.com/javascript-modules-part-2-module-bundling-5020383cf306#.qrwgbyw10
 
 ## 问题&答案
 
