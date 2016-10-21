@@ -94,6 +94,9 @@
  
 ## Vuejs
  * https://benjaminlistwon.com/blog/data-flow-in-vue-and-vuex/
+ 
+## JavaScript Modules: A Beginner’s Guide
+ * https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc#.zd94s9p63
 
 ## 问题&答案
 
