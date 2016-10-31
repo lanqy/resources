@@ -98,6 +98,9 @@
 ### JavaScript Modules Part 2: Module Bundling
  * https://medium.freecodecamp.com/javascript-modules-part-2-module-bundling-5020383cf306#.qrwgbyw10
 
+### How to be* a compiler — make a compiler with JavaScript
+ * https://medium.com/@kosamari/how-to-be-a-compiler-make-a-compiler-with-javascript-4a8a13d473b4#.ekz67ej65
+
 ## Vuejs
  * https://benjaminlistwon.com/blog/data-flow-in-vue-and-vuex/
 
