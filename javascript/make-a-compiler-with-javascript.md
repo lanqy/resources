@@ -23,10 +23,7 @@ Line 0 50 100 50
 你在中间从左侧到右侧画了一条黑线吗？ 恭喜！ 你刚刚成为一个编译器。
 
 <img src="/images/1-aDJskliFHSIIfYhr8aN3UA.png" />
-编译结果
-{: 
-style="color:gray; font-size: 80%; text-align: center;"
-}
+<p style="color:gray; font-size: 80%; text-align: center;">编译结果</p>
 
 ### 编译器是怎样工作的？
 
