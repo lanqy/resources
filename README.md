@@ -16,7 +16,7 @@
 
 ###JavaScript
 
-* <a href="/make-a-compiler-with-javascript.md">用JavaScript写一个编译器</a>
+* <a href="/javascript/make-a-compiler-with-javascript.md">用JavaScript写一个编译器</a>
 
 
 
