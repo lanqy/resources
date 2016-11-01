@@ -32,4 +32,5 @@ Line 0 50 100 50
 #### 1.词汇分析（标记化）
 
 我们做的第一件事是用空格分隔每个关键字（称为tokens）。 当我们分离单词时，我们还为每个标记分配了原始类型，如“word”或“number”。
+
 <img src="/images/1-lM4hjuI28Dodn-DfnXQu4A.png" />
