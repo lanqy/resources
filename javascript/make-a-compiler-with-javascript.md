@@ -84,3 +84,64 @@ function lexer (code) {
   { type: "word", value: "Paper" }, { type: "number", value: 100 }
 ]
 ```
+
+#### 2.Parser方法
+
+解析器通过每个标记，找到语法信息，并构建一个称为AST（抽象语法树）的对象。 你可以把AST看作我们代码的映射 - 一种理解一段代码结构的方法。
+在我们的代码中，有2种语法类型“NumberLiteral”和“CallExpression”。 NumberLiteral表示该值是一个数字。 它用作CallExpression的参数。
+
+```js
+function parser (tokens) {
+  var AST = {
+    type: 'Drawing',
+    body: []
+  }
+  // extract a token at a time as current_token. Loop until we are out of tokens.
+  while (tokens.length > 0){
+    var current_token = tokens.shift()
+
+    // Since number token does not do anything by it self, we only analyze syntax when we find a word.
+    if (current_token.type === 'word') {
+      switch (current_token.value) {
+        case 'Paper' :
+          var expression = {
+            type: 'CallExpression',
+            name: 'Paper',
+            arguments: []
+          }
+          // if current token is CallExpression of type Paper, next token should be color argument
+          var argument = tokens.shift()
+          if(argument.type === 'number') {
+            expression.arguments.push({  // add argument information to expression object
+              type: 'NumberLiteral',
+              value: argument.value
+            })
+            AST.body.push(expression)    // push the expression object to body of our AST
+          } else {
+            throw 'Paper command must be followed by a number.'
+          }
+          break
+        case 'Pen' :
+          ...
+        case 'Line':
+          ...
+      }
+    }
+  }
+  return AST
+}
+```
+
+```js
+输入: [
+  { type: "word", value: "Paper" }, { type: "number", value: 100 }
+]
+输出: {
+  "type": "Drawing",
+  "body": [{
+    "type": "CallExpression",
+    "name": "Paper",
+    "arguments": [{ "type": "NumberLiteral", "value": "100" }]
+  }]
+}
+```
