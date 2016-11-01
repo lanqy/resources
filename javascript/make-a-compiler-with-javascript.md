@@ -21,5 +21,5 @@ Line 0 50 100 50
 ```
 
 你在中间从左侧到右侧画了一条黑线吗？ 恭喜！ 你刚刚成为一个编译器。
-<img src="images/1-aDJskliFHSIIfYhr8aN3UA.png" />
+<img src="/images/1-aDJskliFHSIIfYhr8aN3UA.png" />
 编译结果
