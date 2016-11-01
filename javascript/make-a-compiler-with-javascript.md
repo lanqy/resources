@@ -23,7 +23,8 @@ Line 0 50 100 50
 你在中间从左侧到右侧画了一条黑线吗？ 恭喜！ 你刚刚成为一个编译器。
 
 <img src="/images/1-aDJskliFHSIIfYhr8aN3UA.png" />
-<p style="text-align:center;font-size:12px;color:#ccc;">编译结果</p>
+编译结果
+{:text-align:center;font-size:12px;color:#ccc;}
 
 ### 编译器是怎样工作的？
 
@@ -32,4 +33,4 @@ Line 0 50 100 50
 #### 1.词汇分析（标记化）
 
 我们做的第一件事是用空格分隔每个关键字（称为tokens）。 当我们分离单词时，我们还为每个标记分配了原始类型，如“word”或“number”。
-
+<img src="/images/1-lM4hjuI28Dodn-DfnXQu4A.png" />
