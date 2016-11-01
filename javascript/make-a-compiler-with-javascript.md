@@ -24,7 +24,7 @@ Line 0 50 100 50
 
 <img src="/images/1-aDJskliFHSIIfYhr8aN3UA.png" />
 编译结果
-{:text-align:center;font-size:12px;color:#ccc;}
+{: style="color:gray; font-size: 80%; text-align: center;"}
 
 ### 编译器是怎样工作的？
 
