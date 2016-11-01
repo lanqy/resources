@@ -64,4 +64,23 @@ Line 0 50 100 50
 
 #### 1.Lexer方法
 
-正如我们可以将英语句子“I have a pen”分割为[I，have，a，pen]，词法分析器将一个代码字符串拆分成小的有意义的块（tokens）。 在DBN中，每个令牌由空格分隔，并分类为“word”或“number”。
+正如我们可以将英语句子“I have a pen”分割为[I，have，a，pen]，词法分析器将一个代码字符串拆分成小的有意义的块（token）。 在DBN中，每个token由空格分隔，并分类为“word”或“number”。
+
+```js
+function lexer (code) {
+  return code.split(/\s+/)
+          .filter(function (t) { return t.length > 0 })
+          .map(function (t) {
+            return isNaN(t)
+                    ? {type: 'word', value: t}
+                    : {type: 'number', value: t}
+          })
+}
+```
+
+```js
+输入: "Paper 100"
+输出:[
+  { type: "word", value: "Paper" }, { type: "number", value: 100 }
+]
+```
