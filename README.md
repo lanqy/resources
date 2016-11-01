@@ -16,7 +16,7 @@
 
 ###JavaScript
 
-* <a href="">JavaScript模块：新手指南</a>
+* <a href="/make-a-compiler-with-javascript.md">用JavaScript写一个编译器</a>
 
 
 
