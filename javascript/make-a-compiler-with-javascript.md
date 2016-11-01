@@ -145,3 +145,78 @@ function parser (tokens) {
   }]
 }
 ```
+
+#### 3. Transformer 方法
+
+我们在前面的步骤中创建的AST很好地描述代码中发生了什么，但是它没有用于创建SVG文件。
+例如。 “纸张”是一个只存在于DBN范例中的概念。 在SVG中，我们可以使用<rect>元素来表示一个Paper。 变换函数将AST转换为另一个支持SVG的AST。
+
+```js
+function transformer (ast) {
+  var svg_ast = {
+    tag : 'svg',
+    attr: {
+      width: 100, height: 100, viewBox: '0 0 100 100',
+      xmlns: 'http://www.w3.org/2000/svg', version: '1.1'
+    },
+    body:[]
+  }
+  
+  var pen_color = 100 // default pen color is black
+
+  // Extract a call expression at a time as `node`. Loop until we are out of expressions in body.
+  while (ast.body.length > 0) {
+    var node = ast.body.shift()
+    switch (node.name) {
+      case 'Paper' :
+        var paper_color = 100 - node.arguments[0].value
+        svg_ast.body.push({ // add rect element information to svg_ast's body
+          tag : 'rect',
+          attr : {
+            x: 0, y: 0,
+            width: 100, height:100,
+            fill: 'rgb(' + paper_color + '%,' + paper_color + '%,' + paper_color + '%)'
+          }
+        })
+        break
+      case 'Pen':
+        pen_color = 100 - node.arguments[0].value // keep current pen color in `pen_color` variable
+        break
+      case 'Line':
+        ...
+    }
+  }
+  return svg_ast
+ }
+```
+
+```js
+输入: {
+  "type": "Drawing",
+  "body": [{
+    "type": "CallExpression",
+    "name": "Paper",
+    "arguments": [{ "type": "NumberLiteral", "value": "100" }]
+  }]
+}
+输出: {
+  "tag": "svg",
+  "attr": {
+    "width": 100,
+    "height": 100,
+    "viewBox": "0 0 100 100",
+    "xmlns": "http://www.w3.org/2000/svg",
+    "version": "1.1"
+  },
+  "body": [{
+    "tag": "rect",
+    "attr": {
+      "x": 0,
+      "y": 0,
+      "width": 100,
+      "height": 100,
+      "fill": "rgb(0%, 0%, 0%)"
+    }
+  }]
+}
+```
