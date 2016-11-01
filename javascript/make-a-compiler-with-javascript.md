@@ -39,5 +39,5 @@ Line 0 50 100 50
 
 一旦一个文本块被分成tokens，我们就经历了每一个文本，并试图找到令牌之间的关系。
 在这种情况下，我们将与command关键字相关联的数字分组在一起。 通过这样做，我们开始看到代码的结构。
-<img src="images/1-Masaunh04PyclWIGhztHmg.png" />
+<img src="/images/1-Masaunh04PyclWIGhztHmg.png" />
 
