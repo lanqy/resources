@@ -2,6 +2,7 @@
 
 在布鲁克林 布什威克的一个美好的星期天，我在本地书店发现了一本John Maeda写的“数字设计”的书，这本书里一步一步的教DBN编程语言--一种90年代末在麻省理工学院媒体实验室诞生的语言，旨在以可视化的方式介绍计算机编程概念。
 <img src="/images/dbn.png" />
+
 DNB 代码示例 来自 http://dbn.media.mit.edu/introduction.html
 
 我迫切地想让SVG来实现DBN并运行它在浏览器在2016年将是一个有趣的项目,而不是安装Java环境执行原始DBN源代码。
