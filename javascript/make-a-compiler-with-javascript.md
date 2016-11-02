@@ -279,6 +279,31 @@ function generator (svg_ast) {
 </svg>
 ```
 
+#### 5.整合所有代码在一起
+
+让我们称这个编译器为“sbn编译器”（SVG由数字编译器）。
+我们使用词法分析器，解析器，变换器和生成器方法创建一个sbn对象。 然后添加一个“编译”方法来调用链中的所有4个方法。
+我们现在可以将代码字符串传递给编译方法并获取SVG。
+
+```js
+var sbn = {}
+sbn.VERSION = '0.0.1'
+sbn.lexer = lexer
+sbn.parser = parser
+sbn.transformer = transformer
+sbn.generator = generator
+
+sbn.compile = function (code) {
+  return this.generator(this.transformer(this.parser(this.lexer(code))))
+}
+
+// call sbn compiler
+var code = 'Paper 0 Pen 100 Line 0 50 100 50'
+var svg = sbn.compile(code)
+document.body.innerHTML = svg
+```
+
+
 未完待续...
 
 link： https://medium.com/@kosamari/how-to-be-a-compiler-make-a-compiler-with-javascript-4a8a13d473b4#.evrubxdub
