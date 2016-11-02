@@ -308,6 +308,23 @@ document.body.innerHTML = svg
 <img src="/images/1-7ADpMcLo1VOnW4-fF2vjDg.png" />
 https://kosamari.github.io/sbn/
 
+### 编译器应不应该使用递归和遍历等？
+
+是的，这些都是精彩的技术来构建一个编译器，但这并不意味着你必须优先采取这种方法。
+我开始为DBN编程语言的一个小子集编译器，一个非常有限的小功能集。 从那时起，我扩展了范围，现在规划添加功能，如变量，代码块和循环到这个编译器。 在这一点上使用这些技术是一个好主意，但这不是开始的要求。
+
+### 写编译器是很棒的一件事
+
+你可以通过自己的编译器做什么？ 也许你可能想在西班牙语中制作新的类似JavaScript的语言...español脚本如何？
+
+```js
+// ES (español script)
+función () {
+  si (verdadero) {
+    return «¡Hola!»
+  }
+}
+```
 未完待续...
 
 link： https://medium.com/@kosamari/how-to-be-a-compiler-make-a-compiler-with-javascript-4a8a13d473b4#.evrubxdub
