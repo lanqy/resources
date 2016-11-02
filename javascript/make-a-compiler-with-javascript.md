@@ -303,6 +303,9 @@ var svg = sbn.compile(code)
 document.body.innerHTML = svg
 ```
 
+我做了一个<a href="https://kosamari.github.io/sbn/">交互式演示</a>，显示此编译器中的每个步骤的结果。 sbn编译器的代码发布在<a href="https://github.com/kosamari/sbn">github</a>上。 我现在在编译器中添加更多的功能。 如果你想看我们在这篇文章中做的基本编译器，请查看<a href="https://github.com/kosamari/sbn/tree/simple">简单的分支</a>。
+
+<img src="/images/1-7ADpMcLo1VOnW4-fF2vjDg.png" />
 
 未完待续...
 
