@@ -100,6 +100,9 @@
 
 ### How to be* a compiler — make a compiler with JavaScript
  * https://medium.com/@kosamari/how-to-be-a-compiler-make-a-compiler-with-javascript-4a8a13d473b4#.ekz67ej65
+ 
+### Create a fully Reactive UI Framework with JavaScript Proxies and Virtual DOM
+ * https://medium.com/@TheStrazz86/create-a-fully-reactive-ui-framework-with-javascript-proxies-and-virtual-dom-c6fb28253776#.2w30fedr8
 
 ## Vuejs
  * https://benjaminlistwon.com/blog/data-flow-in-vue-and-vuex/
