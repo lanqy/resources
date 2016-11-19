@@ -81,8 +81,10 @@
  
 ### JavaScript template engine in just 20 lines
  * http://krasimirtsonev.com/blog/article/Javascript-template-engine-in-just-20-line
+ 
 ### Build Parsers using PEG.js
  * https://medium.com/@cvrajeesh/build-parsers-using-peg-js-161e96102f4d#.vj5cgtj1j
+ 
 ### Intro to PEG.js — writing parsers for custom DSLs
  * https://medium.com/@jbscript/intro-to-peg-js-writing-parsers-for-custom-dsls-28376a081e1b#.uq1ragy4o
 
