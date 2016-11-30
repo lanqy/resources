@@ -108,6 +108,7 @@
 
 ## Vuejs
  * https://benjaminlistwon.com/blog/data-flow-in-vue-and-vuex/
+ * https://medium.com/@paadams/build-a-simple-todo-app-with-vue-js-1778ae175514#.6easl2pjf
 
 ## 问题&答案
 
