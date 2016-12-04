@@ -112,6 +112,9 @@
 
 ## 问题&答案
 
+### RegEx match open tags except XHTML self-contained tags
+ * http://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags
+
 ### Using for loops and switch cases in React to dynamically render different components
  * http://stackoverflow.com/questions/22538638/how-to-have-conditional-elements-and-keep-dry-with-facebook-reacts-jsx
 
