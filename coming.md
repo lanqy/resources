@@ -112,6 +112,9 @@
 
 ## 问题&答案
 
+### Javascript call() & apply() vs bind()?
+ * http://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind
+
 ### RegEx match open tags except XHTML self-contained tags
  * http://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags
 
