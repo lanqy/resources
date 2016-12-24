@@ -108,6 +108,9 @@
 
 ### WTF is JSX
  * https://jasonformat.com/wtf-is-jsx/
+ 
+### How CSS Modules Work (today) 
+ * https://jasonformat.com/how-css-modules-work-today/
 
 ## Vuejs
  * https://benjaminlistwon.com/blog/data-flow-in-vue-and-vuex/
