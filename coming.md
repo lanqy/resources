@@ -115,7 +115,10 @@
 ## Vuejs
  * https://benjaminlistwon.com/blog/data-flow-in-vue-and-vuex/
  * https://medium.com/@paadams/build-a-simple-todo-app-with-vue-js-1778ae175514#.6easl2pjf
- 
+
+### React Native NavigationExperimental in Depth
+ * https://medium.com/react-native-training/react-native-navigationexperimental-in-depth-6910b9b0b990#.gk0dgc5oc
+
 ## React Native NavigationExperimental Part 2 — Implementing Redux
  * https://medium.com/react-native-training/react-native-navigator-experimental-part-2-implementing-redux-c6acbf66eca1#.jm9rrk9kz
 
