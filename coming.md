@@ -119,7 +119,7 @@
 ### React Native NavigationExperimental in Depth
  * https://medium.com/react-native-training/react-native-navigationexperimental-in-depth-6910b9b0b990#.gk0dgc5oc
 
-## React Native NavigationExperimental Part 2 — Implementing Redux
+### React Native NavigationExperimental Part 2 — Implementing Redux
  * https://medium.com/react-native-training/react-native-navigator-experimental-part-2-implementing-redux-c6acbf66eca1#.jm9rrk9kz
 
 ## 问题&答案
