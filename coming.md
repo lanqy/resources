@@ -121,6 +121,9 @@
 
 ### React Native NavigationExperimental Part 2 — Implementing Redux
  * https://medium.com/react-native-training/react-native-navigator-experimental-part-2-implementing-redux-c6acbf66eca1#.jm9rrk9kz
+ 
+### Understanding the Critical Rendering Path
+ * https://bitsofco.de/understanding-the-critical-rendering-path/
 
 ## 问题&答案
 
