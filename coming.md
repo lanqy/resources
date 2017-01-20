@@ -115,6 +115,8 @@
 ## Vuejs
  * https://benjaminlistwon.com/blog/data-flow-in-vue-and-vuex/
  * https://medium.com/@paadams/build-a-simple-todo-app-with-vue-js-1778ae175514#.6easl2pjf
+ * https://medium.com/@bradfmd/vue-js-project-setup-2b39fcc8867d#.zi80v8ibx (Vue.js — Project setup)
+ * https://medium.com/@bradfmd/vue-vuex-getting-started-f78c03d9f65#.n7yc7bwod (Vue + Vuex — Getting started)
 
 ### React Native NavigationExperimental in Depth
  * https://medium.com/react-native-training/react-native-navigationexperimental-in-depth-6910b9b0b990#.gk0dgc5oc
