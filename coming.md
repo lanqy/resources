@@ -130,7 +130,8 @@
 ### 12 Extremely Useful Hacks for JavaScript
  * https://blog.jscrambler.com/12-extremely-useful-hacks-for-javascript/
 
-
+### What is the Execution Context & Stack in JavaScript?
+ * http://davidshariff.com/blog/what-is-the-execution-context-in-javascript/
 ## 问题&答案
 
 ### How can I shuffle an array?
