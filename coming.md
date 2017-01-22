@@ -126,9 +126,15 @@
  
 ### Understanding the Critical Rendering Path
  * https://bitsofco.de/understanding-the-critical-rendering-path/
+ 
+### 12 Extremely Useful Hacks for JavaScript
+ * https://blog.jscrambler.com/12-extremely-useful-hacks-for-javascript/
+
 
 ## 问题&答案
 
+###　How can I shuffle an array?
+ * http://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array
 ### Javascript call() & apply() vs bind()?
  * http://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind
 
