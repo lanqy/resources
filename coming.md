@@ -136,6 +136,9 @@
 ### Preparing for a Front-End Web Development Interview in 2017
  * http://davidshariff.com/blog/preparing-for-a-front-end-web-development-interview-in-2017/
  
+### Critical rendering path
+ * https://varvy.com/pagespeed/critical-render-path.html
+ 
 ## 问题&答案
 
 ### How can I shuffle an array?
