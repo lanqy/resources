@@ -133,7 +133,7 @@
 
 ## 问题&答案
 
-###　How can I shuffle an array?
+### How can I shuffle an array?
  * http://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array
 ### Javascript call() & apply() vs bind()?
  * http://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind
