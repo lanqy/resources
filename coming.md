@@ -139,6 +139,9 @@
 ### Critical rendering path
  * https://varvy.com/pagespeed/critical-render-path.html
  
+### Nesting Your BEM?
+ * http://csswizardry.com/2016/11/nesting-your-bem/
+ 
 ## 问题&答案
 
 ### How can I shuffle an array?
