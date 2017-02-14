@@ -111,6 +111,13 @@
  
 ### How CSS Modules Work (today) 
  * https://jasonformat.com/how-css-modules-work-today/
+ 
+ 
+### JavaScript Start-up Performance
+ * https://medium.com/dev-channel/javascript-start-up-performance-69200f43b201#.yjra1jnvd
+
+### Progressive Web Apps
+* https://developers.google.com/web/progressive-web-apps/
 
 ## Vuejs
  * https://benjaminlistwon.com/blog/data-flow-in-vue-and-vuex/
