@@ -4,6 +4,8 @@
 ### A Primer on the React Ecosystem: Part 2 of 3
  * http://patternhatch.com/2016/08/02/a-primer-on-the-react-ecosystem-part-2-of-3/ 
 
+### React Elements vs React Components
+ * https://tylermcginnis.com/react-elements-vs-react-components/
 
 ### How to Create a Redux-Form with Validation and Initialized Values
  * http://www.davidmeents.com/create-redux-form-validation-initialized-values/ 
