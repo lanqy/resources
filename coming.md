@@ -1,5 +1,7 @@
 ##待翻译列表
 
+### JSX (react) in depth - an interactive tutorial
+ * http://blog.klipse.tech/javascript/2016/12/14/jsx.html
 
 ### A Primer on the React Ecosystem: Part 2 of 3
  * http://patternhatch.com/2016/08/02/a-primer-on-the-react-ecosystem-part-2-of-3/ 
