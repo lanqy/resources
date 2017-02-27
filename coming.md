@@ -161,6 +161,9 @@
  
 ## 问题&答案
 
+### How does __proto__ differ from constructor.prototype?
+ * http://stackoverflow.com/questions/650764/how-does-proto-differ-from-constructor-prototype
+
 ### How can I shuffle an array?
  * http://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array
 ### Javascript call() & apply() vs bind()?
