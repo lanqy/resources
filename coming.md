@@ -161,6 +161,9 @@
  
 ## 问题&答案
 
+### Is JavaScript a pass-by-reference or pass-by-value language?
+ * http://stackoverflow.com/questions/518000/is-javascript-a-pass-by-reference-or-pass-by-value-language
+
 ### How does __proto__ differ from constructor.prototype?
  * http://stackoverflow.com/questions/650764/how-does-proto-differ-from-constructor-prototype
 
