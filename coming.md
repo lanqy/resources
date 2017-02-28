@@ -161,6 +161,9 @@
  
 ## 问题&答案
 
+### What is the difference between an argument and a parameter?
+ * https://www.quora.com/What-is-the-difference-between-an-argument-and-a-parameter
+
 ### What are all the difference between function and constructor function in javascript?
  * http://stackoverflow.com/questions/22401553/what-are-all-the-difference-between-function-and-constructor-function-in-javascr
 
