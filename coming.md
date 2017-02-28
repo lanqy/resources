@@ -161,6 +161,9 @@
  
 ## 问题&答案
 
+### What are all the difference between function and constructor function in javascript?
+ * http://stackoverflow.com/questions/22401553/what-are-all-the-difference-between-function-and-constructor-function-in-javascr
+
 ### Is JavaScript a pass-by-reference or pass-by-value language?
  * http://stackoverflow.com/questions/518000/is-javascript-a-pass-by-reference-or-pass-by-value-language
 
