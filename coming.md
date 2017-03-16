@@ -161,6 +161,9 @@
  
 ## 问题&答案
 
+### When should I use curly braces for ES6 import?
+ * http://stackoverflow.com/questions/36795819/when-should-i-use-curly-braces-for-es6-import/36796281#36796281
+
 ### What is the difference between an argument and a parameter?
  * https://www.quora.com/What-is-the-difference-between-an-argument-and-a-parameter
 
