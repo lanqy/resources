@@ -160,7 +160,7 @@
  * http://csswizardry.com/2016/11/nesting-your-bem/
  
 ## 问题&答案
-
+ * http://stackoverflow.com/questions/34130539/uncaught-error-invariant-violation-element-type-is-invalid-expected-a-string
 ### When should I use curly braces for ES6 import?
  * http://stackoverflow.com/questions/36795819/when-should-i-use-curly-braces-for-es6-import/36796281#36796281
 
