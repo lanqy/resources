@@ -158,6 +158,12 @@
  
 ### Nesting Your BEM?
  * http://csswizardry.com/2016/11/nesting-your-bem/
+
+### How to communicate between ReactJS components
+ * https://www.ctheu.com/2015/02/12/how-to-communicate-between-react-components/
+
+### HOW TO COMMUNICATE BETWEEN COMPONENTS IN REACT
+ * http://revelry.media/tech-talk/2016/5/29/how-to-communicate-between-components-in-react
  
 ## 问题&答案
  * http://stackoverflow.com/questions/34130539/uncaught-error-invariant-violation-element-type-is-invalid-expected-a-string
