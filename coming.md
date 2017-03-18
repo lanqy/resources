@@ -60,6 +60,9 @@
 ### Quick Start Tutorial: React Redux
  * https://medium.com/@firasd/quick-start-tutorial-using-redux-in-react-apps-89b142d6c5c1#.wzoj6zodp
 
+### React on ES6+
+ * https://babeljs.io/blog/2015/06/07/react-on-es6-plus
+
 ### Server side rendering with React and Express
  * https://medium.com/front-end-hacking/server-side-rendering-with-react-and-express-382591bfc77c#.h1qx9ctl8
 
