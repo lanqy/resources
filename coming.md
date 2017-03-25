@@ -1,5 +1,6 @@
 ##待翻译列表
-
+### How I Became a Better Programmer
+ * http://jlongster.com/How-I-Became-Better-Programmer
 ### Components Should Be Focused, Independent, Reusable, Small & Testable (FIRST)
  * https://addyosmani.com/first/
 
