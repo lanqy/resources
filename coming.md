@@ -1,5 +1,8 @@
 ##待翻译列表
 
+### Components Should Be Focused, Independent, Reusable, Small & Testable (FIRST)
+ * https://addyosmani.com/first/
+
 ### React’s JSX vs Vue’s templates: a showdown on the front end
  * https://medium.freecodecamp.com/reacts-jsx-vs-vue-s-templates-a-showdown-on-the-front-end-b00a70470409#.s6g41xu6j
 
