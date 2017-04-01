@@ -1,4 +1,11 @@
 ##待翻译列表
+
+### Writing a JavaScript Framework - Project Structuring
+ * https://blog.risingstack.com/writing-a-javascript-framework-project-structuring/
+ 
+### Node Hero - Getting Started With Node.js Tutorial
+ * https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/
+
 ### Ohm: JavaScript Parser that Creates a Language in 200 Lines of Code
  * https://www.pubnub.com/blog/2016-08-30-javascript-parser-ohm-makes-creating-a-programming-language-easy/
 
