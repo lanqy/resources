@@ -1,4 +1,7 @@
 ##待翻译列表
+### Ohm: JavaScript Parser that Creates a Language in 200 Lines of Code
+ * https://www.pubnub.com/blog/2016-08-30-javascript-parser-ohm-makes-creating-a-programming-language-easy/
+
 ### How I Became a Better Programmer
  * http://jlongster.com/How-I-Became-Better-Programmer
 ### Components Should Be Focused, Independent, Reusable, Small & Testable (FIRST)
