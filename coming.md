@@ -6,6 +6,9 @@
 ### Node Hero - Getting Started With Node.js Tutorial
  * https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/
 
+### Writing your styles in JS ≠ writing inline styles
+ * http://mxstbr.blog/2016/11/inline-styles-vs-css-in-js/
+
 ### Ohm: JavaScript Parser that Creates a Language in 200 Lines of Code
  * https://www.pubnub.com/blog/2016-08-30-javascript-parser-ohm-makes-creating-a-programming-language-easy/
 
