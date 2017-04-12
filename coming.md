@@ -1,4 +1,7 @@
-##待翻译列表
+## 待翻译列表
+
+### Javascript – How Prototypal Inheritance really works
+ * http://blog.vjeux.com/2011/javascript/how-prototypal-inheritance-really-works.html
 
 ### Rollup.js Tutorial, Part 1: How to Set Up Smaller, More Efficient JavaScript Bundling Using Rollup
  * https://code.lengstorf.com/learn-rollup-js/
