@@ -1,5 +1,8 @@
 ## 待翻译列表
 
+### Build Parsers using PEG.js
+ * http://rajeeshcv.com/2015/10/13/Build-Parsers-using-PEG-js/
+
 ### Javascript – How Prototypal Inheritance really works
  * http://blog.vjeux.com/2011/javascript/how-prototypal-inheritance-really-works.html
 
