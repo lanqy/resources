@@ -1,5 +1,8 @@
 ## 待翻译列表
 
+### JavaScript: Passing by Value or by Reference
+ * https://snook.ca/archives/javascript/javascript_pass
+
 ### Build Parsers using PEG.js
  * http://rajeeshcv.com/2015/10/13/Build-Parsers-using-PEG-js/
 
@@ -201,6 +204,10 @@
  * http://revelry.media/tech-talk/2016/5/29/how-to-communicate-between-components-in-react
  
 ## 问题&答案
+
+### Javascript by reference vs. by value [duplicate]
+ * http://stackoverflow.com/questions/6605640/javascript-by-reference-vs-by-value
+
  * http://stackoverflow.com/questions/34130539/uncaught-error-invariant-violation-element-type-is-invalid-expected-a-string
 ### When should I use curly braces for ES6 import?
  * http://stackoverflow.com/questions/36795819/when-should-i-use-curly-braces-for-es6-import/36796281#36796281
