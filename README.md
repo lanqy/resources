@@ -18,5 +18,7 @@
 
 * <a href="/javascript/make-a-compiler-with-javascript.md">用JavaScript写一个编译器</a>
 
+* http://bosn.me/js/js-call-by-sharing/ （JS是按值传递还是按引用传递?）
+
 
 
