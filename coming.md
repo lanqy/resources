@@ -1,5 +1,7 @@
 ## 待翻译列表
 
+### Build Yourself a Redux
+ * https://zapier.com/engineering/how-to-build-redux/
 ### How to build a math expression tokenizer using JavaScript (or any other language)
  * https://medium.freecodecamp.com/how-to-build-a-math-expression-tokenizer-using-javascript-3638d4e5fbe9
 
