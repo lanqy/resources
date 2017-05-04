@@ -1,5 +1,8 @@
 ## 待翻译列表
 
+### Six Things You Might Not Know About Promises
+ * https://www.sitepoint.com/six-things-might-know-promises/
+
 ### Build Yourself a Redux
  * https://zapier.com/engineering/how-to-build-redux/
 ### How to build a math expression tokenizer using JavaScript (or any other language)
