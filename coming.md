@@ -1,4 +1,6 @@
 ## 待翻译列表
+### 8 no-Flux strategies for React component communication
+ * http://andrewhfarmer.com/component-communication/
 
 ### Stop using CSS in JavaScript for web development
  * https://hackernoon.com/stop-using-css-in-javascript-for-web-development-fa32fb873dcc
