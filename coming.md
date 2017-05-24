@@ -1,5 +1,8 @@
 ## 待翻译列表
 
+### Use Any Javascript Library With Vue.js
+ * http://vuejsdevelopers.com/2017/04/22/vue-js-libraries-plugins/
+
 ### Dynamic Styles With Vue.js
  * https://alligator.io/vuejs/dynamic-styles/
  
