@@ -1,5 +1,8 @@
 ## 待翻译列表
 
+### vuejs 2.0实现登录验证系统
+ * http://qiita.com/takatama/items/05e9fbc7199cde4caf60
+
 ### Use Any Javascript Library With Vue.js
  * http://vuejsdevelopers.com/2017/04/22/vue-js-libraries-plugins/
 
