@@ -1,5 +1,8 @@
 ## 待翻译列表
 
+### NODE.JS SCRAPING LIBRARIES
+ * https://blog.webkid.io/nodejs-scraping-libraries/
+
 ### vuejs 2.0实现登录验证系统
  * http://qiita.com/takatama/items/05e9fbc7199cde4caf60
 
