@@ -1,5 +1,8 @@
 ## 待翻译列表
 
+### Setup simple website using Node.js, Express, Nunjucks, Gulp & Nodemon
+ * https://idyllic.co/blog/setup-simple-website-using-nodejs-express-nunjucks-gulp-nodemon/
+
 ### A Visual Guide to CSS3 Flexbox Properties
  * http://coliss.com/articles/build-websites/operation/css/css3-flexbox-properties-by-scotch.html
  * https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties
