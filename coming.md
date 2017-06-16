@@ -1,5 +1,8 @@
 ## 待翻译列表
 
+### JavaScript's new #private class fields
+ * http://thejameskyle.com/javascripts-new-private-class-fields.html
+
 ### Getting started with PreactJS — A Step By Step Guide
  * https://blog.codeinfuse.com/getting-started-with-preactjs-a-step-by-step-guide-f3197f871753
 
