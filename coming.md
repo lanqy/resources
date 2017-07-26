@@ -1,5 +1,8 @@
 ## 待翻译列表
 
+### It’s easy!Setting up React and Webpack
+ * https://medium.com/@taras.batenkov/its-easy-setting-up-react-and-webpack-eb9ecaef5094
+
 ### React Ecosystem Setup — Step-By-Step Walkthrough – codeburst
  * https://react.jsnews.io/reactjs-ecosystem-setupstep-by-step-walkthrough/
  
