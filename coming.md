@@ -1,5 +1,8 @@
 ## 待翻译列表
 
+### Understanding Navigation In React Native
+ * https://www.codementor.io/blessingoraz/understanding-navigation-in-react-native-a3wlcxmzu
+
 ### It’s easy!Setting up React and Webpack
  * https://medium.com/@taras.batenkov/its-easy-setting-up-react-and-webpack-eb9ecaef5094
 
