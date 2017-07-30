@@ -1,5 +1,8 @@
 ## 待翻译列表
 
+### Oauth 2 with React Native
+ * https://medium.com/@jtremback/oauth-2-with-react-native-c3c7c64cbb6d
+
 ### Understanding Navigation In React Native
  * https://www.codementor.io/blessingoraz/understanding-navigation-in-react-native-a3wlcxmzu
 
