@@ -1,5 +1,8 @@
 ## 待翻译列表
-
+ 
+### Getting Started with React Native Development on Windows
+ * https://shift.infinite.red/getting-started-with-react-native-development-on-windows-90d85a72ae65
+ 
 ### Oauth 2 with React Native
  * https://medium.com/@jtremback/oauth-2-with-react-native-c3c7c64cbb6d
 
