@@ -1,4 +1,7 @@
 ## 待翻译列表
+
+### CSS: Specificity Wars
+ * https://stuffandnonsense.co.uk/archives/css_specificity_wars.html
  
 ### Getting Started with React Native Development on Windows
  * https://shift.infinite.red/getting-started-with-react-native-development-on-windows-90d85a72ae65
