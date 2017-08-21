@@ -1,5 +1,8 @@
 ## 待翻译列表
 
+### State Management in Vue: Getting Started with Vuex
+ * https://scotch.io/tutorials/state-management-in-vue-getting-started-with-vue
+
 ### CSS: Specificity Wars
  * https://stuffandnonsense.co.uk/archives/css_specificity_wars.html
  
