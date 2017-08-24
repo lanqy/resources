@@ -21,4 +21,9 @@
 * http://bosn.me/js/js-call-by-sharing/ （JS是按值传递还是按引用传递?）
 
 
+## Other
+
+* https://stackoverflow.com/questions/3102819/disable-same-origin-policy-in-chrome 让谷歌浏览器支持跨域
+
+
 
