@@ -1,5 +1,8 @@
 ## 待翻译列表
 
+### Top JavaScript Frameworks & Topics to Learn in 2017
+ * https://medium.com/javascript-scene/top-javascript-frameworks-topics-to-learn-in-2017-700a397b711
+
 ### State Management in Vue: Getting Started with Vuex
  * https://scotch.io/tutorials/state-management-in-vue-getting-started-with-vue
 
