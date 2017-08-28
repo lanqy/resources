@@ -1,5 +1,8 @@
 ## 待翻译列表
 
+### Using SASS/SCSS in Vue.js 2
+ * https://medium.com/@mahesh.ks/using-sass-scss-in-vue-js-2-d472af0facf9
+
 ### Top JavaScript Frameworks & Topics to Learn in 2017
  * https://medium.com/javascript-scene/top-javascript-frameworks-topics-to-learn-in-2017-700a397b711
 
