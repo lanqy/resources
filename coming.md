@@ -1,5 +1,8 @@
 ## 待翻译列表
 
+### Vue.js Tutorial: A Prerendered, SEO-Friendly Example
+ * https://dev.to/maxlaboisson/vuejs-tutorial-a-prerendered-seo-friendly-example-live-demo
+
 ### Using SASS/SCSS in Vue.js 2
  * https://medium.com/@mahesh.ks/using-sass-scss-in-vue-js-2-d472af0facf9
 
