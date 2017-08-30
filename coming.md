@@ -1,5 +1,8 @@
 ## 待翻译列表
 
+### Node.js & WebSocket — Simple chat tutorial
+ * https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61
+
 ### Vue.js Tutorial: A Prerendered, SEO-Friendly Example
  * https://dev.to/maxlaboisson/vuejs-tutorial-a-prerendered-seo-friendly-example-live-demo
 
