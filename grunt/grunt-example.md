@@ -12,7 +12,7 @@
     "grunt-contrib-concat": "^1.0.0",
     "grunt-contrib-cssmin": "^0.12.3",
     "grunt-contrib-imagemin": "^1.0.0",
-    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-jshint": "^0.12.0",
     "grunt-contrib-nodeunit": "~0.4.1",
     "grunt-contrib-uglify": "^0.5.1"
   }
