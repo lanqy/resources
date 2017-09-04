@@ -1,5 +1,8 @@
 ## 待翻译列表
 
+### Handling server side rendering and SEO with nuxt.js
+ * https://medium.com/@devlob/handling-server-side-rendering-and-seo-with-nuxt-js-fa8a2b0ae2ee
+
 ### Node.js & WebSocket — Simple chat tutorial
  * https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61
 
