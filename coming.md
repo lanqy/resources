@@ -1,5 +1,12 @@
 ## 待翻译列表
 
+### Typesafe JavaScript Chaining with OCaml and BuckleScript
+ * https://medium.com/dailyjs/typesafe-javascript-chaining-with-ocaml-and-bucklescript-ff489fe287c2
+
+### How to build #disruptive OCaml #microservices with BuckleScript
+ * https://medium.com/dailyjs/how-to-build-disruptive-ocaml-microservices-with-bucklescript-8c2f774f67cd
+
+
 ### Handling server side rendering and SEO with nuxt.js
  * https://medium.com/@devlob/handling-server-side-rendering-and-seo-with-nuxt-js-fa8a2b0ae2ee
 
