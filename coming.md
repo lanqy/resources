@@ -1,5 +1,8 @@
 ## 待翻译列表
 
+### Scope/order of evaluation of nested `let .. in ..` in OCaml
+ * https://stackoverflow.com/questions/10182677/scope-order-of-evaluation-of-nested-let-in-in-ocaml
+
 ### Typesafe JavaScript Chaining with OCaml and BuckleScript
  * https://medium.com/dailyjs/typesafe-javascript-chaining-with-ocaml-and-bucklescript-ff489fe287c2
 
