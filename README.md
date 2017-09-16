@@ -20,6 +20,8 @@
 
 * http://bosn.me/js/js-call-by-sharing/ （JS是按值传递还是按引用传递?）
 
+## OCaml
+* <a href="http://xahlee.info/ocaml/ocaml_basics.html">OCaml Tutorial by Example</a>
 
 ## Other
 
