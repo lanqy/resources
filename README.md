@@ -22,9 +22,7 @@
 
 ## OCaml
 * <a href="http://xahlee.info/ocaml/ocaml_basics.html">OCaml Tutorial by Example</a>
-* https://stackoverflow.com/questions/1604270/what-is-the-difference-between-the-fun-and-function-keywords ( What is the difference between the `fun` and `function` keywords?
-
- )
+* https://stackoverflow.com/questions/1604270/what-is-the-difference-between-the-fun-and-function-keywords ( What is the difference between the `fun` and `function` keywords? )
 
 ## Other
 
