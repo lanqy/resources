@@ -21,10 +21,16 @@
 * http://bosn.me/js/js-call-by-sharing/ （JS是按值传递还是按引用传递?）
 
 ## OCaml
+
 * <a href="http://xahlee.info/ocaml/ocaml_basics.html">OCaml Tutorial by Example</a>
+
 * https://stackoverflow.com/questions/1604270/what-is-the-difference-between-the-fun-and-function-keywords ( What is the difference between the `fun` and `function` keywords? )
+
 * https://stackoverflow.com/questions/2347240/what-does-and-mean-in-ocaml ( What does :: and ' mean in oCaml? )
+
 * https://stackoverflow.com/questions/1412668/does-have-meaning-in-ocaml ( Does != have meaning in OCaml? )
+
+* https://stackoverflow.com/questions/30493644/ocaml-operator ( OCaml |> operator )
 
 ## Other
 
