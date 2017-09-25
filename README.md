@@ -34,6 +34,9 @@
 
 * https://stackoverflow.com/questions/30493644/ocaml-operator ( OCaml |> operator )
 
+## F#
+ * https://blogs.endjin.com/2013/05/a-step-by-step-guide-to-installing-an-f-repl-environment-on-windows/ (A step by step guide to installing an F# REPL environment on Windows )
+
 ## Other
 
 * https://stackoverflow.com/questions/3102819/disable-same-origin-policy-in-chrome 让谷歌浏览器支持跨域
