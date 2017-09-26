@@ -22,6 +22,8 @@
 
 ## OCaml
 
+* http://blog.shaynefletcher.org/2013/12/pipelining-with-operator-in-ocaml.html ( Pipelining with the |> operator in OCaml )
+
 * https://nicolaspouillard.fr/ocamlbuild/ocamlbuild-user-guide.html 
 
 * <a href="http://xahlee.info/ocaml/ocaml_basics.html">OCaml Tutorial by Example</a>
