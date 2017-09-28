@@ -1,4 +1,8 @@
 ## 待翻译列表
+
+### How Virtual-DOM and diffing works in React
+ * https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e
+
 ### Easily Build Forms in React Native
  * https://medium.com/react-native-development/easily-build-forms-in-react-native-9006fcd2a73b
 
