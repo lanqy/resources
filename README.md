@@ -26,6 +26,8 @@
 
 ## OCaml
 
+* https://medium.com/@argent_smith/beginners-ocaml-setup-on-mac-fc206747b1ab ( Beginner’s OCaml setup on Mac )
+
 * https://courses.engr.illinois.edu/cs421/fa2014/
 
 * https://wwwdgeinew.insa-toulouse.fr/~lebotlan/Y/ocaml.html
