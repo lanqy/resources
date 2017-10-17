@@ -26,6 +26,10 @@
 
 ## OCaml
 
+* http://www.cs.cornell.edu/courses/cs3110/2017fa/
+
+* http://www.cs.cornell.edu/courses/cs3110/2014sp/lecture_notes.php
+
 * https://people.mpi-sws.org/~rossberg/sml-vs-ocaml.html ( Standard ML and Objective Caml, Side by Side )
 
 * http://adam.chlipala.net/mlcomp/ ( Comparing Objective Caml and Standard ML )
