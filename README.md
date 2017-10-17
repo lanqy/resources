@@ -25,6 +25,11 @@
 * https://jaredforsyth.com/2017/07/05/a-reason-react-tutorial/ （ A ReasonReact Tutorial ）
 
 ## OCaml
+
+* https://people.mpi-sws.org/~rossberg/sml-vs-ocaml.html ( Standard ML and Objective Caml, Side by Side )
+
+* http://adam.chlipala.net/mlcomp/ ( Comparing Objective Caml and Standard ML )
+
 * http://rigaux.org/language-study/syntax-across-languages-per-language/OCaml.html ( syntax in OCaml )
 
 * https://medium.com/@argent_smith/beginners-ocaml-setup-on-mac-fc206747b1ab ( Beginner’s OCaml setup on Mac )
