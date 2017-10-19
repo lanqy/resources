@@ -1,5 +1,8 @@
 ## 待翻译列表
 
+### JavaScript Call-back Functions, Promises and Async/Await
+ * https://www.codementor.io/theresamostert/javascript-call-back-functions-promises-and-async-await-cvhdop4fo
+
 ### How Virtual-DOM and diffing works in React
  * https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e
 
