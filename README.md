@@ -26,6 +26,8 @@
 
 ## OCaml
 
+* http://okmij.org/ftp/ML/
+
 * http://www.cs.cornell.edu/courses/cs3110/2017fa/
 
 * http://www.cs.cornell.edu/courses/cs3110/2014sp/lecture_notes.php
