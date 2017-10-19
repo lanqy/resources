@@ -26,6 +26,8 @@
 
 ## OCaml
 
+* http://www.ii.uni.wroc.pl/~lukstafi/pmwiki/index.php?n=Functional.Functional ( Functional )
+
 * https://caml.inria.fr/pub/docs/oreilly-book/html/index.html ( Developing Applications With OCaml )
 
 * http://okmij.org/ftp/ML/
