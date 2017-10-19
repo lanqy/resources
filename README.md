@@ -26,6 +26,8 @@
 
 ## OCaml
 
+* https://caml.inria.fr/pub/docs/oreilly-book/html/index.html ( Developing Applications With OCaml )
+
 * http://okmij.org/ftp/ML/
 
 * http://www.cs.cornell.edu/courses/cs3110/2017fa/
