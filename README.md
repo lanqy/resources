@@ -26,6 +26,10 @@
 
 ## OCaml
 
+* https://ocaml.github.io/ocamlunix/index.html ( Unix system programming in OCaml )
+
+* http://pauillac.inria.fr/~remy/cours/appsem/ ( Using, Understanding, and Unraveling The OCaml Language From Practice to Theory and vice versa )
+
 * http://www.ii.uni.wroc.pl/~lukstafi/pmwiki/index.php?n=Functional.Functional ( Functional )
 
 * https://caml.inria.fr/pub/docs/oreilly-book/html/index.html ( Developing Applications With OCaml )
