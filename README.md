@@ -26,6 +26,8 @@
 
 ## OCaml
 
+* http://simongrondin.name/?p=330 ( An overview of OCaml )
+
 * https://ocaml.github.io/ocamlunix/index.html ( Unix system programming in OCaml )
 
 * http://pauillac.inria.fr/~remy/cours/appsem/ ( Using, Understanding, and Unraveling The OCaml Language From Practice to Theory and vice versa )
