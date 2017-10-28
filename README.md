@@ -26,6 +26,8 @@
 
 ## OCaml
 
+* http://lambdafoo.com/blog/2015/05/15/unreliable-guide-to-ocaml-modules/ ( Unreliable Guide to OCaml Modules )
+
 * http://cseweb.ucsd.edu/classes/sp00/cse231/tutorialeng/index.html
 
 * http://www.cs.princeton.edu/~dpw/courses/cos326-12/lectures.php ( COS 326 Functional Programming )
