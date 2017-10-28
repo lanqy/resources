@@ -26,6 +26,8 @@
 
 ## OCaml
 
+* http://www.cs.princeton.edu/~dpw/courses/cos326-12/lectures.php ( COS 326 Functional Programming )
+
 * http://simongrondin.name/?p=330 ( An overview of OCaml )
 
 * https://ocaml.github.io/ocamlunix/index.html ( Unix system programming in OCaml )
