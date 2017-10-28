@@ -26,6 +26,8 @@
 
 ## OCaml
 
+* https://cs.wellesley.edu/~cs251/spring07/index.html ( CS251: Programming Languages )
+
 * http://lambdafoo.com/blog/2015/05/15/unreliable-guide-to-ocaml-modules/ ( Unreliable Guide to OCaml Modules )
 
 * http://cseweb.ucsd.edu/classes/sp00/cse231/tutorialeng/index.html
