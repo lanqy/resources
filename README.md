@@ -26,6 +26,8 @@
 
 ## OCaml
 
+* https://www.ocamlpro.com/files/expose_gregoire_ty.pdf
+
 * https://stackoverflow.com/questions/31208578/type-constructor-aliases-without-polluting-a-module-in-ocaml ( Type constructor aliases without “polluting” a module in OCaml )
 
 * https://stackoverflow.com/questions/36974203/ocaml-syntax-what-does-type-a-t-mean ( OCaml syntax: what does type 'a t mean? )
