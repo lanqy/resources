@@ -26,6 +26,8 @@
 
 ## OCaml
 
+* http://www.cs.cornell.edu/courses/cs3110/2015sp/schedule.php ( Data Structures and Functional Programming )
+
 * http://www2.lib.uchicago.edu/keith/ocaml-class/home.html ( OCaml for the Skeptical )
 
 * https://www.ocamlpro.com/files/expose_gregoire_ty.pdf
