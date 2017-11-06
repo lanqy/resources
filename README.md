@@ -21,7 +21,8 @@
 * http://bosn.me/js/js-call-by-sharing/ （JS是按值传递还是按引用传递?）
 
 ## Reason
-
+* https://jamesfriend.com.au/routing-in-reason-react ( Routing in Reason React )
+* https://jamesfriend.com.au/a-first-reason-react-app-for-js-developers ( A First Reason React app for Javascript developers )
 * https://jaredforsyth.com/2017/07/05/a-reason-react-tutorial/ （ A ReasonReact Tutorial ）
 
 ## OCaml
