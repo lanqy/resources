@@ -27,6 +27,8 @@
 
 ## OCaml
 
+* http://www.cs.cornell.edu/courses/cs3110/2011sp/ ( CS3110 Spring 11 : Data Structures and Functional Programming )
+
 * http://www.cs.cornell.edu/courses/cs3110/2013fa/handouts/style.html ( OCaml Style Guide )
 
 * http://www.cs.cornell.edu/courses/cs3110/2015sp/schedule.php ( Data Structures and Functional Programming )
