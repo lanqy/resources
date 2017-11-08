@@ -27,6 +27,8 @@
 
 ## OCaml
 
+* http://www.cs.cornell.edu/courses/cs3110/2013fa/handouts/style.html ( OCaml Style Guide )
+
 * http://www.cs.cornell.edu/courses/cs3110/2015sp/schedule.php ( Data Structures and Functional Programming )
 
 * http://www2.lib.uchicago.edu/keith/ocaml-class/home.html ( OCaml for the Skeptical )
