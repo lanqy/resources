@@ -27,6 +27,8 @@
 
 ## OCaml
 
+* http://caml.inria.fr/pub/docs/u3-ocaml/index.html ( Using, Understanding, and Unraveling The OCaml Language From Practice to Theory and vice versa )
+
 * http://www.cs.cornell.edu/courses/cs3110/2011sp/ ( CS3110 Spring 11 : Data Structures and Functional Programming )
 
 * http://www.cs.cornell.edu/courses/cs3110/2013fa/handouts/style.html ( OCaml Style Guide )
