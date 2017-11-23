@@ -29,6 +29,8 @@
 
 ## OCaml
 
+* https://haifengl.wordpress.com/2014/06/17/ocaml-introduction/ ( Functional Programming with OCaml )
+
 * http://cseweb.ucsd.edu/classes/fa16/cse130-a/lectures.html 
 
 * http://caml.inria.fr/pub/docs/u3-ocaml/index.html ( Using, Understanding, and Unraveling The OCaml Language From Practice to Theory and vice versa )
