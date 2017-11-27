@@ -29,6 +29,8 @@
 
 ## OCaml
 
+* http://www.cs.cornell.edu/courses/cs3110/2016fa/ ( Data Structures and Functional Programming )
+
 * https://haifengl.wordpress.com/2014/06/17/ocaml-introduction/ ( Functional Programming with OCaml )
 
 * http://cseweb.ucsd.edu/classes/fa16/cse130-a/lectures.html 
