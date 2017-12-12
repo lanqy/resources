@@ -28,6 +28,7 @@
 * https://jaredforsyth.com/2017/07/05/a-reason-react-tutorial/ （ A ReasonReact Tutorial ）
 * https://medium.com/oke-software-poland/reasonml-marvel-tutorial-part-0-e38e1bfe1866 ( ReasonML Marvel Tutorial — part 0 )
 * https://medium.com/@RRafatpanah/a-journey-to-reason-c408a87a54de ( A Journey to Reason )
+* https://medium.com/@kasperpeulen/10-features-from-various-modern-languages-that-i-would-like-to-see-in-any-programming-language-f2a4a8ee6727 
 
 ## OCaml
 
