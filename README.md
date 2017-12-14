@@ -32,6 +32,8 @@
 
 ## OCaml
 
+* https://medium.com/@bobbypriambodo/getting-your-feet-wet-with-ocaml-ea1045b6efbc ( Getting your feet wet with OCaml )
+
 * https://medium.com/@aleksandrasays/tutorial-parsing-json-with-ocaml-579cc054924f ( Tutorial: parsing JSON with OCaml )
 
 * http://www.cs.cornell.edu/courses/cs3110/2016fa/ ( Data Structures and Functional Programming )
