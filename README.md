@@ -23,6 +23,7 @@
 * https://blog.oyanglul.us/javascript/functional-javascript.html ( Functional JavaScript Mini Book )
 
 ## Reason
+* https://blog.hackages.io/reasonml-ppx-8ecd663d5640 ( ReasonML PPX )
 * https://jamesfriend.com.au/routing-in-reason-react ( Routing in Reason React )
 * https://jamesfriend.com.au/a-first-reason-react-app-for-js-developers ( A First Reason React app for Javascript developers )
 * https://jaredforsyth.com/2017/07/05/a-reason-react-tutorial/ （ A ReasonReact Tutorial ）
