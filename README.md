@@ -32,6 +32,8 @@
 
 ## OCaml
 
+* https://medium.com/@aleksandrasays/tutorial-parsing-json-with-ocaml-579cc054924f ( Tutorial: parsing JSON with OCaml )
+
 * http://www.cs.cornell.edu/courses/cs3110/2016fa/ ( Data Structures and Functional Programming )
 
 * https://haifengl.wordpress.com/2014/06/17/ocaml-introduction/ ( Functional Programming with OCaml )
