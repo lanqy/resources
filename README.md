@@ -33,6 +33,8 @@
 
 ## OCaml
 
+* http://www.lexifi.com/blog/syntax-extensions-without-camlp4-lets-do-it ( Syntax extensions without Camlp4: let's do it! )
+
 * https://whitequark.org/blog/2014/04/16/a-guide-to-extension-points-in-ocaml/ ( A Guide to Extension Points in OCaml )
 
 * https://medium.com/@bobbypriambodo/getting-your-feet-wet-with-ocaml-ea1045b6efbc ( Getting your feet wet with OCaml )
