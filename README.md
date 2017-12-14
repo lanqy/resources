@@ -33,6 +33,8 @@
 
 ## OCaml
 
+* https://whitequark.org/blog/2014/04/16/a-guide-to-extension-points-in-ocaml/ ( A Guide to Extension Points in OCaml )
+
 * https://medium.com/@bobbypriambodo/getting-your-feet-wet-with-ocaml-ea1045b6efbc ( Getting your feet wet with OCaml )
 
 * https://medium.com/@aleksandrasays/tutorial-parsing-json-with-ocaml-579cc054924f ( Tutorial: parsing JSON with OCaml )
