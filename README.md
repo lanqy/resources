@@ -37,6 +37,8 @@
 
 ## OCaml
 
+* https://stackoverflow.com/questions/9997822/ocaml-module-include-and-open ( OCaml Module : include AND open? )
+
 * https://stackoverflow.com/questions/42631912/whats-the-difference-between-include-require-and-open-in-ocaml ( What's the difference between include, require and open in OCaml? )
 
 * http://hyegar.com/tags/ocaml/
