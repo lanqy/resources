@@ -37,6 +37,8 @@
 
 ## OCaml
 
+* https://stackoverflow.com/questions/42631912/whats-the-difference-between-include-require-and-open-in-ocaml ( What's the difference between include, require and open in OCaml? )
+
 * http://hyegar.com/tags/ocaml/
 
 * http://www.lexifi.com/blog/syntax-extensions-without-camlp4-lets-do-it ( Syntax extensions without Camlp4: let's do it! )
