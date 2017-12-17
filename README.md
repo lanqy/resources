@@ -37,6 +37,8 @@
 
 ## OCaml
 
+* http://lambdafoo.com/blog/2015/05/15/unreliable-guide-to-ocaml-modules/ ( Unreliable Guide to OCaml Modules )
+
 * https://stackoverflow.com/questions/9997822/ocaml-module-include-and-open ( OCaml Module : include AND open? )
 
 * https://stackoverflow.com/questions/42631912/whats-the-difference-between-include-require-and-open-in-ocaml ( What's the difference between include, require and open in OCaml? )
