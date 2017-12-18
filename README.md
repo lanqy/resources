@@ -27,15 +27,25 @@
 * https://blog.oyanglul.us/javascript/functional-javascript.html ( Functional JavaScript Mini Book )
 
 ## Reason
+* https://blog.softwaremill.com/frontend-in-reasonml-and-react-3cc86ad6f4e3 ( Frontend in ReasonML and React )
+
 * https://blog.hackages.io/reasonml-ppx-8ecd663d5640 ( ReasonML PPX )
+
 * https://jamesfriend.com.au/routing-in-reason-react ( Routing in Reason React )
+
 * https://jamesfriend.com.au/a-first-reason-react-app-for-js-developers ( A First Reason React app for Javascript developers )
+
 * https://jaredforsyth.com/2017/07/05/a-reason-react-tutorial/ （ A ReasonReact Tutorial ）
+
 * https://medium.com/oke-software-poland/reasonml-marvel-tutorial-part-0-e38e1bfe1866 ( ReasonML Marvel Tutorial — part 0 )
+
 * https://medium.com/@RRafatpanah/a-journey-to-reason-c408a87a54de ( A Journey to Reason )
+
 * https://medium.com/@kasperpeulen/10-features-from-various-modern-languages-that-i-would-like-to-see-in-any-programming-language-f2a4a8ee6727 
 
+
 ## OCaml
+
 
 * http://lambdafoo.com/blog/2015/05/15/unreliable-guide-to-ocaml-modules/ ( Unreliable Guide to OCaml Modules )
 
