@@ -27,6 +27,9 @@
 * https://blog.oyanglul.us/javascript/functional-javascript.html ( Functional JavaScript Mini Book )
 
 ## Reason
+
+* https://hyegar.com/2016-03-07-dga-padcrypt-reason/ ( A Domain Generating Algorithm in ReasonML )
+
 * https://blog.softwaremill.com/frontend-in-reasonml-and-react-3cc86ad6f4e3 ( Frontend in ReasonML and React )
 
 * https://blog.hackages.io/reasonml-ppx-8ecd663d5640 ( ReasonML PPX )
