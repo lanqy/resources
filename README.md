@@ -49,6 +49,7 @@
 
 ## OCaml
 
+* http://mads-hartmann.com/ocaml/2015/01/05/gadt-ocaml.html ( Detecting use-cases for GADTs in OCaml )
 
 * http://lambdafoo.com/blog/2015/05/15/unreliable-guide-to-ocaml-modules/ ( Unreliable Guide to OCaml Modules )
 
