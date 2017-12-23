@@ -49,6 +49,10 @@
 
 ## OCaml
 
+* https://medium.com/dailyjs/how-to-build-disruptive-ocaml-microservices-with-bucklescript-8c2f774f67cd ( How to build #disruptive OCaml #microservices with BuckleScript )
+
+* https://medium.com/dailyjs/typesafe-javascript-chaining-with-ocaml-and-bucklescript-ff489fe287c2 ( Typesafe JavaScript Chaining with OCaml and BuckleScript )
+
 * http://mads-hartmann.com/ocaml/2015/01/05/gadt-ocaml.html ( Detecting use-cases for GADTs in OCaml )
 
 * http://lambdafoo.com/blog/2015/05/15/unreliable-guide-to-ocaml-modules/ ( Unreliable Guide to OCaml Modules )
