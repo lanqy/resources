@@ -50,6 +50,8 @@
 
 ## OCaml
 
+* https://www.reddit.com/r/ocaml/comments/3qmapa/operator/  ( @@ operator )
+
 * https://stackoverflow.com/questions/9913611/is-begin-end-in-ocaml-syntactic-sugar ( is begin..end in OCaml syntactic sugar? )
 
 * https://stackoverflow.com/questions/20182290/ocaml-functors-how-to-use ( OCaml - functors - how to use? ) 
