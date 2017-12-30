@@ -50,6 +50,8 @@
 
 ## OCaml
 
+* https://caml.inria.fr/pub/papers/
+
 * https://www.lri.fr/~filliatr/software.en.html
 
 * https://www.reddit.com/r/ocaml/comments/3qmapa/operator/  ( @@ operator )
