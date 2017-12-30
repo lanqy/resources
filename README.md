@@ -17,6 +17,7 @@
 
 ## animate
 * http://tobiasahlin.com/moving-letters/#15
+* https://greensock.com/docs/Utilities/SplitText
 
 ## JavaScript
 
