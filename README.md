@@ -50,6 +50,8 @@
 
 ## OCaml
 
+* https://stackoverflow.com/questions/20182290/ocaml-functors-how-to-use ( OCaml - functors - how to use? ) 
+
 * https://www.ocf.berkeley.edu/~mbh/tutorial/
 
 * http://www.ffconsultancy.com/products/ocaml_for_scientists/chapter1.html
