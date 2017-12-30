@@ -50,6 +50,8 @@
 
 ## OCaml
 
+* http://www.ffconsultancy.com/products/ocaml_for_scientists/chapter1.html
+
 * https://medium.com/dailyjs/how-to-build-disruptive-ocaml-microservices-with-bucklescript-8c2f774f67cd ( How to build #disruptive OCaml #microservices with BuckleScript )
 
 * https://medium.com/dailyjs/typesafe-javascript-chaining-with-ocaml-and-bucklescript-ff489fe287c2 ( Typesafe JavaScript Chaining with OCaml and BuckleScript )
