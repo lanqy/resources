@@ -50,6 +50,8 @@
 
 ## OCaml
 
+* http://blog.shaynefletcher.org/2015/03/labeled-and-optional-arguments.html ( Labeled and optional arguments )
+
 * https://caml.inria.fr/pub/papers/
 
 * https://www.lri.fr/~filliatr/software.en.html
