@@ -167,6 +167,7 @@
 ## F#
  * https://blogs.endjin.com/2013/05/a-step-by-step-guide-to-installing-an-f-repl-environment-on-windows/ (A step by step guide to installing an F# REPL environment on Windows )
  * https://fsharpforfunandprofit.com/
+ * https://fsharpforfunandprofit.com/why-use-fsharp/
 
 ## Other
 
