@@ -50,6 +50,8 @@
 
 ## OCaml
 
+* http://www.soton.ac.uk/~fangohr/software/ocamltutorial/lecture1.html 
+
 * http://www.cs.cornell.edu/courses/cs3110/2009fa/lecturenotes.asp
 
 * http://blog.shaynefletcher.org/2015/03/labeled-and-optional-arguments.html ( Labeled and optional arguments )
