@@ -173,6 +173,7 @@
  * https://fsharpforfunandprofit.com/
  * https://fsharpforfunandprofit.com/why-use-fsharp/
  * https://www.fincher.org/tips/Languages/fsharp.shtml
+ * https://dungpa.github.io/fsharp-cheatsheet/
 
 ## Other
 
