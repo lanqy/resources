@@ -29,6 +29,8 @@
 
 ## Reason
 
+* https://medium.com/@DmytroGladkyi/create-react-app-with-reasonml-aa9c03849c3b ( Create React App with ReasonML )
+
 * https://hyegar.com/2016-03-07-dga-padcrypt-reason/ ( A Domain Generating Algorithm in ReasonML )
 
 * https://blog.softwaremill.com/frontend-in-reasonml-and-react-3cc86ad6f4e3 ( Frontend in ReasonML and React )
