@@ -27,6 +27,8 @@
 
 * https://blog.oyanglul.us/javascript/functional-javascript.html ( Functional JavaScript Mini Book )
 
+* http://cherryblog.site/call-apply-bind-this.html
+
 ## Reason
 
 * https://medium.com/@DmytroGladkyi/create-react-app-with-reasonml-aa9c03849c3b ( Create React App with ReasonML )
