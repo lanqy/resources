@@ -173,6 +173,7 @@
 * https://stackoverflow.com/questions/30493644/ocaml-operator ( OCaml |> operator )
 
 ## F#
+ * https://sachabarbs.wordpress.com/1406-2/ ( F# FOR BEGINNERS )
  * https://jj09.net/getting-started-with-fsharp/ ( Getting started with F# )
  * https://blogs.endjin.com/2013/05/a-step-by-step-guide-to-installing-an-f-repl-environment-on-windows/ (A step by step guide to installing an F# REPL environment on Windows )
  * https://fsharpforfunandprofit.com/
