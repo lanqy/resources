@@ -31,6 +31,8 @@
 
 ## Reason
 
+* http://davidgom.es/2017/12/23/reasonml-webworkers-bindings.html
+
 * http://davidgom.es/2018/02/03/bucklescript-interop-javascript-reason.html
 
 * https://medium.com/@lilactown/25-days-of-reasonml-a4b20a7e8c6 
