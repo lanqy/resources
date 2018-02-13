@@ -31,6 +31,8 @@
 
 ## Reason
 
+* http://blog.klipse.tech/reason/2017/10/17/externals-js-ffi-reason.html ( Type-safe bindings from JS to Reason for dummies )
+
 * http://davidgom.es/2017/12/23/reasonml-webworkers-bindings.html
 
 * http://davidgom.es/2018/02/03/bucklescript-interop-javascript-reason.html
