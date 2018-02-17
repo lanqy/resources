@@ -31,6 +31,8 @@
 
 ## Reason
 
+* https://medium.com/@DmytroGladkyi/decode-and-encode-json-in-reasonml-2d484c65cf4e ( Decode and Encode JSON in ReasonML )
+
 * https://medium.com/@DmytroGladkyi/adding-reasonreact-router-to-reason-react-application-408c941a2890
 
 * https://itnext.io/a-reasonml-tutorial-building-an-app-shell-dd7cc617d0c5
