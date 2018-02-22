@@ -70,6 +70,8 @@
 
 ## OCaml
 
+* http://web.mit.edu/16.399/www/ ( 16.399: Abstract Interpretation )
+
 * https://courses.engr.illinois.edu/cs421/sp2012/lectures/ ( CS 421: Programming Languages and Compilers )
 
 * http://www.soton.ac.uk/~fangohr/software/ocamltutorial/lecture1.html 
