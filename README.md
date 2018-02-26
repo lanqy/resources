@@ -31,6 +31,8 @@
 
 ## Reason
 
+* https://lucasmreis.github.io/blog/learning-reasonml-part-1/
+
 * https://medium.com/@_gabrielrubens/binding-a-react-hoc-to-reasonml-children-as-function-d2688e4edaae
 
 * https://medium.com/oke-software-poland/reasonml-marvel-tutorial-part-2-297a088f937b
