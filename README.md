@@ -197,7 +197,7 @@
 * https://stackoverflow.com/questions/30493644/ocaml-operator ( OCaml |> operator )
 
 ## F#
-
+ * http://fsharp.org/specs/component-design-guidelines/ ( The F# Component Design Guidelines )
  * https://swlaschin.gitbooks.io/fsharpforfunandprofit/ ( F# for Fun and Profit eBook ) 
  * http://www.fincher.org/tips/Languages/fsharp.shtml ( Learning F Sharp by Example )
  * https://sachabarbs.wordpress.com/1406-2/ ( F# FOR BEGINNERS )
