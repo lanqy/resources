@@ -80,6 +80,8 @@
 
 ## OCaml
 
+* https://qiita.com/esumii/items/ec589d138e72e22ea97e
+
 * https://qiita.com/derui@github/items/b268dab09f6b2ac0ad64
 
 * https://qiita.com/szktty/items/04c5114f36db9a1799af
