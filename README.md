@@ -33,6 +33,10 @@
 
 * http://blog.klipse.tech/reason/2018/03/12/blog-reason-types.html
 
+* http://lucasmreis.github.io/blog/learning-reasonml-part-3/
+
+* http://lucasmreis.github.io/blog/learning-reasonml-part-2/
+
 * https://lucasmreis.github.io/blog/learning-reasonml-part-1/
 
 * https://medium.com/@_gabrielrubens/binding-a-react-hoc-to-reasonml-children-as-function-d2688e4edaae
