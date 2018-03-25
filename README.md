@@ -80,6 +80,10 @@
 
 ## OCaml
 
+* https://qiita.com/szktty/items/04c5114f36db9a1799af
+
+* https://qiita.com/szktty/items/6301a2ae9e5bc129a882
+
 * https://www.seas.upenn.edu/~cis341/current/programming_style.shtml 
 
 * http://web.mit.edu/16.399/www/ ( 16.399: Abstract Interpretation )
