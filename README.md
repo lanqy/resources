@@ -29,6 +29,11 @@
 
 * http://cherryblog.site/call-apply-bind-this.html
 
+
+## Functional Programming
+
+* https://medium.com/@lakret/some-controversial-and-not-so-much-opinions-about-functional-programming-e515d5edbc7
+
 ## Reason
 
 * http://blog.klipse.tech/reason/2018/03/12/blog-reason-types.html
