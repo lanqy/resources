@@ -25,6 +25,8 @@
 
 * <a href="http://axetroy.xyz/#/post/172">从零开始写一个Javascript解析器</a>
 
+* http://blog.mgechev.com/2017/09/16/developing-simple-interpreter-transpiler-compiler-tutorial/ ( Implementing a Simple Compiler on 25 Lines of JavaScript )
+
 * https://www.codeproject.com/Articles/345888/How-to-write-a-simple-interpreter-in-JavaScript ( How to write a simple interpreter in JavaScript )
 
 * http://lisperator.net/pltut/ ( How to implement a programming language in JavaScript )
