@@ -25,6 +25,10 @@
 
 * <a href="http://axetroy.xyz/#/post/172">从零开始写一个Javascript解析器</a>
 
+* https://www.codeproject.com/Articles/345888/How-to-write-a-simple-interpreter-in-JavaScript ( How to write a simple interpreter in JavaScript )
+
+* http://lisperator.net/pltut/ ( How to implement a programming language in JavaScript )
+
 * http://bosn.me/js/js-call-by-sharing/ （JS是按值传递还是按引用传递?）
 
 * https://blog.oyanglul.us/javascript/functional-javascript.html ( Functional JavaScript Mini Book )
