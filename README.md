@@ -93,6 +93,8 @@
 
 ## OCaml
 
+* https://dev.to/swyx/ocaml-speedrun-3f7g ( OCaml Speedrun! )
+
 * https://qiita.com/szktty/items/05cb2b754c88fbacc274
 
 * https://qiita.com/esumii/items/ec589d138e72e22ea97e
