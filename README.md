@@ -21,6 +21,8 @@
 
 ## JavaScript
 
+* https://tadeuzagallo.com/blog/writing-a-lambda-calculus-interpreter-in-javascript/ （A λ-calculus interpreter）
+
 * <a href="/javascript/make-a-compiler-with-javascript.md">用JavaScript写一个编译器</a>
 
 * <a href="http://axetroy.xyz/#/post/172">从零开始写一个Javascript解析器</a>
