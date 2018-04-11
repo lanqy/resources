@@ -46,6 +46,8 @@
 
 ## Reason
 
+* https://marmelab.com/blog/2018/04/09/enjoy-painless-typing-with-reason.html
+
 * http://blog.klipse.tech/reason/2018/03/12/blog-reason-types.html
 
 * http://lucasmreis.github.io/blog/learning-reasonml-part-3/
