@@ -247,6 +247,8 @@
 
 ## Other
 
+* https://ksco.gitbooks.io/build-your-own-lisp/
+
 * http://www.buildyourownlisp.com/
 
 * https://stackoverflow.com/questions/3102819/disable-same-origin-policy-in-chrome 让谷歌浏览器支持跨域
