@@ -99,6 +99,8 @@
 
 ## OCaml
 
+* http://cs242.stanford.edu/
+
 * https://bitbucket.org/camlspotter/ocaml-zippy-tutorial-in-japanese/src/7e5943ed17ed?at=default
 
 * https://medium.com/@bobbypriambodo/starting-an-ocaml-app-project-using-dune-d4f74e291de8
