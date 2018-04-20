@@ -127,6 +127,8 @@
 
 * http://www.cs.cornell.edu/courses/cs3110/2009fa/lecturenotes.asp
 
+* https://stackoverflow.com/questions/23703470/ocaml-optional-argument
+
 * http://blog.shaynefletcher.org/2015/03/labeled-and-optional-arguments.html ( Labeled and optional arguments )
 
 * https://caml.inria.fr/pub/papers/
