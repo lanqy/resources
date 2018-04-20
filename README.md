@@ -101,6 +101,10 @@
 
 ## OCaml
 
+* http://roscidus.com/blog/blog/categories/ocaml/
+
+* http://roscidus.com/blog/blog/2013/10/13/ocaml-tips/
+
 * http://cs242.stanford.edu/
 
 * https://bitbucket.org/camlspotter/ocaml-zippy-tutorial-in-japanese/src/7e5943ed17ed?at=default
