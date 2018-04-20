@@ -21,6 +21,8 @@
 
 ## JavaScript
 
+* https://philogb.github.io/blog/2008/09/05/memoization-in-javascript/
+
 * https://tadeuzagallo.com/blog/writing-a-lambda-calculus-interpreter-in-javascript/ （A λ-calculus interpreter）
 
 * <a href="/javascript/make-a-compiler-with-javascript.md">用JavaScript写一个编译器</a>
