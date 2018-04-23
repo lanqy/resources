@@ -50,6 +50,8 @@
 
 ## Reason
 
+* https://qiita.com/soebosi/items/cbb89661e5dc3d84d4fb
+
 * https://medium.com/w3reality/reasonml-vs-bucklescript-7bca6eae7730
 
 * https://marmelab.com/blog/2018/04/09/enjoy-painless-typing-with-reason.html
