@@ -50,6 +50,8 @@
 
 ## Reason
 
+* https://qiita.com/soebosi/items/404e035b74636ee8b406
+
 * https://qiita.com/soebosi/items/cbb89661e5dc3d84d4fb
 
 * https://medium.com/w3reality/reasonml-vs-bucklescript-7bca6eae7730
