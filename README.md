@@ -50,6 +50,10 @@
 
 ## Reason
 
+* https://medium.com/@Hehk/creating-global-state-in-reasonreact-f84701c6ab6 ( Creating global state in ReasonReact )
+
+* https://medium.com/@Hehk/binding-a-library-in-reasonml-e33b6a58b1b3 ( Binding a library in ReasonML )
+
 * https://qiita.com/soebosi/items/404e035b74636ee8b406
 
 * https://qiita.com/soebosi/items/cbb89661e5dc3d84d4fb
