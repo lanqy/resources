@@ -16,6 +16,8 @@
 
 * https://egghead.io/courses/the-beginner-s-guide-to-react
 
+## VIM 
+* https://vim.rtorr.com/lang/zh_cn/
 
 ## animate
 * http://tobiasahlin.com/moving-letters/#15
