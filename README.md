@@ -50,6 +50,8 @@
 
 ## Reason
 
+* https://medium.com/@sscaff1/getting-started-with-reason-and-bucklescript-489d0e5abe7
+
 * https://medium.com/@Hehk/routing-in-reasonreact-d512fdc81b63 ( Routing in ReasonReact )
 
 * https://medium.com/@Hehk/creating-global-state-in-reasonreact-f84701c6ab6 ( Creating global state in ReasonReact )
