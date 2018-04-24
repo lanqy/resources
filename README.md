@@ -50,6 +50,8 @@
 
 ## Reason
 
+* https://medium.com/@Hehk/routing-in-reasonreact-d512fdc81b63 ( Routing in ReasonReact )
+
 * https://medium.com/@Hehk/creating-global-state-in-reasonreact-f84701c6ab6 ( Creating global state in ReasonReact )
 
 * https://medium.com/@Hehk/binding-a-library-in-reasonml-e33b6a58b1b3 ( Binding a library in ReasonML )
