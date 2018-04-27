@@ -29,6 +29,8 @@
 
 ## JavaScript
 
+* https://scrimba.com/g/gintrotoes6 ( ES6 & Beyond Introduction to ES6+ Features )
+
 * https://philogb.github.io/blog/2008/09/05/memoization-in-javascript/
 
 * https://tadeuzagallo.com/blog/writing-a-lambda-calculus-interpreter-in-javascript/ （A λ-calculus interpreter）
