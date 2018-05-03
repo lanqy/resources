@@ -29,6 +29,8 @@
 
 ## JavaScript
 
+* https://tutorialzine.com/2017/07/javascript-async-await-explained ( JavaScript Async/Await Explained in 10 Minutes )
+
 * https://scrimba.com/g/gintrotoes6 ( ES6 & Beyond Introduction to ES6+ Features )
 
 * https://philogb.github.io/blog/2008/09/05/memoization-in-javascript/
