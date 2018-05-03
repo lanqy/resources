@@ -107,3 +107,5 @@
 </tr>
 </tbody>
 </table>
+
+http://cssdude.com/css/css-specificity/ 
