@@ -60,6 +60,8 @@
 
 ## Reason
  
+* https://medium.com/@sharifsbeat/fetching-data-in-reasonml-pt-1-c06f3cc6b250 ( Fetching Data in ReasonML Pt. 1 )
+ 
 * https://medium.com/@sharifsbeat/routing-in-reasonreact-4517acaf2c8 ( Routing in ReasonReact )
 
 * https://medium.com/@sscaff1/getting-started-with-reason-and-bucklescript-489d0e5abe7
