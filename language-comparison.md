@@ -52,9 +52,9 @@ enum Color {
 }
 ```
 
-### Science
+### Elm
 
-```science
+```elm
 type Color = Red | Green | Blue | Rgb { r: Int, g: Int, b: Int }
 ```
 
@@ -224,9 +224,9 @@ switch color {
 }
 ```
 
-### Science
+### Elm
 
-```science
+```elm
 case color of
     Red   -> "#FF0000"
     Green -> "#00FF00"
