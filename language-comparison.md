@@ -288,7 +288,7 @@ when ( color ) {
 
 ### Scala
 
-```scale
+```scala
 color match {
   case Red   =>"#FF0000"
   case Green =>"#00FF00"
@@ -299,7 +299,7 @@ color match {
 
 ### Dotty
 
-```dotty
+```scala
 color match {
   case Color.Red   => "#FF0000"
   case Color.Green => "#00FF00"
