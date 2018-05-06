@@ -351,3 +351,5 @@ Scala，Dotty，OCaml，ReasonML：即使不包含模式，编译也会在没有
 Koka，Haskell：即使不包含模式，编译也会在没有警告的情况下通过
 
 Ruby：外部
+
+来自： https://qiita.com/xmeta/items/91dfb24fa87c3a9f5993
