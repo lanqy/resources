@@ -337,8 +337,8 @@ end
 
 ### 符号
 
-1. Koka, Rust, Elm, PureScript, Haskell: 非常好
-2. OCaml, Kotlin: 好
+-1. Koka, Rust, Elm, PureScript, Haskell: 非常好
+-2. OCaml, Kotlin: 好
 3. Haxe, Scala, Dotty, Ruby: 一般
 4. TypeScript, Swift: 很难写
 
