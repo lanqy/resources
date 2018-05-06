@@ -2,9 +2,9 @@
 
 ## 代数数据类型
 
-### Wood
+### Koka
 
-```wood
+```koka
 type color {
   Red
   Green
@@ -15,7 +15,7 @@ type color {
 
 或
 
-```wood
+```koka
 type color {
   Red; Green; Blue; Rgb( r : int, g : int, b: int )
 }
@@ -172,3 +172,182 @@ Dotty, Swift, PureScript, Haskell, OCaml: 比较好
 Ruby: 一般
 Kotlin: 很难写
 Scala: 写起来很难
+
+## 模式匹配
+
+### Koka
+
+```koka
+
+match(color) {
+  Red   -> "#FF0000"
+  Green -> "#00FF00"
+  Blue  -> "#0000FF"
+  Rgb(r,g,b) -> "#" + showHex(r,2) + showHex(g,2) + showHex(b,2)
+}
+```
+
+### Rust
+
+```rust
+match color {
+    Color::Red   => "#FF0000".to_string(),
+    Color::Green => "#00FF00".to_string(),
+    Color::Blue  => "#0000FF".to_string(),
+    Color::Rgb{r, g, b} => format!("#{:02X}{:02X}{:02X}", r, g, b),
+}
+```
+
+### Haxe
+
+```haxe
+switch( color ) {
+  case Red:   "#FF0000";
+  case Green: "#00FF00";
+  case Blue:  "#0000FF";
+  case Rgb(r, g, b): "#"+ StringTools.hex(r,2) + StringTools.hex(g,2) + StringTools.hex(b,2);
+}
+```
+
+### Swift
+
+```swift
+switch color {
+  case .Red:
+    return "#FF0000"
+  case .Green:
+    return "#00FF00"
+  case .Blue:
+    return "#0000FF"
+  case let .Rgb(r, g, b):
+    return String(format:"#%02X%02X%02X", r, g, b)
+}
+```
+
+### Science
+
+```science
+case color of
+    Red   -> "#FF0000"
+    Green -> "#00FF00"
+    Blue  -> "#0000FF"
+    Rgb {r, g, b} -> String.concat ["#", (toHex r), (toHex g), (toHex b)]
+```
+
+### PureScript
+
+```purescript
+case color of
+  Red   -> "#FF0000"
+  Green -> "#00FF00"
+  Blue  -> "#0000FF"
+  Rgb { r, g, b } -> "#" <> toHex r <>  toHex g <>  toHex b 
+```
+
+### Haskell
+
+```haskell
+case color of
+    Red   -> "#FF0000"
+    Green -> "#00FF00"
+    Blue  -> "#0000FF"
+    Rgb r g b -> printf "#%02X%02X%02X" r g b
+```
+
+### OCaml
+
+```ocaml
+match color with
+      Red   -> "#FF0000"
+    | Green -> "#00FF00"
+    | Blue  -> "#0000FF"
+    | Rgb {r; g; b} -> Printf.sprintf "#%02X%02X%02X" r g b;;
+```
+
+### ReasonML
+
+```ocaml
+switch (color) {
+  | Red => "#FF000"
+  | Green => "#00FF00"
+  | Blue => "#0000FF"
+  | Rgb{r, g, b} => Format.sprintf("#%02X%02X%02X", r, g, b)
+  };
+```
+
+### Kotlin
+
+```kotlin
+when ( color ) {
+  Color.Red   -> "#FF0000"
+  Color.Green -> "#00FF00"
+  Color.Blue  -> "#0000FF"
+  is Color.Rgb -> "#%02X%02X%02X".format(color.r, color.g, color.b)
+}
+```
+
+### Scala
+
+```scale
+color match {
+  case Red   =>"#FF0000"
+  case Green =>"#00FF00"
+  case Blue  =>"#0000FF"
+  case Rgb(r, g, b) => "#%02X%02X%02X".format(r, g, b)
+}
+```
+
+### Dotty
+
+```dotty
+color match {
+  case Color.Red   => "#FF0000"
+  case Color.Green => "#00FF00"
+  case Color.Blue  => "#0000FF"
+  case Color.Rgb(r, g, b) => "#%02X%02X%02X".format(r, g, b)
+}
+```
+
+### TypeScript
+
+```typescript
+switch (color.kind) {
+    case ColorKind.Red: return "#FF0000";
+    case ColorKind.Green: return "#00FF00";
+    case ColorKind.Blue: return "#0000FF";
+    case ColorKind.Rgb: return "#" + [color.r, color.g, color.b].map((v) => v.toString(16)).join('').toUpperCase();
+    default:
+        const _exhaustiveCheck: never = color;
+        return _exhaustiveCheck;
+}
+```
+
+### Ruby
+
+```ruby
+case color
+when Color::Red; "#FF000"
+when Color::Green; "#00FF00"
+when Color::Blue; "#0000FF"
+when Color::Rgb; "#%02X%02X%02X" % [color.r, color.g, color.b]
+end
+```
+
+## 感想
+
+### 符号
+
+Koka, Rust, Elm, PureScript, Haskell: 非常好
+OCaml, Kotlin: 好
+Haxe, Scala, Dotty, Ruby: 一般
+TypeScript, Swift: 很难写
+
+## 编译器的默认行为
+
+Rust，Haxe，Swift，Kotlin，Elm，PureScript：如果未覆盖该模式，则会出现编译错误
+
+Scala，Dotty，OCaml，ReasonML：即使不包含模式，编译也会在没有警告的情况下传递
+
+Koka，Haskell：即使不包含模式，编译也会在没有警告的情况下通过
+
+Ruby：外部
