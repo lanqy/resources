@@ -4,7 +4,7 @@
 
 ### Koka
 
-```koka
+```haskell
 type color {
   Red
   Green
@@ -15,7 +15,7 @@ type color {
 
 或
 
-```koka
+```haskell
 type color {
   Red; Green; Blue; Rgb( r : int, g : int, b: int )
 }
@@ -177,7 +177,7 @@ end
 
 ### Koka
 
-```koka
+```haskell
 
 match(color) {
   Red   -> "#FF0000"
