@@ -99,9 +99,6 @@ sealed class Color {
 }
 ```
 
-### Ladder
-
-
 ### Scala
 
 ```scala
