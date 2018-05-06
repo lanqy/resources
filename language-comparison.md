@@ -167,11 +167,11 @@ end
 
 ### 符号
 
-Koka, Rust, Haxe, Elm: 非常好
-Dotty, Swift, PureScript, Haskell, OCaml: 比较好
-Ruby: 一般
-Kotlin: 很难写
-Scala: 写起来很难
+1. Koka, Rust, Haxe, Elm: 非常好
+2. Dotty, Swift, PureScript, Haskell, OCaml: 比较好
+3. Ruby: 一般
+4. Kotlin: 很难写
+5. Scala: 写起来很难
 
 ## 模式匹配
 
