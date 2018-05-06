@@ -112,7 +112,7 @@ final case class Rgb(r: Int, g: Int, b: Int) extends Color
 
 ### Dotty
 
-```dotty
+```scala
 enum Color {
   case Red
   case Green
