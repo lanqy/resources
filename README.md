@@ -292,6 +292,8 @@
 
 ## Other
 
+* https://martin.ankerl.com/2009/12/09/how-to-create-random-colors-programmatically/
+
 * https://norasandler.com/2017/11/29/Write-a-Compiler.html
 
 * https://ksco.gitbooks.io/build-your-own-lisp/
