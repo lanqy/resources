@@ -25,6 +25,7 @@
 
 ## CSS 
 
+* https://css-tricks.com/centering-css-complete-guide/ ( Centering in CSS: A Complete Guide )
 * https://gridbyexample.com/ ( Grid by Example )
 
 ## JavaScript
