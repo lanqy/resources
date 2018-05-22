@@ -60,7 +60,9 @@
 * https://medium.com/@lakret/some-controversial-and-not-so-much-opinions-about-functional-programming-e515d5edbc7
 
 ## Reason
- 
+
+* https://medium.com/@elvesbane/application-state-in-reasonreact-1626859366a8 ( Application State in ReasonReact )
+
 * https://medium.com/@sharifsbeat/fetching-data-in-reasonml-pt-1-c06f3cc6b250 ( Fetching Data in ReasonML Pt. 1 )
  
 * https://medium.com/@sharifsbeat/routing-in-reasonreact-4517acaf2c8 ( Routing in ReasonReact )
