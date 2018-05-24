@@ -63,6 +63,8 @@
 
 ## Reason
 
+* https://www.imaginarycloud.com/blog/reasonml-react-as-first-intended/
+
 * https://medium.com/@elvesbane/application-state-in-reasonreact-1626859366a8 ( Application State in ReasonReact )
 
 * https://medium.com/@sharifsbeat/fetching-data-in-reasonml-pt-1-c06f3cc6b250 ( Fetching Data in ReasonML Pt. 1 )
