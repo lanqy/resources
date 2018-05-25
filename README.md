@@ -63,6 +63,8 @@
 
 ## Reason
 
+* https://dev.to/jlewin_/reasonml-getting-started-53gi ( ReasonML: getting started )
+
 * https://www.imaginarycloud.com/blog/reasonml-react-as-first-intended/
 
 * https://medium.com/@elvesbane/application-state-in-reasonreact-1626859366a8 ( Application State in ReasonReact )
