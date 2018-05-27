@@ -63,6 +63,8 @@
 
 ## Reason
 
+* https://jwheatley.co/persistence-in-reasonml-react-native-apps/
+
 * https://dev.to/jlewin_/reasonml-getting-started-53gi ( ReasonML: getting started )
 
 * https://www.imaginarycloud.com/blog/reasonml-react-as-first-intended/
