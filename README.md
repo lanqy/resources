@@ -63,6 +63,8 @@
 
 ## Reason
 
+* https://medium.com/@idkjs/decoding-json-in-reasonreact-cff3a07c1200 ( Decoding JSON in ReasonReact )
+
 * https://jwheatley.co/persistence-in-reasonml-react-native-apps/
 
 * https://dev.to/jlewin_/reasonml-getting-started-53gi ( ReasonML: getting started )
