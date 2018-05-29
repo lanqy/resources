@@ -144,6 +144,8 @@
 
 ## OCaml
 
+* https://caml.inria.fr/pub/docs/u3-ocaml/index.html
+
 * https://stackoverflow.com/questions/4506927/ignore-function-in-ocaml
 
 * http://roscidus.com/blog/blog/categories/ocaml/
