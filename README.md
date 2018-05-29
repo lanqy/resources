@@ -63,7 +63,7 @@
 
 ## Reason
 
-* https://hackernoon.com/reason-in-a-nutshell-getting-started-guide-78c05ebc5d4
+* https://zaiste.net/reason_in_nutshell_getting_started_guide/
 
 * https://medium.com/@idkjs/decoding-json-in-reasonreact-cff3a07c1200 ( Decoding JSON in ReasonReact )
 
