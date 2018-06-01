@@ -65,6 +65,9 @@
 
 ## Reason
 
+
+* https://medium.com/@DmytroGladkyi/reasonml-create-bindings-for-npm-package-b8a3c6d0703e
+
 * https://zaiste.net/reason_in_nutshell_getting_started_guide/
 
 * https://medium.com/@idkjs/decoding-json-in-reasonreact-cff3a07c1200 ( Decoding JSON in ReasonReact )
