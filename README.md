@@ -63,6 +63,10 @@
 
 * https://medium.com/@lakret/some-controversial-and-not-so-much-opinions-about-functional-programming-e515d5edbc7
 
+## Erlang
+
+* http://www.erlang.org/course
+
 ## Reason
 
 
