@@ -30,6 +30,8 @@
 
 ## JavaScript
 
+* https://hackernoon.com/the-non-secret-formula-for-writing-better-code-e41d1ff38682
+
 * https://medium.freecodecamp.org/how-to-build-an-html-calculator-app-from-scratch-using-javascript-4454b8714b98
 
 * https://www.sitepoint.com/understanding-asts-building-babel-plugin/ ( Understanding ASTs by Building Your Own Babel Plugin )
