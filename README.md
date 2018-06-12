@@ -32,6 +32,10 @@
 
 * https://www.sitepoint.com/javascript-command-line-interface-cli-node-js/
 
+* http://stackabuse.com/how-to-create-a-node-js-cli-application/
+
+* https://developer.atlassian.com/blog/2015/11/scripting-with-node/
+
 * https://hackernoon.com/the-non-secret-formula-for-writing-better-code-e41d1ff38682
 
 * https://medium.freecodecamp.org/how-to-build-an-html-calculator-app-from-scratch-using-javascript-4454b8714b98
