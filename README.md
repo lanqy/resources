@@ -161,6 +161,8 @@
 
 ## OCaml
 
+* http://blog.shaynefletcher.org/2017/05/preprocessor-extensions-for-code.html
+
 * https://www.victor.darvariu.me/jekyll/update/2018/06/19/ppx-tutorial.html ( A Tutorial to OCaml -ppx Language Extensions )
 
 * https://ocaml.github.io/ocamlunix/ocamlunix.html
