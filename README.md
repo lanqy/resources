@@ -77,6 +77,7 @@
 
 ## Reason
 
+* https://davidgom.es/writing-reasonml-bindings-for-javascript-apis/
 
 * https://medium.com/@DmytroGladkyi/reasonml-create-bindings-for-npm-package-b8a3c6d0703e
 
