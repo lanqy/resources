@@ -30,6 +30,16 @@
 
 ## JavaScript
 
+* http://blog.klipse.tech/javascript/2017/02/08/tiny-compiler-intro.html ( Write your own compiler - Introduction )
+
+* http://blog.klipse.tech/javascript/2017/02/08/tiny-compiler-tokenizer.html ( Write your own compiler - Station #1: the tokenizer )
+
+* http://blog.klipse.tech/javascript/2017/02/08/tiny-compiler-parser.html ( Write your own compiler - Station #2: the parser )
+
+* http://blog.klipse.tech/javascript/2017/02/08/tiny-compiler-emitter.html ( Write your own compiler - Station #3: the emitter )
+
+* http://blog.klipse.tech/javascript/2017/02/08/tiny-compiler-compiler.html ( Write your own compiler - Last station )
+
 * https://www.sitepoint.com/javascript-command-line-interface-cli-node-js/
 
 * http://stackabuse.com/how-to-create-a-node-js-cli-application/
