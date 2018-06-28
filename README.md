@@ -172,6 +172,10 @@
 
 ## OCaml
 
+* https://www.cs.princeton.edu/~dpw/courses/cos326-12/lectures.php
+
+* https://www.cs.princeton.edu/~dpw/courses/cos326-12/notes/basics.php
+
 * http://blog.shaynefletcher.org/2017/05/preprocessor-extensions-for-code.html
 
 * https://www.victor.darvariu.me/jekyll/update/2018/06/19/ppx-tutorial.html ( A Tutorial to OCaml -ppx Language Extensions )
