@@ -85,6 +85,8 @@
 
 * http://www.erlang.org/course
 
+* https://medium.freecodecamp.org/a-functional-approach-to-merge-sort-and-algorithms-in-general-bbc12457eeb0
+
 ## Reason
 
 * https://davidgom.es/writing-reasonml-bindings-for-javascript-apis/
