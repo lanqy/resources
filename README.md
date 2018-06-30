@@ -85,6 +85,8 @@
 
 * http://www.erlang.org/course
 
+* https://medium.com/@jlouis666/erlang-string-handling-7588daad8f05
+
 * https://medium.freecodecamp.org/a-functional-approach-to-merge-sort-and-algorithms-in-general-bbc12457eeb0
 
 * https://stackoverflow.com/questions/5962299/what-does-mean-in-erlang
