@@ -178,6 +178,8 @@
 
 ## OCaml
 
+* http://science.raphael.poss.name/haskell-for-ocaml-programmers.html
+
 * https://www.cs.princeton.edu/~dpw/courses/cos326-12/style.php
 
 * https://www.cs.princeton.edu/~dpw/courses/cos326-12/lectures.php
