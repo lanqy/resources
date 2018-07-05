@@ -363,6 +363,8 @@
 
 ## Other
 
+* https://vegibit.com/vue-sibling-component-communication/ Vue Sibling Component Communication
+
 * https://martin.ankerl.com/2009/12/09/how-to-create-random-colors-programmatically/
 
 * https://norasandler.com/2017/11/29/Write-a-Compiler.html
