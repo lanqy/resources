@@ -351,6 +351,7 @@
 * https://stackoverflow.com/questions/30493644/ocaml-operator ( OCaml |> operator )
 
 ## F#
+ * https://docs.microsoft.com/zh-cn/dotnet/fsharp/
  * https://fsharpforfunandprofit.com/posts/type-size-and-design/
  * http://fsharp.org/specs/component-design-guidelines/ ( The F# Component Design Guidelines )
  * https://swlaschin.gitbooks.io/fsharpforfunandprofit/ ( F# for Fun and Profit eBook ) 
