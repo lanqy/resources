@@ -83,6 +83,8 @@
 
 ## Erlang
 
+* https://theburningmonk.com/2014/08/getting-started-with-rebar-on-windows/
+
 * http://www.erlang.org/course
 
 * https://medium.com/@jlouis666/erlang-string-handling-7588daad8f05
