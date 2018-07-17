@@ -300,6 +300,8 @@
 
 * https://stackoverflow.com/questions/36974203/ocaml-syntax-what-does-type-a-t-mean ( OCaml syntax: what does type 'a t mean? )
 
+* http://www.cs.cornell.edu/courses/cs3110/2015fa/
+
 * https://cseweb.ucsd.edu/classes/wi11/cse130/ ( Programming Languages )
 
 * https://cs.wellesley.edu/~cs251/spring07/index.html ( CS251: Programming Languages )
