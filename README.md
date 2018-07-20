@@ -83,6 +83,8 @@
 
 ## Erlang
 
+* http://davekuhlman.org/rebar3-cowboy-rest-template.html
+
 * http://marianoguerra.org/posts/making-a-chat-app-with-erlang-rebar-cowboy-and-bullet/
 
 * https://medium.com/@kansi/chatbus-build-your-first-multi-user-chat-room-app-with-erlang-otp-b55f72064901
