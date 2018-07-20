@@ -83,6 +83,8 @@
 
 ## Erlang
 
+* https://gist.github.com/flbuddymooreiv/ce1d7a47b12c27bf1616
+
 * http://davekuhlman.org/rebar3-cowboy-rest-template.html
 
 * http://marianoguerra.org/posts/making-a-chat-app-with-erlang-rebar-cowboy-and-bullet/
