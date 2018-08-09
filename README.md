@@ -85,6 +85,8 @@
 
 ## Erlang
 
+* https://medium.com/erlang-central/building-your-first-erlang-app-using-rebar3-25f40b109aad
+
 * https://gist.github.com/flbuddymooreiv/ce1d7a47b12c27bf1616
 
 * http://davekuhlman.org/rebar3-cowboy-rest-template.html
