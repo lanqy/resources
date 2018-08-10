@@ -196,6 +196,8 @@
 
 ## OCaml
 
+* https://www.cs.cmu.edu/~rwh/isml/book.pdf
+
 * https://www.cl.cam.ac.uk/~lp15/MLbook/pub-details.html
 
 * https://blog.baturin.org/introduction-to-ocaml.html ( Introduction to OCaml )
