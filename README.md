@@ -194,6 +194,12 @@
 
 ## OCaml
 
+* https://blog.baturin.org/introduction-to-ocaml.html ( Introduction to OCaml )
+
+* https://blog.baturin.org/introduction-to-ocaml-part-2.html ( Introduction to OCaml, part 2 )
+
+* https://blog.baturin.org/introduction-to-ocaml-part-3.html ( Introduction to OCaml, part 3 )
+
 * http://science.raphael.poss.name/haskell-for-ocaml-programmers.html
 
 * https://www.cs.princeton.edu/~dpw/courses/cos326-12/style.php
