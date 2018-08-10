@@ -196,6 +196,8 @@
 
 ## OCaml
 
+* https://www.cl.cam.ac.uk/~lp15/MLbook/pub-details.html
+
 * https://blog.baturin.org/introduction-to-ocaml.html ( Introduction to OCaml )
 
 * https://blog.baturin.org/introduction-to-ocaml-part-2.html ( Introduction to OCaml, part 2 )
