@@ -30,6 +30,8 @@
 
 ## JavaScript
 
+* https://jrsinclair.com/articles/2018/how-to-deal-with-dirty-side-effects-in-your-pure-functional-javascript/
+
 * http://codetheory.in/weighted-biased-random-number-generation-with-javascript-based-on-probability/ Weighted/Biased Random Number Generation with JavaScript based on Probability
 
 * http://blog.klipse.tech/javascript/2017/02/08/tiny-compiler-intro.html ( Write your own compiler - Introduction )
