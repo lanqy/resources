@@ -206,6 +206,8 @@
 
 * https://blog.baturin.org/introduction-to-ocaml-part-3.html ( Introduction to OCaml, part 3 )
 
+* https://blog.baturin.org/introduction-to-ocaml-part-4-higher-order-functions-parametric-polymorphism-and-algebraic-data-types.html ( Introduction to OCaml, part 4 )
+
 * http://science.raphael.poss.name/haskell-for-ocaml-programmers.html
 
 * https://www.cs.princeton.edu/~dpw/courses/cos326-12/style.php
