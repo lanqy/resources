@@ -1,5 +1,8 @@
 # 个人博客(翻译为主)
 
+## Rust
+
+* https://stackoverflow.com/questions/38157335/what-does-mean-in-a-rust-format-string
 
 ## Webpack
 
