@@ -27,6 +27,7 @@
 * https://greensock.com/docs/Utilities/SplitText
 
 ## CSS 
+* http://blog.nmsdvid.com/css-filter-property/
 * https://www.nxworld.net/tips/css-gradient-pattern.html
 * https://css-tricks.com/centering-css-complete-guide/ ( Centering in CSS: A Complete Guide )
 * https://gridbyexample.com/ ( Grid by Example )
