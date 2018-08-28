@@ -213,6 +213,8 @@
 
 * https://blog.baturin.org/introduction-to-ocaml-part-4-higher-order-functions-parametric-polymorphism-and-algebraic-data-types.html ( Introduction to OCaml, part 4 )
 
+* https://stackoverflow.com/questions/5774934/how-do-i-read-in-lines-from-a-text-file-in-ocaml
+
 * http://science.raphael.poss.name/haskell-for-ocaml-programmers.html
 
 * https://www.cs.princeton.edu/~dpw/courses/cos326-12/style.php
