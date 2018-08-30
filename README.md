@@ -201,6 +201,8 @@
 
 ## OCaml
 
+* https://caiorss.github.io/Functional-Programming/ocaml/README.html
+
 * https://www.cs.cmu.edu/~rwh/isml/book.pdf
 
 * https://www.cl.cam.ac.uk/~lp15/MLbook/pub-details.html
