@@ -202,6 +202,8 @@
 
 ## OCaml
 
+* https://victor.darvariu.me/jekyll/update/2018/06/19/ppx-tutorial.html ( A Tutorial to OCaml -ppx Language Extensions )
+
 * https://caiorss.github.io/Functional-Programming/ocaml/README.html
 
 * https://www.cs.cmu.edu/~rwh/isml/book.pdf
