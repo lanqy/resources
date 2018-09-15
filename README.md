@@ -202,6 +202,8 @@
 
 ## OCaml
 
+* https://www.brendanlong.com/ocaml-operator-cheatsheet.html
+
 * https://www.brendanlong.com/what-is-a-monad.html
 
 * https://victor.darvariu.me/jekyll/update/2018/06/19/ppx-tutorial.html ( A Tutorial to OCaml -ppx Language Extensions )
