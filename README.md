@@ -202,6 +202,8 @@
 
 ## OCaml
 
+* https://stackoverflow.com/questions/931496/x-with-value-in-ocaml
+
 * https://www.brendanlong.com/ocaml-operator-cheatsheet.html
 
 * https://www.brendanlong.com/what-is-a-monad.html
