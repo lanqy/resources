@@ -89,6 +89,8 @@
 
 ## Functional Programming
 
+* http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
+
 * https://medium.com/@lakret/some-controversial-and-not-so-much-opinions-about-functional-programming-e515d5edbc7
 
 ## Erlang
