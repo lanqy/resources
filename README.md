@@ -202,6 +202,8 @@
 
 ## OCaml
 
+* https://stackoverflow.com/questions/4042465/difference-between-module-name-struct-end-and-module-type-name-struct
+
 * https://stackoverflow.com/questions/931496/x-with-value-in-ocaml
 
 * https://www.brendanlong.com/ocaml-operator-cheatsheet.html
