@@ -1,5 +1,9 @@
 # 个人博客(翻译为主)
 
+## Go
+
+* https://gobyexample.com/
+
 ## Rust
 
 * https://stackoverflow.com/questions/38157335/what-does-mean-in-a-rust-format-string
