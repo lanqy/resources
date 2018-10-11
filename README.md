@@ -234,6 +234,8 @@
 
 * https://blog.baturin.org/introduction-to-ocaml-part-4-higher-order-functions-parametric-polymorphism-and-algebraic-data-types.html ( Introduction to OCaml, part 4 )
 
+* https://blog.baturin.org/introduction-to-ocaml-part-5-exceptions-lists-and-structural-recursion.html ( Introduction to OCaml, part 5: exceptions, lists, and structural recursion )
+
 * https://stackoverflow.com/questions/5774934/how-do-i-read-in-lines-from-a-text-file-in-ocaml
 
 * http://science.raphael.poss.name/haskell-for-ocaml-programmers.html
