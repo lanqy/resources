@@ -4,6 +4,8 @@
 
 * https://gobyexample.com/
 
+* https://gobyexample.xgwang.me/
+
 ## Rust
 
 * https://stackoverflow.com/questions/38157335/what-does-mean-in-a-rust-format-string
