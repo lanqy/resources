@@ -1,5 +1,9 @@
 # 开发资源收集
 
+## VI / VIM
+
+* https://stackoverflow.com/questions/13239464/create-a-new-file-in-the-directory-of-the-open-file-in-vim
+
 ## Go
 
 * https://gobyexample.com/
