@@ -6,6 +6,8 @@
 
 * https://superuser.com/questions/227385/how-do-i-select-all-text-in-vi-vim
 
+* https://unix.stackexchange.com/questions/13904/how-to-select-delete-until-end-of-file-in-vim-gvim
+
 ## Go
 
 * https://gobyexample.com/
