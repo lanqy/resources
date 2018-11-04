@@ -8,6 +8,10 @@
 
 * https://unix.stackexchange.com/questions/13904/how-to-select-delete-until-end-of-file-in-vim-gvim
 
+* https://apple.stackexchange.com/questions/38846/where-does-macvim-keep-its-themes
+
+* https://vim.rtorr.com/lang/zh_cn/
+
 ## Go
 
 * https://gobyexample.com/
@@ -33,8 +37,6 @@
 
 * https://egghead.io/courses/the-beginner-s-guide-to-react
 
-## VIM 
-* https://vim.rtorr.com/lang/zh_cn/
 
 ## animate
 * http://tobiasahlin.com/moving-letters/#15
