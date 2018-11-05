@@ -12,6 +12,12 @@
 
 * https://vim.rtorr.com/lang/zh_cn/
 
+## 浏览器
+
+* https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/
+
+* https://arvindr21.github.io/howBrowserWorks
+
 ## Go
 
 * https://gobyexample.com/
