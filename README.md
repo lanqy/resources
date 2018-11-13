@@ -2,6 +2,8 @@
 
 ## VI / VIM
 
+* http://learnvimscriptthehardway.stevelosh.com/
+
 * https://stackoverflow.com/questions/510325/how-do-i-close-all-open-tabs-at-once
 
 * https://stackoverflow.com/questions/13239464/create-a-new-file-in-the-directory-of-the-open-file-in-vim
