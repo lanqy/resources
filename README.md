@@ -2,6 +2,8 @@
 
 ## VI / VIM
 
+* https://jovicailic.org/mastering-vim-quickly/
+
 * http://learnvimscriptthehardway.stevelosh.com/
 
 * https://stackoverflow.com/questions/510325/how-do-i-close-all-open-tabs-at-once
