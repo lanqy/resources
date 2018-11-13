@@ -2,6 +2,8 @@
 
 ## VI / VIM
 
+* https://stackoverflow.com/questions/510325/how-do-i-close-all-open-tabs-at-once
+
 * https://stackoverflow.com/questions/13239464/create-a-new-file-in-the-directory-of-the-open-file-in-vim
 
 * https://superuser.com/questions/227385/how-do-i-select-all-text-in-vi-vim
