@@ -232,6 +232,8 @@
 
 ## OCaml
 
+* https://www.streamingspring.com/ocaml/docs/ ( OCaml Standard Library Documentation Modernized )
+
 * https://caml.inria.fr/pub/docs/manual-ocaml/index.html
 
 * https://stackoverflow.com/questions/4042465/difference-between-module-name-struct-end-and-module-type-name-struct
