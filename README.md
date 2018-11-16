@@ -232,6 +232,8 @@
 
 ## OCaml
 
+* https://protz.github.io/ocaml-installer/ ( OCaml on Windows )
+
 * https://www.streamingspring.com/ocaml/docs/ ( OCaml Standard Library Documentation Modernized )
 
 * https://caml.inria.fr/pub/docs/manual-ocaml/index.html
