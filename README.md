@@ -26,6 +26,8 @@
 
 ## Go
 
+* https://tour.go-zh.org/welcome/1
+
 * https://gobyexample.com/
 
 * https://gobyexample.xgwang.me/
