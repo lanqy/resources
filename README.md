@@ -2,6 +2,10 @@
 
 ## VI / VIM
 
+* https://vi.stackexchange.com/questions/305/how-can-i-rename-the-file-im-editing
+
+* https://stackoverflow.com/questions/1205286/renaming-the-current-file-in-vim/13105042
+
 * https://jovicailic.org/mastering-vim-quickly/
 
 * http://learnvimscriptthehardway.stevelosh.com/
