@@ -2,6 +2,8 @@
 
 ## web 安全
 
+* https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet （XSS 备忘单）
+
 * https://developers.google.com/web/fundamentals/security/csp/ ( 内容安全策略)
 
 * http://blog.caelum.com.br/content-security-policy-uma-arma-eficaz-contra-ataques-xss/ （Content Security Policy: uma arma eficaz contra ataques XSS）
