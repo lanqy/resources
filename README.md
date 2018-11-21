@@ -2,6 +2,8 @@
 
 ## web 安全
 
+* https://expressjs.com/en/advanced/best-practice-security.html
+
 * https://githubengineering.com/githubs-csp-journey/
 
 * https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet （XSS 备忘单）
