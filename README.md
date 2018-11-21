@@ -1,5 +1,11 @@
 # 开发资源收集
 
+## web 安全
+
+* http://blog.caelum.com.br/content-security-policy-uma-arma-eficaz-contra-ataques-xss/ （Content Security Policy: uma arma eficaz contra ataques XSS）
+
+* https://githubengineering.com/githubs-csp-journey/ 
+
 ## VI / VIM
 
 * https://vi.stackexchange.com/questions/305/how-can-i-rename-the-file-im-editing
