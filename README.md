@@ -4,6 +4,8 @@
 
 * http://blog.caelum.com.br/content-security-policy-uma-arma-eficaz-contra-ataques-xss/ （Content Security Policy: uma arma eficaz contra ataques XSS）
 
+* https://content-security-policy.com/
+
 * https://githubengineering.com/githubs-csp-journey/ 
 
 ## VI / VIM
