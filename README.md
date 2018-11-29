@@ -18,6 +18,8 @@
 
 ## VI / VIM
 
+* http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/
+
 * https://vi.stackexchange.com/questions/305/how-can-i-rename-the-file-im-editing
 
 * https://stackoverflow.com/questions/1205286/renaming-the-current-file-in-vim/13105042
