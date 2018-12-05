@@ -50,6 +50,8 @@
 
 * http://polyglot.ninja/golang-json/
 
+* https://tutorialedge.net/golang/parsing-json-with-golang/
+
 * https://tour.go-zh.org/welcome/1
 
 * https://gobyexample.com/
