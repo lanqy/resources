@@ -50,6 +50,8 @@
 
 * http://herman.asia/efficient-string-concatenation-in-go
 
+* https://eager.io/blog/go-and-json/
+
 * http://polyglot.ninja/golang-json/
 
 * https://tutorialedge.net/golang/parsing-json-with-golang/
