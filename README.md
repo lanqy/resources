@@ -48,6 +48,8 @@
 
 ## Go
 
+* http://herman.asia/efficient-string-concatenation-in-go
+
 * http://polyglot.ninja/golang-json/
 
 * https://tutorialedge.net/golang/parsing-json-with-golang/
