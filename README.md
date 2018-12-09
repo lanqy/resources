@@ -266,6 +266,8 @@
 
 ## OCaml
 
+* http://hyperpolyglot.org/ml
+
 * https://protz.github.io/ocaml-installer/ ( OCaml on Windows )
 
 * https://www.streamingspring.com/ocaml/docs/ ( OCaml Standard Library Documentation Modernized )
