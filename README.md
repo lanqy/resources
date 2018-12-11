@@ -1,5 +1,9 @@
 # 开发资源收集
 
+## wget
+
+* https://superuser.com/questions/14403/how-can-i-download-an-entire-website
+
 ## web 安全
 
 * https://expressjs.com/en/advanced/best-practice-security.html
