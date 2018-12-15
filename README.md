@@ -52,6 +52,8 @@
 
 ## Go
 
+* https://astaxie.gitbooks.io/build-web-application-with-golang/zh/
+
 * https://sausheong.github.io/posts/cross-platform-games-with-go/
 
 * http://herman.asia/efficient-string-concatenation-in-go
