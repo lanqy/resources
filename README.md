@@ -52,6 +52,8 @@
 
 ## Go
 
+* https://hackernoon.com/replacing-parts-of-a-string-cc1bb2f9ca07
+
 * https://astaxie.gitbooks.io/build-web-application-with-golang/zh/
 
 * https://sausheong.github.io/posts/cross-platform-games-with-go/
