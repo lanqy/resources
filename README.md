@@ -56,6 +56,8 @@
 
 ## Go
 
+* https://yami.io/golang-interface/
+
 * https://stackoverflow.com/questions/31064688/which-is-the-nicer-way-to-initialize-a-map-in-golang
 
 * https://medium.com/@thedevsaddam/build-restful-api-service-in-golang-using-gin-gonic-framework-85b1a6e176f3
