@@ -56,6 +56,8 @@
 
 ## Go
 
+* https://medium.com/@thedevsaddam/build-restful-api-service-in-golang-using-gin-gonic-framework-85b1a6e176f3
+
 * https://hackernoon.com/today-i-learned-making-a-simple-interactive-shell-application-in-golang-aa83adcb266a
 
 * https://hackernoon.com/golang-clean-archithecture-efd6d7c43047
