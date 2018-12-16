@@ -56,6 +56,8 @@
 
 ## Go
 
+* https://hackernoon.com/golang-clean-archithecture-efd6d7c43047
+
 * https://hackernoon.com/replacing-parts-of-a-string-cc1bb2f9ca07
 
 * https://astaxie.gitbooks.io/build-web-application-with-golang/zh/
