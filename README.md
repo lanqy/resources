@@ -46,6 +46,10 @@
 
 ## 浏览器
 
+* https://hackernoon.com/golang-clean-archithecture-efd6d7c43047
+
+* https://medium.com/@thedevsaddam/build-restful-api-service-in-golang-using-gin-gonic-framework-85b1a6e176f3
+
 * https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/
 
 * https://arvindr21.github.io/howBrowserWorks
