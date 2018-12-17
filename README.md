@@ -56,6 +56,8 @@
 
 ## Go
 
+* https://medium.com/smsjunk/handling-1-million-requests-per-minute-with-golang-f70ac505fcaa
+
 * https://yami.io/golang-interface/
 
 * https://stackoverflow.com/questions/31064688/which-is-the-nicer-way-to-initialize-a-map-in-golang
