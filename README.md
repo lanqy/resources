@@ -56,6 +56,8 @@
 
 ## Go
 
+* http://marcio.io/2015/07/singleton-pattern-in-go/
+
 * https://medium.com/smsjunk/handling-1-million-requests-per-minute-with-golang-f70ac505fcaa
 
 * https://yami.io/golang-interface/
