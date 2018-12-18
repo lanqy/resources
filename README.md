@@ -1,5 +1,9 @@
 # 开发资源收集
 
+## 观点
+
+* https://sizovs.net/2018/12/17/stop-learning-frameworks/
+
 ## wget
 
 * https://superuser.com/questions/14403/how-can-i-download-an-entire-website
