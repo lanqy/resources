@@ -297,6 +297,8 @@
 
 ## OCaml
 
+* https://www.cs.umd.edu/class/fall2017/cmsc330/
+
 * https://cseweb.ucsd.edu/classes/sp00/cse231/tutorialeng/node3.html
 
 * http://www.cs.cornell.edu/courses/cs3110/2016fa/l/07-modules/notes.html
