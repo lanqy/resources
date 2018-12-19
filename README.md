@@ -3,6 +3,7 @@
 ## 观点
 
 * https://sizovs.net/2018/12/17/stop-learning-frameworks/
+* https://sizovs.net/2018/12/08/you-are-not-a-software-developer/
 
 ## wget
 
