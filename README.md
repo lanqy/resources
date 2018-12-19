@@ -297,6 +297,10 @@
 
 ## OCaml
 
+* http://www.cs.cornell.edu/courses/cs3110/2016fa/l/07-modules/notes.html
+
+* https://www.cs.umd.edu/class/fall2017/cmsc330/lectures/modules.pdf
+
 * http://hyperpolyglot.org/ml
 
 * https://protz.github.io/ocaml-installer/ ( OCaml on Windows )
