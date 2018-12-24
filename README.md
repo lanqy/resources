@@ -61,6 +61,10 @@
 
 ## Go
 
+* https://medium.com/@nikolay.bystritskiy/how-i-tried-to-do-things-asynchronously-in-golang-40e0c1a06a66
+
+* https://blog.golang.org/pipelines
+
 * http://marcio.io/2015/07/singleton-pattern-in-go/
 
 * https://medium.com/smsjunk/handling-1-million-requests-per-minute-with-golang-f70ac505fcaa
