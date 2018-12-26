@@ -518,6 +518,7 @@
 * https://stackoverflow.com/questions/30493644/ocaml-operator ( OCaml |> operator )
 
 ## F#
+ * https://medium.com/@zaid.naom/f-interop-with-javascript-in-fable-the-complete-guide-ccc5b896a59f
  * https://docs.microsoft.com/zh-cn/dotnet/fsharp/
  * https://fsharpforfunandprofit.com/posts/type-size-and-design/
  * http://fsharp.org/specs/component-design-guidelines/ ( The F# Component Design Guidelines )
