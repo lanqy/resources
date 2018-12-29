@@ -305,6 +305,10 @@
 
 ## OCaml
 
+* https://qiita.com/hash/items/e78ef70dc2782e64c873
+
+* https://qiita.com/hash/items/05bc5ccdaea1ce3f5646
+
 * https://www.cs.umd.edu/class/fall2017/cmsc330/
 
 * https://cseweb.ucsd.edu/classes/sp00/cse231/tutorialeng/node3.html
