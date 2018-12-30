@@ -61,6 +61,8 @@
 
 ## Go
 
+* http://www.golangbootcamp.com/book
+
 * https://www.miek.nl/go/
 
 * http://www.golangprograms.com/
