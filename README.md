@@ -61,6 +61,8 @@
 
 ## Go
 
+* https://dave.cheney.net/practical-go/presentations/qcon-china.html
+
 * http://www.golangbootcamp.com/book
 
 * https://www.miek.nl/go/
