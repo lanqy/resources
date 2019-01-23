@@ -146,6 +146,9 @@
 * https://greensock.com/docs/Utilities/SplitText
 
 ## CSS 
+* https://a.singlediv.com/
+* https://dev.to/emmawedekind/css-specificity-1kca
+* https://specificity.keegan.st/
 * http://grid.malven.co/
 * https://dev.to/bytegasm/15-css-relative-units-how-many-do-you-know-em-rem-ex-cap-ch-ic-6m
 * http://blog.nmsdvid.com/css-filter-property/
@@ -562,7 +565,6 @@
 
 ## Other
 
-* https://dev.to/emmawedekind/css-specificity-1kca
 
 * https://medium.com/fullstackio/managing-state-in-vue-js-23a0352b1c87
 
