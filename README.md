@@ -562,6 +562,8 @@
 
 ## Other
 
+* https://dev.to/emmawedekind/css-specificity-1kca
+
 * https://medium.com/fullstackio/managing-state-in-vue-js-23a0352b1c87
 
 * http://vuetips.com/global-event-bus
