@@ -120,9 +120,15 @@
 * https://gobyexample.xgwang.me/
 
 ## Rust
+
+* https://blog.knoldus.com/working-with-rust-understanding-struct-impl-methods-and-self/
+
 * https://tomlee.co/2013/05/traits-structs-and-impls-in-rust/
+
 * https://medium.com/@iopguy/impl-trait-in-rust-explanation-efde0d94946a
+
 * https://doc.rust-lang.org/book/second-edition/
+
 * https://stackoverflow.com/questions/38157335/what-does-mean-in-a-rust-format-string
 
 ## Webpack
