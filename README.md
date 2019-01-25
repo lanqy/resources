@@ -154,6 +154,7 @@
 * https://greensock.com/docs/Utilities/SplitText
 
 ## CSS 
+* https://lhammer.cn/You-need-to-know-css
 * https://a.singlediv.com/
 * https://dev.to/emmawedekind/css-specificity-1kca
 * https://specificity.keegan.st/
