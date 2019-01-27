@@ -137,6 +137,8 @@
 
 ## react & redux & react-router
 
+* https://medium.com/@ryardley/react-hooks-not-magic-just-arrays-cd4f1857236e
+
 * https://www.javascriptjanuary.com/blog/hooks-are-the-jam
 
 * https://hswolff.com/blog/react-lazy-and-suspense/
