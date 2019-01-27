@@ -137,6 +137,8 @@
 
 ## react & redux & react-router
 
+* https://www.javascriptjanuary.com/blog/hooks-are-the-jam
+
 * https://hswolff.com/blog/react-lazy-and-suspense/
 
 * <a href="https://github.com/lanqy/blog/blob/master/react-redux/build-redux-react-application.md">构建一个基于Redux的react应用</a>
