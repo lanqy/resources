@@ -143,6 +143,10 @@
 
 ## react & redux & react-router
 
+* https://blog.bitsrc.io/understanding-hooks-in-react-a-deep-dive-d5d5dc88ecd9
+
+* https://daveceddia.com/useeffect-hook-examples/
+
 * https://medium.com/@ryardley/react-hooks-not-magic-just-arrays-cd4f1857236e
 
 * https://www.javascriptjanuary.com/blog/hooks-are-the-jam
