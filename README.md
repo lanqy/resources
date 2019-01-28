@@ -69,6 +69,8 @@
 
 ## Go
 
+* https://www.sohamkamani.com/blog/2017/10/18/parsing-json-in-golang/
+
 * https://golangcode.com/print-variable-type/
 
 * https://dave.cheney.net/practical-go/presentations/qcon-china.html
