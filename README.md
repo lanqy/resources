@@ -69,6 +69,8 @@
 
 ## Go
 
+* https://golangcode.com/print-variable-type/
+
 * https://dave.cheney.net/practical-go/presentations/qcon-china.html
 
 * http://www.golangbootcamp.com/book
