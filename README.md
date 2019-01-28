@@ -69,6 +69,8 @@
 
 ## Go
 
+* https://go.wuhaolin.cn/the-way-to-go/
+
 * https://golangcode.com/
 
 * https://www.sohamkamani.com/blog/2017/10/18/parsing-json-in-golang/
