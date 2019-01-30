@@ -69,6 +69,8 @@
 
 ## Go
 
+* https://www.callicoder.com/categories/golang/
+
 * https://www.programming-books.io/essential/go/
 
 * https://go.wuhaolin.cn/the-way-to-go/
