@@ -69,6 +69,8 @@
 
 ## Go
 
+* https://golang.org/doc/effective_go.html
+
 * https://stackoverflow.com/questions/36000871/whats-difference-between-make-and-initialize-struct-in-golang/36001343
 
 * https://stackoverflow.com/questions/9320862/why-would-i-make-or-new
