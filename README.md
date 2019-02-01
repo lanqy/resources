@@ -586,6 +586,7 @@
 * https://stackoverflow.com/questions/30493644/ocaml-operator ( OCaml |> operator )
 
 ## F#
+ * https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2018/05
  * https://fsprojects.github.io/Fabulous/
  * https://www.jimbobbennett.io/building-mobile-apps-in-f-using-xamarin-forms-and-elmish/
  * https://blogs.msdn.microsoft.com/dotnet/2019/01/24/announcing-f-4-6-preview/
