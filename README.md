@@ -195,6 +195,8 @@
 
 ## JavaScript
 
+* https://medium.com/@paulrohan/understanding-proxy-metaprogramming-in-javascript-b1c727b747f2
+
 * https://alligator.io/js/intersection-observer/
 
 * https://jamie.build/javascripts-new-private-class-fields.html
