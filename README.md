@@ -195,6 +195,8 @@
 
 ## JavaScript
 
+* https://alligator.io/js/intersection-observer/
+
 * https://jamie.build/javascripts-new-private-class-fields.html
 
 * https://jrsinclair.com/articles/2018/how-to-deal-with-dirty-side-effects-in-your-pure-functional-javascript/
