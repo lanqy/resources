@@ -195,6 +195,8 @@
 
 ## JavaScript
 
+* https://hackernoon.com/introducing-javascript-es6-proxies-1327419ab413
+
 * https://medium.com/@paulrohan/understanding-proxy-metaprogramming-in-javascript-b1c727b747f2
 
 * https://alligator.io/js/intersection-observer/
