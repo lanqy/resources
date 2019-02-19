@@ -373,6 +373,8 @@
 
 ## OCaml
 
+* https://www.cs.cornell.edu/courses/cs3110/2019sp/manual-4.6/
+
 * https://www.cs.cornell.edu/courses/cs3110/2019sp/textbook/
 
 * https://ocaml.org/docs/cheat_sheets.html
