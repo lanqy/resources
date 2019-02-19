@@ -373,6 +373,8 @@
 
 ## OCaml
 
+* https://ocaml.org/docs/cheat_sheets.html
+
 * https://qiita.com/hash/items/e78ef70dc2782e64c873
 
 * https://qiita.com/hash/items/05bc5ccdaea1ce3f5646
