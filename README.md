@@ -155,6 +155,8 @@
 
 ## react & redux & react-router
 
+* https://loige.co/fastify-and-preact-for-quick-web-app-prototyping/
+
 * https://overreacted.io/zh-hans/react-as-a-ui-runtime/ ( 将 React 作为 UI 运行时 )
 
 * https://blog.bitsrc.io/understanding-hooks-in-react-a-deep-dive-d5d5dc88ecd9
