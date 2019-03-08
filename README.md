@@ -1,5 +1,9 @@
 # 开发资源收集
 
+## Nginx
+
+* https://nginxconfig.io/
+
 ## 游戏开发
 
 * https://medium.freecodecamp.org/from-zero-to-game-designer-how-to-start-building-video-games-even-if-you-dont-have-any-experience-5e2f9f45f4bb
