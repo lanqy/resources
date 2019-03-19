@@ -203,6 +203,8 @@
 
 ## JavaScript
 
+* http://exploringjs.com/impatient-js/toc.html
+
 * http://thecodebarbarian.com/for-vs-for-each-vs-for-in-vs-for-of-in-javascript.html
 
 * https://hackernoon.com/introducing-javascript-es6-proxies-1327419ab413
