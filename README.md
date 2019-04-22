@@ -205,6 +205,8 @@
 
 ## JavaScript
 
+* https://chaoranwill.github.io/2018/04/17/Prototype-and-prototype-chain
+
 * http://blog.vjeux.com/2011/javascript/how-prototypal-inheritance-really-works.html
 
 * http://exploringjs.com/impatient-js/toc.html
