@@ -205,6 +205,8 @@
 
 ## JavaScript
 
+* http://blog.vjeux.com/2011/javascript/how-prototypal-inheritance-really-works.html
+
 * http://exploringjs.com/impatient-js/toc.html
 
 * http://thecodebarbarian.com/for-vs-for-each-vs-for-in-vs-for-of-in-javascript.html
