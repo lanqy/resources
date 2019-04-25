@@ -73,6 +73,8 @@
 
 ## Go
 
+* http://howistart.org/posts/go/1/
+
 * https://golang.org/doc/effective_go.html
 
 * https://stackoverflow.com/questions/36000871/whats-difference-between-make-and-initialize-struct-in-golang/36001343
