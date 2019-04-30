@@ -145,6 +145,8 @@
 
 ## Rust
 
+* https://rustwiki.org/zh-CN/rust-by-example/index.html
+
 * https://blog.knoldus.com/working-with-rust-understanding-struct-impl-methods-and-self/
 
 * https://tomlee.co/2013/05/traits-structs-and-impls-in-rust/
