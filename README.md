@@ -145,6 +145,8 @@
 
 ## Rust
 
+* https://upsuper.github.io/rust-cheatsheet/
+
 * https://rustwiki.org/zh-CN/rust-by-example/index.html
 
 * https://blog.knoldus.com/working-with-rust-understanding-struct-impl-methods-and-self/
