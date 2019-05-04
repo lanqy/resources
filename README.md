@@ -198,6 +198,8 @@
 * https://greensock.com/docs/Utilities/SplitText
 
 ## CSS 
+* https://scrimba.com/g/gflexbox
+* https://scrimba.com/g/gR8PTE
 * https://lhammer.cn/You-need-to-know-css
 * https://a.singlediv.com/
 * https://dev.to/emmawedekind/css-specificity-1kca
