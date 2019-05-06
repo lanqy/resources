@@ -73,6 +73,8 @@
 
 ## Go
 
+* https://dave.cheney.net/high-performance-go-workshop/gopherchina-2019.html
+
 * http://howistart.org/posts/go/1/
 
 * https://golang.org/doc/effective_go.html
