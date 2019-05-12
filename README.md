@@ -215,6 +215,8 @@
 
 ## JavaScript
 
+* https://www.jianshu.com/p/b76ddb68df0e ( JS继承的几种方式 )
+
 * https://chaoranwill.github.io/2018/04/17/Prototype-and-prototype-chain
 
 * http://blog.vjeux.com/2011/javascript/how-prototypal-inheritance-really-works.html
