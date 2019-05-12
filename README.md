@@ -312,6 +312,8 @@
 
 ## Reason
 
+* https://learnreasonml.com/
+
 * https://blog.callstack.io/reasonml-for-js-developers-635654696c82
 
 * https://defuex.github.io/presentation-take-this-reason/
