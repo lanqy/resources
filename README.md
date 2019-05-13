@@ -167,6 +167,8 @@
 
 ## react & redux & react-router
 
+* https://foio.github.io/react-implement/
+
 * https://www.sitepoint.com/react-hooks/
 
 * https://blog.oyanglul.us/javascript/react-cookbook-mini
@@ -214,6 +216,8 @@
 * https://gridbyexample.com/ ( Grid by Example )
 
 ## JavaScript
+
+* https://foio.github.io/virtual-dom/
 
 * https://www.jianshu.com/p/b76ddb68df0e ( JS继承的几种方式 )
 
