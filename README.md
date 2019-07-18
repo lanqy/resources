@@ -225,6 +225,8 @@
 
 ## JavaScript
 
+* https://v8.dev/blog/fast-async#async-functions
+
 * https://foio.github.io/virtual-dom/
 
 * https://www.jianshu.com/p/b76ddb68df0e ( JS继承的几种方式 )
